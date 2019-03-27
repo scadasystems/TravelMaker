@@ -21,13 +21,13 @@
     <div class="container main-menu">
       <div class="row align-items-center justify-content-between d-flex">
         <div id="logo">
-          <a href="index.html"><img src="img/logo2.png" style="width:100px"></a>
+          <a href="index.php"><img src="img/logo2.png" style="width:100px"></a>
         </div>
         <nav id="nav-menu-container">
           <ul class="nav-menu">
             <li><a href="index.php">Home</a></li>
             <li><a href="Hotel.php">호텔</a></li>
-            <li><a href="entertainment.php">오락거리</a></li>
+            <li><a href="experience.php">경험</a></li>
             <li><a href="">음식점</a></li>
             <li><a href="Airport.php">항공사</a></li>
             <li><a href="">2019 베스트</a></li>
