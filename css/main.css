@@ -2082,6 +2082,7 @@ body.mobile-nav-active #mobile-nav-toggle {color: #fff;}
 /* =================================== */
 /*  Food.php
 /* =================================== */
+.Food-banner {background: url(../img/Food/Food-banner.png) center; background-size: cover;}
 
 
 
