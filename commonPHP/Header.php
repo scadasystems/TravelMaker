@@ -28,7 +28,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="Hotel.php">호텔</a></li>
             <li><a href="experience.php">경험</a></li>
-            <li><a href="">음식점</a></li>
+            <li><a href="Food.php">음식점</a></li>
             <li><a href="Airport.php">항공사</a></li>
             <li><a href="">2019 베스트</a></li>
             <li><a href="#">Help Center</a></li>
