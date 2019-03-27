@@ -1821,6 +1821,23 @@ body.mobile-nav-active #mobile-nav-toggle {color: #fff;}
 .single-testimonial h4 {-webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; margin-bottom: 5px;}
 .single-testimonial .star .checked {color: orange;}
 .single-testimonial:hover h4 {color: #f8b600; cursor: pointer;}
+@media (max-width: 1200px) {
+  .single-testimonial {transform: scale(0.9)}
+}
+@media (max-width: 1000px) {
+  .single-testimonial {transform: scale(0.8)}
+}
+@media (max-width: 770px) {
+  .testimonial-area h1 {font-size: 28px;}
+}
+@media (max-width: 700px) {
+  .testimonial-area h1 {font-size: 30px;}
+  .single-testimonial {transform: scale(0.6)}
+}
+@media (max-width: 500px) {
+  .testimonial-area h1 {font-size: 20px;}
+  .testimonial-area p {font-size: 13px;}
+}
 /*--------- end testimonial area  -------------*/
 
 
