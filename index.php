@@ -36,7 +36,7 @@
         <div class="menu-content pb-70 col-lg-8">
           <div class="title text-center">
             <h1 class="mb-10">유명한 여행지</h1>
-            <p>전세계 유명지로 떠나보세요. 여러분들이 원하는 곳은 어디든지 있습니다~</p>
+            <p>전세계 유명지로 떠나보세요. 여러분들이 원하는 곳은 어디든지 있습니다~!</p>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@
         <div class="menu-content pb-70 col-lg-8">
           <div class="title text-center">
             <h1 class="mb-10">현재 전세계 환율</h1>
-            <p>여러분들이 가야할 곳에 환율을 모르시다고요? 이곳에서 가볍게 확인하세요~</p>
+            <p>여러분들이 가야할 곳에 환율을 모르시다고요?<br>이곳에서 가볍게 확인하세요~</p>
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@
         <div class="col-lg-4">
           <div class="single-price">
             <!-- Currency Converter Script - FxExchangeRate.com  -->
-            <div style="font-size:16px;font-weight:bold;font-family:sans-serif,Arial,Helvetica;width:238px;line-height:24px;border:1px solid #2D6AB4;background-color:#FFFFFF;">
+            <div class="price-card" style="font-size:16px;font-weight:bold;font-family:sans-serif,Arial,Helvetica;width:238px;line-height:24px;border:1px solid #2D6AB4;background-color:#FFFFFF;">
               <div style="background-color:#2D6AB4;height:24px; font-weight:bold;text-align:left;padding-top:3px; width:100%;"><span style="background-image:url(https://www.fxexchangerate.com/static/flag.png); background-position: 0 -2064px;float:left; margin:4px 0 0 20px; width:20px;height:15px; background-repeat:no-repeat;"></span><a style="color:#FFFFFF;padding-left:5px;text-decoration:none;" href="https://kr.fxexchangerate.com/usd/" rel="nofollow">미국 달러</a></div>
               <script type="text/javascript" src="https://w.fxexchangerate.com/converter.php?fm=USD&ft=KRW,EUR,GBP,JPY,CHF,CAD,AUD,CNY,HKD,RUB,MXN,&lg=kr&am=1&ty=2"></script>
             </div>
@@ -111,7 +111,7 @@
         <div class="col-lg-4">
           <div class="single-price">
             <!-- Currency Converter Script - FxExchangeRate.com  -->
-            <div style="font-size:16px;font-weight:bold;font-family:sans-serif,Arial,Helvetica;width:238px; line-height:24px;border:1px solid #2D6AB4;background-color:#FFFFFF;">
+            <div class="price-card" style="font-size:16px;font-weight:bold;font-family:sans-serif,Arial,Helvetica;width:238px; line-height:24px;border:1px solid #2D6AB4;background-color:#FFFFFF;">
               <div style="background-color:#2D6AB4;height:24px; font-weight:bold;text-align:left;padding-top:3px; width:100%;"><span style="background-image:url(https://www.fxexchangerate.com/static/flag.png); background-position: 0 -576px;float:left; margin:4px 0 0 20px; width:20px;height:15px; background-repeat:no-repeat;"></span><a rel="nofollow" style="color:#FFFFFF;padding-left:5px;text-decoration:none;" href="https://kr.fxexchangerate.com/eur/">유로</a></div>
               <script type="text/javascript" src="https://w.fxexchangerate.com/converter.php?fm=EUR&ft=KRW,USD,GBP,JPY,CHF,CAD,AUD,CNY,HKD,RUB,MXN,&lg=kr&am=1&ty=2"></script>
             </div><!--  End of Currency Converter Script -  FxExchangeRate.com -->
@@ -120,7 +120,7 @@
         <div class="col-lg-4">
           <div class="single-price">
             <!-- Currency Converter Script - FxExchangeRate.com  -->
-            <div style="font-size:16px;font-weight:bold;font-family:sans-serif,Arial,Helvetica;width:238px; line-height:24px;border:1px solid #2D6AB4;background-color:#FFFFFF;">
+            <div class="price-card" style="font-size:16px;font-weight:bold;font-family:sans-serif,Arial,Helvetica;width:238px; line-height:24px;border:1px solid #2D6AB4;background-color:#FFFFFF;">
               <div style="background-color:#2D6AB4;height:24px; font-weight:bold;text-align:left;padding-top:3px; width:100%;"><span style="background-image:url(https://www.fxexchangerate.com/static/flag.png); background-position: 0 -368px;float:left; margin:4px 0 0 20px; width:20px;height:15px; background-repeat:no-repeat;"></span><a rel="nofollow" style="color:#FFFFFF;padding-left:5px;text-decoration:none;" href="https://kr.fxexchangerate.com/cny/">중국 위안</a></div>
               <script type="text/javascript" src="https://w.fxexchangerate.com/converter.php?fm=CNY&ft=KRW,USD,EUR,GBP,JPY,CHF,CAD,AUD,HKD,RUB,MXN,&lg=kr&am=1&ty=2"></script>
             </div><!--  End of Currency Converter Script -  FxExchangeRate.com -->
@@ -480,171 +480,6 @@
     </div>
   </section>
   <!-- End home-about Area -->
-
-<!-- Todo: 마지막 하단 레이아웃 정리 -->
-<!--   Start blog Area -->
-  <!-- <section class="recent-blog-area section-gap">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="menu-content pb-60 col-lg-9">
-          <div class="title text-center">
-            <h1 class="mb-10">Category</h1>
-            <p>Travel Maker의 카테고리를 한 눈에 볼 수 있습니다.<br>원하시는 이미지를 클릭해서 더욱 더 여행에 필요한 정보를 얻어보세요!</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="active-recent-blog-carusel">
-          <div class="single-recent-blog-post item">
-            <div class="thumb">
-              <img class="img-fluid" src="img/b1.jpg" alt="">
-            </div>
-            <div class="details">
-              <div class="tags">
-                <ul>
-                  <li>
-                    <a href="#">Travel</a>
-                  </li>
-                  <li>
-                    <a href="#">Life Style</a>
-                  </li>
-                </ul>
-              </div>
-              <a href="#">
-                <h4 class="title">Low Cost Advertising</h4>
-              </a>
-              <p>
-                Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.
-              </p>
-              <h6 class="date">31st January,2018</h6>
-            </div>
-          </div>
-          <div class="single-recent-blog-post item">
-            <div class="thumb">
-              <img class="img-fluid" src="img/b2.jpg" alt="">
-            </div>
-            <div class="details">
-              <div class="tags">
-                <ul>
-                  <li>
-                    <a href="#">Travel</a>
-                  </li>
-                  <li>
-                    <a href="#">Life Style</a>
-                  </li>
-                </ul>
-              </div>
-              <a href="#">
-                <h4 class="title">Creative Outdoor Ads</h4>
-              </a>
-              <p>
-                Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.
-              </p>
-              <h6 class="date">31st January,2018</h6>
-            </div>
-          </div>
-          <div class="single-recent-blog-post item">
-            <div class="thumb">
-              <img class="img-fluid" src="img/b3.jpg" alt="">
-            </div>
-            <div class="details">
-              <div class="tags">
-                <ul>
-                  <li>
-                    <a href="#">Travel</a>
-                  </li>
-                  <li>
-                    <a href="#">Life Style</a>
-                  </li>
-                </ul>
-              </div>
-              <a href="#">
-                <h4 class="title">It's Classified How To Utilize Free</h4>
-              </a>
-              <p>
-                Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.
-              </p>
-              <h6 class="date">31st January,2018</h6>
-            </div>
-          </div>
-          <div class="single-recent-blog-post item">
-            <div class="thumb">
-              <img class="img-fluid" src="img/b1.jpg" alt="">
-            </div>
-            <div class="details">
-              <div class="tags">
-                <ul>
-                  <li>
-                    <a href="#">Travel</a>
-                  </li>
-                  <li>
-                    <a href="#">Life Style</a>
-                  </li>
-                </ul>
-              </div>
-              <a href="#">
-                <h4 class="title">Low Cost Advertising</h4>
-              </a>
-              <p>
-                Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.
-              </p>
-              <h6 class="date">31st January,2018</h6>
-            </div>
-          </div>
-          <div class="single-recent-blog-post item">
-            <div class="thumb">
-              <img class="img-fluid" src="img/b2.jpg" alt="">
-            </div>
-            <div class="details">
-              <div class="tags">
-                <ul>
-                  <li>
-                    <a href="#">Travel</a>
-                  </li>
-                  <li>
-                    <a href="#">Life Style</a>
-                  </li>
-                </ul>
-              </div>
-              <a href="#">
-                <h4 class="title">Creative Outdoor Ads</h4>
-              </a>
-              <p>
-                Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.
-              </p>
-              <h6 class="date">31st January,2018</h6>
-            </div>
-          </div>
-          <div class="single-recent-blog-post item">
-            <div class="thumb">
-              <img class="img-fluid" src="img/b3.jpg" alt="">
-            </div>
-            <div class="details">
-              <div class="tags">
-                <ul>
-                  <li>
-                    <a href="#">Travel</a>
-                  </li>
-                  <li>
-                    <a href="#">Life Style</a>
-                  </li>
-                </ul>
-              </div>
-              <a href="#">
-                <h4 class="title">It's Classified How To Utilize Free</h4>
-              </a>
-              <p>
-                Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.
-              </p>
-              <h6 class="date">31st January,2018</h6>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- End recent-blog Area -->
 
   <!-- start footer Area -->
   <?php
