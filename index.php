@@ -18,7 +18,7 @@
       <div class="row fullscreen align-items-center justify-content-between">
         <center>
           <div class="col-lg-8 col-md-6 banner-left">
-            <h1 class="text-white main-write">Travel Maker</h1>
+            <h1 class="text-white main-write">Travel Maker test for MAC</h1>
             <p class="text-white main-sub-write">
               TravelMaker는 전세계 여행지의 문화, 풍경, 오락, 날씨 등 방대한 양의 여행정보를 제공합니다. 더이상 항공권 예매에 시간을 들이지 않아도됩니다. TravelMaker는 계획하고 있는 여행에 가장 적합한 항공사를 제공합니다. 모든 스토리에는 시작이 있습니다. 당신이 꿈꾸는 여정의 시작을 함께하세요.
             </p>
