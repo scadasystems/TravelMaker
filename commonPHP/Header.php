@@ -21,7 +21,7 @@
     <div class="container main-menu">
       <div class="row align-items-center justify-content-between d-flex">
         <div id="logo">
-          <a href="index.html"><img src="img/logo2.png" style="width:100px"></a>
+          <a href="index.php"><img src="img/logo2.png" style="width:100px"></a>
         </div>
         <nav id="nav-menu-container">
           <ul class="nav-menu">
