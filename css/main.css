@@ -1706,6 +1706,11 @@ body.mobile-nav-active #mobile-nav-toggle {color: #fff;}
 .about-content h1 {font-size: 48px; font-weight: 600;}
 .about-content a {color: #fff; font-weight: 300; font-size: 14px;}
 .about-content .lnr {margin: 0px 10px; font-weight: 600;}
+
+/* entertainment */
+.entertainment-banner{background: url(../img/enter.jpg) center; background-size:auto cover;}
+.entertainment-banner .overlay-bg {background: rgba(4, 9, 30, 0.4);}
+
 /*-------- End Common Page Style   -------------*/
 
 
