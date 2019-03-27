@@ -12,15 +12,15 @@
   <!-- end Header -->
 
   <!-- start banner Area -->
-  <section class="entertainment-banner relative">
+  <section class="experience-banner relative">
     <div class="overlay overlay-bg"></div>
     <div class="container">
       <div class="row d-flex align-items-center justify-content-center">
         <div class="about-content col-lg-12">
           <h1 class="text-white" style="font-size:80px;font-family: 'Black Han Sans', sans-serif; font-weight:100;">
-            Entertainment
+            Experience
           </h1>
-          <p class="text-white link-nav"><a href="index.php">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="Hotel.php"> 오락거리</a></p>
+          <p class="text-white link-nav"><a href="index.php">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="experience.php">경험</a></p>
         </div>
       </div>
     </div>
