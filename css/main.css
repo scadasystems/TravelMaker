@@ -1707,9 +1707,9 @@ body.mobile-nav-active #mobile-nav-toggle {color: #fff;}
 .about-content a {color: #fff; font-weight: 300; font-size: 14px;}
 .about-content .lnr {margin: 0px 10px; font-weight: 600;}
 
-/* entertainment */
-.entertainment-banner{background: url(../img/entertainment/entertainment-main.jpg) center; background-size:auto cover;}
-.entertainment-banner .overlay-bg {background: rgba(4, 9, 30, 0.4);}
+/* experience */
+.experience-banner{background: url(../img/experience/experience-main.jpg) center; background-size:auto cover;}
+.experience-banner .overlay-bg {background: rgba(4, 9, 30, 0.4);}
 
 /*-------- End Common Page Style   -------------*/
 
@@ -1756,11 +1756,12 @@ body.mobile-nav-active #mobile-nav-toggle {color: #fff;}
 
 @media (max-width: 413px) {
   .banner-left h1 {font-size: 33px;}
+  .banner-left p {font-size: 10px}
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
   .banner-left h1 {font-size: 36px;}
-  .banner-left h6 {font-size: 12px;}
+  .banner-left h6 {font-size: 10px;}
 }
 .banner-left p {margin: 20px 0px; font-size: 20px}
 
@@ -2047,6 +2048,7 @@ body.mobile-nav-active #mobile-nav-toggle {color: #fff;}
 .main-sub-write {
    font-family: 'Jua', sans-serif;
 }
+
 
 .Airport-banner {
     background: url(../img/Airport/airport.jpg) center; background-size: cover;}

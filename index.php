@@ -138,7 +138,7 @@
       <div class="row d-flex justify-content-center">
         <div class="menu-content pb-70 col-lg-9">
           <div class="title text-center">
-            <h1 class="mb-10">전세계 오락거리</h1>
+            <h1 class="mb-10">전세계 경험들</h1>
             <p>가고 싶은 나라는 정했지만 갈 곳을 정하지 못하셨다고요? 이 곳에서 확인하세요!<br>전세계 오락거리, 음식점, 호텔 등을 알 수 있습니다!</p>
           </div>
         </div>
