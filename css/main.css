@@ -1695,24 +1695,6 @@ h1, h2, h3, h4, h5, h6 {
 body.mobile-nav-active {overflow: hidden;}
 body.mobile-nav-active #mobile-nav {left: 0;}
 body.mobile-nav-active #mobile-nav-toggle {color: #fff;}
-/*-------- Start Common Page Style   -------------*/
-.link-nav {margin-top: 10px; margin-bottom: 0px;}
-.about-banner {background: url(../img/Hotel/hotels-main.jpg) center; background-size: cover;}
-.about-banner .overlay-bg {background: rgba(4, 9, 30, 0.4);}
-.about-content {margin-top: 70px; padding: 90px 0px; text-align: center;}
-@media (max-width: 767px) {
-  .about-content {margin-top: 70px;}
-}
-.about-content h1 {font-size: 48px; font-weight: 600;}
-.about-content a {color: #fff; font-weight: 300; font-size: 14px;}
-.about-content .lnr {margin: 0px 10px; font-weight: 600;}
-
-/* experience */
-.experience-banner{background: url(../img/experience/experience-main.jpg) center; background-size:auto cover;}
-.experience-banner .overlay-bg {background: rgba(4, 9, 30, 0.4);}
-
-/*-------- End Common Page Style   -------------*/
-
 
 /* =================================== */
 /*  Homepage Styles
@@ -2050,7 +2032,75 @@ body.mobile-nav-active #mobile-nav-toggle {color: #fff;}
 }
 
 
-/* airport */
-.Airport-banner {
-    background: url(../img/Airport/airport.jpg) center; background-size: cover;}
+
+/*
+*
+*    Other Pages
+*
+*
+*/
+
+/* =================================== */
+/*  Hotel.php
+/* =================================== */
+.link-nav {margin-top: 10px; margin-bottom: 0px;}
+.about-banner {background: url(../img/Hotel/hotels-main.jpg) center; background-size: cover;}
+.about-banner .overlay-bg {background: rgba(4, 9, 30, 0.4);}
+.about-content {margin-top: 70px; padding: 90px 0px; text-align: center;}
+@media (max-width: 767px) {
+  .about-content {margin-top: 70px;}
 }
+.about-content h1 {font-size: 48px; font-weight: 600;}
+.about-content a {color: #fff; font-weight: 300; font-size: 14px;}
+.about-content .lnr {margin: 0px 10px; font-weight: 600;}
+
+
+
+
+
+
+
+
+
+
+/* =================================== */
+/*  Experience.php
+/* =================================== */
+.experience-banner{background: url(../img/experience/experience-main.jpg) center; background-size:auto cover;}
+.experience-banner .overlay-bg {background: rgba(4, 9, 30, 0.4);}
+
+
+
+
+
+
+
+
+
+
+
+/* =================================== */
+/*  Food.php
+/* =================================== */
+
+
+
+
+
+
+
+
+
+
+/* =================================== */
+/*  Airport.php
+/* =================================== */
+.Airport-banner {background: url(../img/Airport/airport.jpg) center; background-size: cover;}
+
+
+
+
+
+
+
+
