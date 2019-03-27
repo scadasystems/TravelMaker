@@ -2042,3 +2042,7 @@ body.mobile-nav-active #mobile-nav-toggle {color: #fff;}
 .main-sub-write {
    font-family: 'Jua', sans-serif;
 }
+
+.Airport-banner {
+    background: url(../img/Airport/airport.jpg) center; background-size: cover;}
+}
