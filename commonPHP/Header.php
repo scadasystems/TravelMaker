@@ -27,7 +27,7 @@
           <ul class="nav-menu">
             <li><a href="index.php">Home</a></li>
             <li><a href="Hotel.php">호텔</a></li>
-            <li><a href="">오락거리</a></li>
+            <li><a href="entertainment.php">오락거리</a></li>
             <li><a href="">음식점</a></li>
             <li><a href="Airport.php">항공사</a></li>
             <li><a href="">2019 베스트</a></li>
