@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html class="no-js">
 <!-- Head -->
 <?php
@@ -36,7 +36,7 @@
         <div class="menu-content pb-70 col-lg-8">
           <div class="title text-center">
             <h1 class="mb-10">유명한 여행지</h1>
-            <p>전세계 유명지로 떠나보세요. 여러분들이 원하는 곳은 어디든지 있습니다~!!</p>
+            <p>전세계 유명지로 떠나보세요. 여러분들이 원하는 곳은 어디든지 있습니다~!</p>
           </div>
         </div>
       </div>
