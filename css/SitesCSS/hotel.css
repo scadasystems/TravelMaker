@@ -20,7 +20,7 @@ body {
 
 
 /* text before slider */
-.text {display: inline-block; width: 1000px; margin: 100px 0 0 400px; height: 40px; font-family: 'Jua', sans-serif; font-weight: 100;
+.text {display: block; width: 735px; margin-top: 50px; margin-left: auto; margin-right: auto; margin-bottom: 50px; height: 40px; font-family: 'Jua', sans-serif; font-weight: 100;
   font-size: 40px;}
 .text p {color: black; display: inline-block; vertical-align: top; margin: 0;}
 .text p:last-child {margin-left: 350px}
