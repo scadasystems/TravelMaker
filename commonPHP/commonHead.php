@@ -15,5 +15,5 @@
    <link rel="stylesheet" href="css/nice-select.css">
    <link rel="stylesheet" href="css/animate.min.css">
    <link rel="stylesheet" href="css/owl.carousel.css">
-   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/style.css">
 </head>
