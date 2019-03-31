@@ -1,0 +1,70 @@
+/* =================================== */
+/*  index.php CSS
+/* =================================== */
+@import url(main.css);
+
+
+
+/*
+*
+*    Other Pages
+*
+*
+*/
+
+/* =================================== */
+/*  Hotel.php
+/* =================================== */
+@import url(../css/SitesCSS/hotel.css);
+
+
+
+
+
+
+
+
+
+
+/* =================================== */
+/*  Experience.php
+/* =================================== */
+.experience-banner{background: url(../img/experience/experience-main.jpg) center; background-size:auto cover;}
+.experience-banner .overlay-bg {background: rgba(4, 9, 30, 0.4);}
+
+
+
+
+
+
+
+
+
+
+
+/* =================================== */
+/*  Food.php
+/* =================================== */
+.Food-banner {background: url(../img/Food/Food-banner.png) center; background-size: cover;}
+
+
+
+
+
+
+
+
+
+
+/* =================================== */
+/*  Airport.php
+/* =================================== */
+.Airport-banner {background: url(../img/Airport/airport.jpg) center; background-size: cover;}
+
+
+
+
+
+
+
+
