@@ -26,7 +26,7 @@
     </div>
   </section>
   <!-- End banner Area -->
-
+  
   <!-- start footer Area -->
   <?php
       include 'commonPHP/footer.php';

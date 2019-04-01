@@ -250,7 +250,7 @@ body {
 }
 .content__right .content__main {
   position: absolute;
-  font-family: Merriweather, serif;
+  font-family: 'Jua', sans-serif; font-weight: 100;
   text-align: left;
   color: #fff;
   font-size: 1.3vw;
