@@ -38,12 +38,15 @@
           <p class="pt-20">
             <script>
               document.write(new Date().getFullYear() + '년 ');
+
             </script>
             <script>
               document.write((new Date().getMonth() + 1) + '월 ');
+
             </script>
             <script>
               document.write(new Date().getDate() + '일 ');
+
             </script>
             까지<br>전 세계 여행자들이 추천한 여행지를 보여드립니다~
           </p>
@@ -94,7 +97,8 @@
             <div class="content__right">
               <div class="content__main">
                 <p>“완벽한 휴가. 가장 좋았던 부분은 그저 베란다에서 쉬면서 바다를 바라보고 날아가는 앵무새를 보는 것이었습니다.” </p>
-                <p>– Carolyn Bain</p>
+                <!-- 버튼 넣기 -->
+                <p><button class="btn-hotel">이동하기</button></p>
               </div>
               <h3 class="content__index">01</h3>
             </div>

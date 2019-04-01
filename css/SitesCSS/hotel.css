@@ -351,6 +351,13 @@ body {
 /*---------------------------------------------------- */
 /* Main Button Area css
 ============================================================================================ */
+.btn-hotel {background:#f8b600; color:#fff; border:none; position:relative; height:60px; font-size:1.6em; border-radius: 20px; padding:0 1.5em; cursor:pointer; transition:800ms ease all; outline:none;}
+.btn-hotel:hover{background-color: rgb(0,0,0,0); color:orange;}
+.btn-hotel:before,button:after{content:''; position:absolute; top:0; right:0; height:2px; width:0; background: #f8b600; transition:400ms ease all;}
+.btn-hotel:after{right:inherit; top:inherit; left:0; bottom:0;}
+.btn-hotel:hover:before,button:hover:after{width:100%; transition:800ms ease all;}
+
+/*=========================================================*/
 .main_btn {
   font-family: 'Jua', sans-serif; font-weight: 100;
   font-size: 20px;
