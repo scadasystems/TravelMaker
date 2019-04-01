@@ -78,11 +78,6 @@
     <p>
       <span class="word wisteria"> ← 을 누르면 이전으로 이동</span>
       <span class="word belize"> → 을 누르면 다음으로 이동</span>
-      <!--     
-    <span class="word pomegranate"></span>
-    <span class="word green"></span>
-    <span class="word midnight"></span> 
-    -->
     </p>
     <p>합니다.</p>
   </div>
