@@ -27,33 +27,73 @@
   </section>
   <!-- End banner Area -->
 
-  <!-- start Slider -->
-    <div class="text">
-      <p>키보드 방향키 중 </p>
-      <p>
-        <span class="word wisteria"> ← 을 누르면 이전으로 이동</span>
-        <span class="word belize"> → 을 누르면 다음으로 이동</span>
-        <!--     
-    <span class="word pomegranate"></span>
-    <span class="word green"></span>
-    <span class="word midnight"></span> 
-    -->
-      </p>
-      <p>합니다.</p>
+  <!--================ Start banner section =================-->
+  <section class="home-banner-area relative">
+    <div class="container-fluid">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="header-right col-lg-6 col-md-6">
+          <h1>
+            베스트 호텔 <br>Top 20<br>in the world
+          </h1>
+          <p class="pt-20">
+            <script>
+              document.write(new Date().getFullYear() + '년 ');
+            </script>
+            <script>
+              document.write((new Date().getMonth() + 1) + '월 ');
+            </script>
+            <script>
+              document.write(new Date().getDate() + '일 ');
+            </script>
+            까지<br>전 세계 여행자들이 추천한 여행지를 보여드립니다~
+          </p>
+          <a href="#go-slide" class="main_btn">
+            보러가기
+            <img src="img/next.png" alt="">
+          </a>
+        </div>
+
+        <div class="col-lg-6 col-md-6 header-left">
+          <div class="">
+            <img class="img-fluid w-100" src="img/banner/Tulemar%20Bungalows.jpg">
+          </div>
+          <div class="video-popup d-flex align-items-center">
+            <a class="play-video video-play-button animate" href="https://www.youtube.com/watch?v=C1lAmdD0XGI" data-animate="zoomIn" data-duration="1.5s" data-delay="0.1s">
+              <span></span>
+            </a>
+            <div class="watch">
+              <h5 style="padding: 5px; background-color: rgb(0, 0, 0, 0.3)">Watch Intro Video</h5>
+              <p style="padding: 5px; background-color: rgb(0, 0, 0, 0.3)">Now Top 1 hotel - Tulemar Bungalows & Villas</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+  <!--================ End banner section =================-->
+  <div id="go-slide"></div>
+  <!-- start Slider -->
+  <div class="text">
+    <p>키보드 방향키 중 </p>
+    <p>
+      <span class="word wisteria"> ← 을 누르면 이전으로 이동</span>
+      <span class="word belize"> → 을 누르면 다음으로 이동</span>
+    </p>
+    <p>합니다.</p>
+  </div>
   <div class="carousel">
     <div class="carousel__control">
     </div>
     <div class="carousel__stage">
       <div class="spinner spinner--left">
         <div class="spinner__face js-active" data-bg="#27323c">
-          <div class="content" data-type="iceland">
+          <div class="content" data-type="tulemar">
             <div class="content__left">
-              <h1>ICELAND<br><span>EUROPE</span></h1>
+              <h1>Tulemar Bungalows<br><span>마누엘 안토니오, 코스타리카</span></h1>
             </div>
             <div class="content__right">
               <div class="content__main">
-                <p>“As I flew north to begin my third circuit of Iceland in four years, I was slightly anxious. The number of visitors to Iceland has doubled in that period, and I feared this might mean a little less magic to go around. At the end of this trip, 6000km later, I'm thrilled to report that the magic levels remain high. It's found in glorious football victories and Viking chants, kayaking among icebergs, sitting with puffins under the midnight sun and crunching across brand-new lava fields.” </p>
+                <p>“완벽한 휴가. 가장 좋았던 부분은 그저 베란다에서 쉬면서 바다를 바라보고 날아가는 앵무새를 보는 것이었습니다.” </p>
                 <p>– Carolyn Bain</p>
               </div>
               <h3 class="content__index">01</h3>
