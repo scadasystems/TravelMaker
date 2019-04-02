@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html class="no-js">
 <!-- Head -->
 <?php
    include 'commonPHP/commonHead.php'
-?>
+?> 
 
 <body>
   <?php
