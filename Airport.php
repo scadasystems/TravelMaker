@@ -123,10 +123,6 @@
     </nav>
   </div>
   
-  <script>
-    
-
-  </script>
   <!-- End list Area -->
   <!-- start footer Area -->
   <?php
