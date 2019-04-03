@@ -3,6 +3,8 @@
 <!-- Head -->
 <link rel="stylesheet" href="css/experience.css">
 <link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700">
 <script>
     document.documentElement.className = "js";
     var supportsCssVars = function() {
@@ -37,62 +39,6 @@
         </div>
     </section>
     <!-- End banner Area -->
-    
-    <!-- start Features -->
-    <div class="features">
-        <div class="container">
-            <div class="row">
-
-                <!-- Icon Box -->
-                <div class="col-lg-4 icon_box_col">
-                    <div class="icon_box d-flex flex-column align-items-center justify-content-start text-center">
-                        <div class="icon_box_icon"><img src="img/experience/icon_1.svg" class="svg" alt="https://www.flaticon.com/authors/monkik"></div>
-                        <div class="icon_box_title">
-                            <h2>Fabulous Resort</h2>
-                        </div>
-                        <div class="icon_box_text">
-                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse nec faucibus velit. Quisque eleifend orci ipsum, a bibendum.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Icon Box -->
-                <div class="col-lg-4 icon_box_col">
-                    <div class="icon_box d-flex flex-column align-items-center justify-content-start text-center">
-                        <div class="icon_box_icon"><img src="img/experience/icon_2.svg" class="svg" alt="https://www.flaticon.com/authors/monkik"></div>
-                        <div class="icon_box_title">
-                            <h2>Infinity Pool</h2>
-                        </div>
-                        <div class="icon_box_text">
-                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse nec faucibus velit. Quisque eleifend orci ipsum, a bibendum.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Icon Box -->
-                <div class="col-lg-4 icon_box_col">
-                    <div class="icon_box d-flex flex-column align-items-center justify-content-start text-center">
-                        <div class="icon_box_icon"><img src="img/experience/icon_3.svg" class="svg" alt="https://www.flaticon.com/authors/monkik"></div>
-                        <div class="icon_box_title">
-                            <h2>Luxury Rooms</h2>
-                        </div>
-                        <div class="icon_box_text">
-                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse nec faucibus velit. Quisque eleifend orci ipsum, a bibendum.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- End Features -->
-    
-    <!-- start silder -->
-    <div id="app"></div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js'></script>
-    <!--End silder -->
 
     <!--Start Intro -->
     <div class="intro">
@@ -129,9 +75,17 @@
         </div>
     </div>
     <!--End Intro -->
-    
+    <!-- start silder -->
+    <div id="app"></div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js'></script>
+    <!--End silder -->
+
+
+
     <!-- Start CardView -->
-    <h1 style="font-size:50px;font-family: 'Black Han Sans', sans-serif; text-align: center;">Experience TOP 15</h1>
+    <h1 style="font-size:50px;font-family: 'Black Han Sans', sans-serif; text-align: center; margin-top: 100px;">Experience TOP 15</h1>
     <div class="grid-wrap">
         <div class="grid">
             <a href="#" class="grid__item">
@@ -359,7 +313,76 @@
             <use xlink:href="#icon-caret"></use>
         </svg>
     </div>
-    <!-- End CardView -->
+    <!-- Start Gallery -->
+    <div class="site-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-7 text-center">
+                    <h2 class="font-weight-light text-black">Our Destinations</h2>
+                    <p class="color-black-opacity-5">Choose Your Next Destination</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <a href="#" class="unit-1 text-center">
+                        <img src="img/experience/01-greece.jpg" alt="Image" class="img-fluid">
+                        <div class="unit-1-text">
+                            <strong class="text-primary mb-2 d-block">$590</strong>
+                            <h3 class="unit-1-heading">Santorini, Greece</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <a href="#" class="unit-1 text-center">
+                        <img src="img/experience/02-rome.jpg" alt="Image" class="img-fluid">
+                        <div class="unit-1-text">
+                            <strong class="text-primary mb-2 d-block">$390</strong>
+                            <h3 class="unit-1-heading">Rome, Italy</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <a href="#" class="unit-1 text-center">
+                        <img src="img/experience/03-japan.jpg" alt="Image" class="img-fluid">
+                        <div class="unit-1-text">
+                            <strong class="text-primary mb-2 d-block">$390</strong>
+                            <h3 class="unit-1-heading">Mount Fuji, Japan</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <a href="#" class="unit-1 text-center">
+                        <img src="img/experience/04-dubai.jpg" alt="Image" class="img-fluid">
+                        <div class="unit-1-text">
+                            <strong class="text-primary mb-2 d-block">$320</strong>
+                            <h3 class="unit-1-heading">Camels, Dubai</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <a href="#" class="unit-1 text-center">
+                        <img src="img/experience/05-london.jpg" alt="Image" class="img-fluid">
+                        <div class="unit-1-text">
+                            <strong class="text-primary mb-2 d-block">$290</strong>
+                            <h3 class="unit-1-heading">Elizabeth Tower, London</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <a href="#" class="unit-1 text-center">
+                        <img src="img/experience/06-australia.jpg" alt="Image" class="img-fluid">
+                        <div class="unit-1-text">
+                            <strong class="text-primary mb-2 d-block">$390</strong>
+                            <h3 class="unit-1-heading">Opera House, Australia</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Gallery -->
 
     <!-- start footer Area -->
     <?php

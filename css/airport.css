@@ -50,7 +50,7 @@
 }
 
 .detail {
-  margin: 20px 0 0 0;
+  margin: 40px 0 0 0;
   display: none;
   line-height: 22px;
 }
@@ -71,16 +71,65 @@
   margin: 0 15px 0 0;
 }
 
-.london {
-  background: url("../img/Airport/airline_logos/1N.png") top left no-repeat;
+.qantas {
+  background: url("../img/Airport/airline_logos/qantas.png") top left no-repeat;
 }
-
-.newyork {
-  background: url("../img/Airport/airline_logos/2F.png") top left no-repeat;
+.delta {
+  background: url("../img/Airport/airline_logos/delta.png") top left no-repeat;
 }
-
-.paris {
-  background: url("../img/Airport/airline_logos/2G.png") top left no-repeat;
+.lufthansa {
+  background: url("../img/Airport/airline_logos/lufthansa.png") top left no-repeat;
+}
+.virgin {
+  background: url("../img/Airport/airline_logos/virgin-atlantic.png") top left no-repeat;
+}
+.swis {
+  background: url("../img/Airport/airline_logos/swis-airline.png") top left no-repeat;
+}
+.sas {
+  background: url("../img/Airport/airline_logos/sas.png") top left no-repeat;
+}
+.singapore {
+  background: url("../img/Airport/airline_logos/singapore.png") top left no-repeat;
+}
+.eva {
+  background: url("../img/Airport/airline_logos/eva-air.png") top left no-repeat;
+}
+.newzealand {
+  background: url("../img/Airport/airline_logos/newzealand.png") top left no-repeat;
+}
+.asia {
+  background: url("../img/Airport/airline_logos/air-asia.png") top left no-repeat;
+}
+.ostrava {
+  background: url("../img/Airport/airline_logos/air-ostrave.png") top left no-repeat;
+}
+.alaska {
+  background: url("../img/Airport/airline_logos/alaska-airline.png") top left no-repeat;
+}
+.cosmic {
+  background: url("../img/Airport/airline_logos/cosmic-air.png") top left no-repeat;
+}
+.euro {
+  background: url("../img/Airport/airline_logos/eurofly.png") top left no-repeat;
+}
+.finnair {
+  background: url("../img/Airport/airline_logos/finnair.png") top left no-repeat;
+}
+.klm {
+  background: url("../img/Airport/airline_logos/klm.png") top left no-repeat;
+}
+.busan {
+  background: url("../img/Airport/airline_logos/air-busan.png") top left no-repeat;
+}
+.france {
+  background: url("../img/Airport/airline_logos/air-france.png") top left no-repeat;
+}
+.american {
+  background: url("../img/Airport/airline_logos/american.png") top left no-repeat;
+}
+.korean {
+  background: url("../img/Airport/airline_logos/korean-air.png") top left no-repeat;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300");

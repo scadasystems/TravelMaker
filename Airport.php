@@ -38,76 +38,287 @@
         <li>
           <a class="expand_airline">
             <div class="right-arrow">+</div>
-            <div class="icon_airline london"></div>
-            <h2>London</h2>
-            <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</span>
+            <div class="icon_airline qantas"></div>
+            <h2>QANTAS</h2>
+            <span>콴타스항공</span>
           </a>
 
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a href="https://www.qantas.com/kr/en.html"><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
           <a class="expand_airline">
             <div class="right-arrow">+</div>
-            <div class="icon_airline newyork"></div>
-            <h2>New York</h2>
-            <span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</span>
+            <div class="icon_airline delta"></div>
+            <h2>Delta</h2>
+            <span>델타항공</span>
           </a>
 
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
           <a class="expand_airline">
             <div class="right-arrow">+</div>
-            <div class="icon_airline paris"></div>
-            <h2>Paris</h2>
-            <span>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum</span>
+            <div class="icon_airline lufthansa"></div>
+            <h2>Lufthansa</h2>
+            <span>루프트한자</span>
           </a>
 
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
           <a class="expand_airline">
             <div class="right-arrow">+</div>
-            <div class="icon_airline newyork"></div>
-            <h2>New York</h2>
-            <span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</span>
+            <div class="icon_airline virgin"></div>
+            <h2>Virgin atlantic</h2>
+            <span>버진 아틀란틱</span>
           </a>
 
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
           <a class="expand_airline">
             <div class="right-arrow">+</div>
-            <div class="icon_airline newyork"></div>
-            <h2>New York</h2>
-            <span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</span>
+            <div class="icon_airline swis"></div>
+            <h2>Swis Airline</h2>
+            <span>스위스 항공</span>
           </a>
 
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline sas"></div>
+            <h2>Scandinavia Airlines</h2>
+            <span>스칸디나비아 항공</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline singapore"></div>
+            <h2>Singapore Airline</h2>
+            <span>싱가폴 항공</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline eva"></div>
+            <h2>Eva Airline</h2>
+            <span>에바 항공</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline newzealand"></div>
+            <h2>Newzealand</h2>
+            <span>뉴질랜드 항공</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline asia"></div>
+            <h2>Asia Airline</h2>
+            <span>아시아 항공</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline ostrava"></div>
+            <h2>Air Ostrava</h2>
+            <span>오스트라바 항공</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline alaska"></div>
+            <h2>Alaska Airline</h2>
+            <span>알래스카 항공</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline cosmic"></div>
+            <h2>Cosmic Airline</h2>
+            <span>코스믹 항공</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline euro"></div>
+            <h2>Eurofly</h2>
+            <span>유로플라이</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline finnair"></div>
+            <h2>Finnair</h2>
+            <span>핀에어</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline klm"></div>
+            <h2>KLM UK</h2>
+            <span>KLM 영국</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline busan"></div>
+            <h2>Air Busan</h2>
+            <span>에어부산</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline france"></div>
+            <h2>Air France</h2>
+            <span>에어프랑스</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline american"></div>
+            <h2>American Airlines</h2>
+            <span>아메리칸 항공</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
+          </div>
+        </li>
+        <li>
+          <a class="expand_airline">
+            <div class="right-arrow">+</div>
+            <div class="icon_airline korean"></div>
+            <h2>Korean Air</h2>
+            <span>대한항공</span>
+          </a>
+
+          <div class="detail">
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
 
       </ul>
     </div>
+<!--
     <nav class="pagination-container">
       <div class="pagination">
         <a class="pagination-newer" href="#">PREV</a>
@@ -121,8 +332,9 @@
         <a class="pagination-older" href="#">NEXT</a>
       </div>
     </nav>
+-->
   </div>
-  
+
   <!-- End list Area -->
   <!-- start footer Area -->
   <?php
@@ -145,7 +357,7 @@
   <script src="js/mail-script.js"></script>
   <script src="js/main.js"></script>
   <script src="js/airport.js"></script>
-  
+
 </body>
 
 </html>
