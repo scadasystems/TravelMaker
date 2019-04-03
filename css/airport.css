@@ -86,23 +86,11 @@
 .swis {
   background: url("../img/Airport/airline_logos/swis-airline.png") top left no-repeat;
 }
-.sas {
-  background: url("../img/Airport/airline_logos/sas.png") top left no-repeat;
-}
-.singapore {
-  background: url("../img/Airport/airline_logos/singapore.png") top left no-repeat;
-}
 .eva {
   background: url("../img/Airport/airline_logos/eva-air.png") top left no-repeat;
 }
 .newzealand {
   background: url("../img/Airport/airline_logos/newzealand.png") top left no-repeat;
-}
-.asia {
-  background: url("../img/Airport/airline_logos/air-asia.png") top left no-repeat;
-}
-.ostrava {
-  background: url("../img/Airport/airline_logos/air-ostrave.png") top left no-repeat;
 }
 .alaska {
   background: url("../img/Airport/airline_logos/alaska-airline.png") top left no-repeat;
@@ -118,9 +106,6 @@
 }
 .klm {
   background: url("../img/Airport/airline_logos/klm.png") top left no-repeat;
-}
-.busan {
-  background: url("../img/Airport/airline_logos/air-busan.png") top left no-repeat;
 }
 .france {
   background: url("../img/Airport/airline_logos/air-france.png") top left no-repeat;
@@ -181,3 +166,4 @@
 .pagination-older {
   margin-left: 5px;
 }
+/**/
