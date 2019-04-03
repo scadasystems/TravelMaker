@@ -4,12 +4,12 @@ $(document).ready(function () {
   $(function () {
     $(".expand_airline").on("click", function () {
       $(this).next().slideToggle(100);
-      $expand = $(this).find(">:first-child");
+      $expand_airline = $(this).find(">:first-child");
 
-      if ($expand.text() == "+") {
-        $expand.text("-");
+      if ($expand_airline.text() == "+") {
+        $expand_airline.text("-");
       } else {
-        $expand.text("+");
+        $expand_airline.text("+");
       }
     });
   });
