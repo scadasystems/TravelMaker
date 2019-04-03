@@ -39,7 +39,7 @@
           <a class="expand_airline">
             <div class="right-arrow">+</div>
             <div class="icon_airline qantas"></div>
-            <h2>QANTAS</h2>
+            <h2>Qantas</h2>
             <span>콴타스항공</span>
           </a>
 
