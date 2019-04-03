@@ -46,7 +46,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a href="https://www.qantas.com/kr/en.html"><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -60,7 +60,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -74,7 +74,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -88,7 +88,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -102,7 +102,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -116,7 +116,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -130,7 +130,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -144,7 +144,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -158,7 +158,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -172,7 +172,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -186,7 +186,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -200,7 +200,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -214,7 +214,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -228,7 +228,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -242,7 +242,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -256,7 +256,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -270,7 +270,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -284,7 +284,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -298,7 +298,7 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
@@ -312,12 +312,13 @@
           <div class="detail">
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
-            <span class="button">Connect</span>
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
 
       </ul>
     </div>
+<!--
     <nav class="pagination-container">
       <div class="pagination">
         <a class="pagination-newer" href="#">PREV</a>
@@ -331,6 +332,7 @@
         <a class="pagination-older" href="#">NEXT</a>
       </div>
     </nav>
+-->
   </div>
 
   <!-- End list Area -->
