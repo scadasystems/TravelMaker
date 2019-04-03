@@ -31,7 +31,7 @@
   <!-- star list Area -->
   <div class="container">
     <div class="text" style="margin-left:0; margin-top:50px">
-      <p style="margin-left:0">Airline Top20</p>
+      <p style="margin-left:0">Airline Top15</p>
     </div>
     <div id="item-list">
       <ul>
@@ -108,34 +108,6 @@
         <li>
           <a class="expand_airline">
             <div class="right-arrow">+</div>
-            <div class="icon_airline sas"></div>
-            <h2>Scandinavia Airlines</h2>
-            <span>스칸디나비아 항공</span>
-          </a>
-
-          <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
-          </div>
-        </li>
-        <li>
-          <a class="expand_airline">
-            <div class="right-arrow">+</div>
-            <div class="icon_airline singapore"></div>
-            <h2>Singapore Airline</h2>
-            <span>싱가폴 항공</span>
-          </a>
-
-          <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
-          </div>
-        </li>
-        <li>
-          <a class="expand_airline">
-            <div class="right-arrow">+</div>
             <div class="icon_airline eva"></div>
             <h2>Eva Airline</h2>
             <span>에바 항공</span>
@@ -153,34 +125,6 @@
             <div class="icon_airline newzealand"></div>
             <h2>Newzealand</h2>
             <span>뉴질랜드 항공</span>
-          </a>
-
-          <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
-          </div>
-        </li>
-        <li>
-          <a class="expand_airline">
-            <div class="right-arrow">+</div>
-            <div class="icon_airline asia"></div>
-            <h2>Asia Airline</h2>
-            <span>아시아 항공</span>
-          </a>
-
-          <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
-          </div>
-        </li>
-        <li>
-          <a class="expand_airline">
-            <div class="right-arrow">+</div>
-            <div class="icon_airline ostrava"></div>
-            <h2>Air Ostrava</h2>
-            <span>오스트라바 항공</span>
           </a>
 
           <div class="detail">
@@ -251,20 +195,6 @@
             <div class="icon_airline klm"></div>
             <h2>KLM UK</h2>
             <span>KLM 영국</span>
-          </a>
-
-          <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
-          </div>
-        </li>
-        <li>
-          <a class="expand_airline">
-            <div class="right-arrow">+</div>
-            <div class="icon_airline busan"></div>
-            <h2>Air Busan</h2>
-            <span>에어부산</span>
           </a>
 
           <div class="detail">
