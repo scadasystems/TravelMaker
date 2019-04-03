@@ -44,9 +44,19 @@
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a href="https://www.qantas.com/kr/en.html"><span class="button">Fly To Website</span></a>
+            <div class="blog-card">
+              <div class="meta">
+                <div class="photo" style="background-image: url(..//img/Airport/airport.jpg)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
@@ -58,9 +68,19 @@
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card alt">
+              <div class="meta">
+                <div class="photo" style="background-image: url(../img/Airport/airport.jpg)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
@@ -72,9 +92,25 @@
           </a>
 
           <div class="detail">
+            <!--
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
             <a><span class="button">Fly To Website</span></a>
+-->
+            <div class="blog-card">
+              <div class="meta">
+                <div class="photo" style="background-image: url(..//img/Airport/airport.jpg)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
+
           </div>
         </li>
         <li>
@@ -248,7 +284,7 @@
 
       </ul>
     </div>
-<!--
+    <!--
     <nav class="pagination-container">
       <div class="pagination">
         <a class="pagination-newer" href="#">PREV</a>
