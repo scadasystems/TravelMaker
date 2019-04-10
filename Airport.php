@@ -37,85 +37,49 @@
       <ul>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">1</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline qantas"></div>
             <h2>Qantas</h2>
             <span>콴타스항공</span>
           </a>
 
           <div class="detail">
-            <div class="blog-card">
-              <div class="meta">
-                <div class="photo" style="background-image: url(..//img/Airport/airport.jpg)"></div>
-              </div>
-              <div class="description">
-                <h1>한줄평</h1>
-                <h2>별점</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-                <p class="read-more">
-                  <a href="#"> visit Website</a>
-                </p>
-              </div>
-            </div>
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a href="https://www.qantas.com/kr/en.html"><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">2</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline delta"></div>
             <h2>Delta</h2>
             <span>델타항공</span>
           </a>
 
           <div class="detail">
-            <div class="blog-card alt">
-              <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airport.jpg)"></div>
-              </div>
-              <div class="description">
-                <h1>한줄평</h1>
-                <h2>별점</h2>
-                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
-                <p class="read-more">
-                  <a href="#"> visit Website</a>
-                </p>
-              </div>
-            </div>
+            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
+
+            <a><span class="button">Fly To Website</span></a>
           </div>
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">3</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline lufthansa"></div>
             <h2>Lufthansa</h2>
             <span>루프트한자</span>
           </a>
 
           <div class="detail">
-            <!--
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
             <a><span class="button">Fly To Website</span></a>
--->
-            <div class="blog-card">
-              <div class="meta">
-                <div class="photo" style="background-image: url(..//img/Airport/airport.jpg)"></div>
-              </div>
-              <div class="description">
-                <h1>한줄평</h1>
-                <h2>별점</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-                <p class="read-more">
-                  <a href="#"> visit Website</a>
-                </p>
-              </div>
-            </div>
-
           </div>
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">4</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline virgin"></div>
             <h2>Virgin atlantic</h2>
             <span>버진 아틀란틱</span>
@@ -129,7 +93,7 @@
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">5</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline swis"></div>
             <h2>Swis Airline</h2>
             <span>스위스 항공</span>
@@ -143,7 +107,7 @@
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">6</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline eva"></div>
             <h2>Eva Airline</h2>
             <span>에바 항공</span>
@@ -157,7 +121,7 @@
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">7</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline newzealand"></div>
             <h2>Newzealand</h2>
             <span>뉴질랜드 항공</span>
@@ -171,7 +135,7 @@
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">8</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline alaska"></div>
             <h2>Alaska Airline</h2>
             <span>알래스카 항공</span>
@@ -185,7 +149,7 @@
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">9</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline cosmic"></div>
             <h2>Cosmic Airline</h2>
             <span>코스믹 항공</span>
@@ -199,7 +163,7 @@
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">10</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline euro"></div>
             <h2>Eurofly</h2>
             <span>유로플라이</span>
@@ -213,7 +177,7 @@
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">11</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline finnair"></div>
             <h2>Finnair</h2>
             <span>핀에어</span>
@@ -227,7 +191,7 @@
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">12</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline klm"></div>
             <h2>KLM UK</h2>
             <span>KLM 영국</span>
@@ -241,7 +205,7 @@
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">13</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline france"></div>
             <h2>Air France</h2>
             <span>에어프랑스</span>
@@ -255,7 +219,7 @@
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">14</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline american"></div>
             <h2>American Airlines</h2>
             <span>아메리칸 항공</span>
@@ -269,7 +233,7 @@
         </li>
         <li>
           <a class="expand_airline">
-            <div class="right-arrow">15</div>
+            <div class="right-arrow">+</div>
             <div class="icon_airline korean"></div>
             <h2>Korean Air</h2>
             <span>대한항공</span>
@@ -284,7 +248,7 @@
 
       </ul>
     </div>
-    <!--
+<!--
     <nav class="pagination-container">
       <div class="pagination">
         <a class="pagination-newer" href="#">PREV</a>
