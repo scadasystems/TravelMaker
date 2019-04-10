@@ -463,7 +463,7 @@
           <h1>
             2019년도<br>
             세계 베스트 여행지<br>
-            <span style="font-size:40px; color: red">Top 20</span>
+            <span style="font-size:40px; color: red">Top 15</span>
           </h1>
           <p>
             지난 1년간 여행자들이 검색한 여행지 검색추이를 분석한 결과와 ‘2018년 검색량 순위’, ‘전년 대비 검색량 증가율’, ‘순위 상승 단계’ 등을 고려하여 세계의 베스트 여행지를 선정했습니다.
