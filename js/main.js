@@ -499,13 +499,3 @@ $('.play-video').magnificPopup({
 
   fixedContentPos: false
 });
-
-
-/*----------------------------------------------------*/
-/*  Image Grid in Hotel.php
-/*----------------------------------------------------*/
-$(".hover").mouseleave(
-  function () {
-    $(this).removeClass("hover");
-  }
-);
