@@ -2,6 +2,11 @@
 <html class="no-js">
 <!-- Head -->
 <link rel="stylesheet" href="css/food.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+
+    
 <?php
    include 'commonPHP/commonHead.php'
 ?>
@@ -29,10 +34,78 @@
   <!-- End banner Area -->
 
   <!--start food-slider -->
-    <div id="app"></div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js'></script>
+   
+    <div class="aos-item fslider-body">
+      <div class="fslider-container" data-aos="fade-up-right">
+        <div class="fslider-control left infactive"></div>
+        <div class="fslider-control fright"></div>
+        <ul class="fslider-pagi"></ul>
+        <div class="aos-item__inner fslider">
+          <div class="fslide fslide-0 factive">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">정보 보안이란?</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  정보의 수집, 가공, 저장, 검색, 송신, 수신 도중에 정보의 훼손, 변조, 유출 등을 방지하기 위한 관리적, 기술적 방법을 의미한다. 정보 보호란 정보를 제공하는 공급자 측면과 사용자 측면에서 이해할 수 있다. <br>
+                  정보를 보호하고 보안을 유지하는 것을 말하며 정보보안과 동의어로 쓰이곤 한다. 정보의 흐름 전체의 보호를 망라하는 개념이다. 범주로 나누어 물리적 보호, 기술적 보호, 관리적 보호로 나눌 수있다.
+                </p>
+                <a href="https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B4_%EB%B3%B4%EC%95%88" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="fslide fslide-1 ">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">해킹이란?</h2>
+                <p class="fslide__text-desc" style="color: white">해킹(hacking)은 전자 회로나 컴퓨터의 하드웨어, 소프트웨어, 네트워크, 웹사이트 등 각종 정보 체계가 본래의 설계자나 관리자, 운영자가 의도하지 않은 동작을 일으키도록 하거나 체계 내에서 주어진 권한 이상으로 정보를 열람, 복제, 변경 가능하게 하는 행위를 광범위하게 이르는 말이다.</p>
+                <a href="https://ko.wikipedia.org/wiki/%ED%95%B4%ED%82%B9" target="_blank" class="fslide__text-link" style="color: white; cursor: none">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="fslide fslide-2">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">컴퓨터 바이러스란?</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  컴퓨터 바이러스(computer virus, 문화어: 콤퓨터 비루스)는 스스로를 복제하여 컴퓨터를 감염시키는 컴퓨터 프로그램이다. 복제 기능이 없는 다른 종류의 악성 코드, 애드웨어, 스파이웨어와 혼동하여 잘못 쓰이는 경우도 있다. 바이러스는 한 컴퓨터에서 다른 컴퓨터로(일부 형식의 실행 코드로) 확산할 수 있다. 바이러스는 네트워크 파일 시스템이나, 다른 컴퓨터를 통해 접근하는 파일 시스템 상의 파일을 감염시킴으로써 다른 컴퓨터로의 확산 가능성을 높일 수 있다.
+                </p>
+                <a href="https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="fslide fslide-3">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">컴퓨터 백신이란?</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  바이러스 검사 소프트웨어(문화어: 비루스 검사 쏘프트웨어, 비루스방역프로그람) 또는 안티바이러스 소프트웨어(영어: antivirus software) 은 악성 소프트웨어를 찾아내서 제거하는 기능을 갖춘 컴퓨터 프로그램이다. 대한민국에서는 이를 지칭하는데 백신 프로그램 이라는 말이 일상용어로 사용되고 있다. 한국에서 백신이라는 용어는 V3의 초기 버전인 Vaccine(=V1), V2, V2PLUS로 인해 대중적인 용어가 되었다. 원래 목적은 바이러스만 잡는 것이었으나, 현대에는 악성코드, 피싱 공격, 트로이 목마, 웜 등도 검출한다.
+                </p>
+                <a href="https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4_%EA%B2%80%EC%82%AC_%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
     <!--end food-slider -->
     
   <!-- start food item-->
@@ -561,13 +634,85 @@
     
   <!-- end food item-->
    
+    <!-- Start Gallery -->
+    <div class="site-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-7 text-center">
+                    <h2 class="font-weight-light text-black">Our Destinations</h2>
+                    <p class="color-black-opacity-5">Choose Your Next Destination</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <a href="#" class="unit-1 text-center">
+                        <img src="img/experience/01-greece.jpg" alt="Image" class="img-fluid">
+                        <div class="unit-1-text">
+                            <strong class="text-primary mb-2 d-block">$590</strong>
+                            <h3 class="unit-1-heading">Santorini, Greece</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <a href="#" class="unit-1 text-center">
+                        <img src="img/experience/02-rome.jpg" alt="Image" class="img-fluid">
+                        <div class="unit-1-text">
+                            <strong class="text-primary mb-2 d-block">$390</strong>
+                            <h3 class="unit-1-heading">Rome, Italy</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <a href="#" class="unit-1 text-center">
+                        <img src="img/experience/03-japan.jpg" alt="Image" class="img-fluid">
+                        <div class="unit-1-text">
+                            <strong class="text-primary mb-2 d-block">$390</strong>
+                            <h3 class="unit-1-heading">Mount Fuji, Japan</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <a href="#" class="unit-1 text-center">
+                        <img src="img/experience/04-dubai.jpg" alt="Image" class="img-fluid">
+                        <div class="unit-1-text">
+                            <strong class="text-primary mb-2 d-block">$320</strong>
+                            <h3 class="unit-1-heading">Camels, Dubai</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <a href="#" class="unit-1 text-center">
+                        <img src="img/experience/05-london.jpg" alt="Image" class="img-fluid">
+                        <div class="unit-1-text">
+                            <strong class="text-primary mb-2 d-block">$290</strong>
+                            <h3 class="unit-1-heading">Elizabeth Tower, London</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <a href="#" class="unit-1 text-center">
+                        <img src="img/experience/06-australia.jpg" alt="Image" class="img-fluid">
+                        <div class="unit-1-text">
+                            <strong class="text-primary mb-2 d-block">$390</strong>
+                            <h3 class="unit-1-heading">Opera House, Australia</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Gallery -->
+    
   <!-- start footer Area -->
   <?php
       include 'commonPHP/footer.php';
    ?>
   <!-- End footer Area -->
   <!-- Script -->
-    <script src="js/food_slider.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/food_item.js"></script>
   <script src="js/vendor/jquery-2.2.4.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
