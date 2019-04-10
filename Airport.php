@@ -44,14 +44,14 @@
           </a>
 
           <div class="detail">
-            <div class="blog-card">
+            <div class="blog-card alt">
               <div class="meta">
-                <div class="photo" style="background-image: url(..//img/Airport/airport.jpg)"></div>
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/qantas.jpg)"></div>
               </div>
               <div class="description">
                 <h1>한줄평</h1>
                 <h2>별점</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
                 <p class="read-more">
                   <a href="#"> visit Website</a>
                 </p>
@@ -68,14 +68,14 @@
           </a>
 
           <div class="detail">
-            <div class="blog-card alt">
+            <div class="blog-card">
               <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airport.jpg)"></div>
+                <div class="photo" style="background-image: url(..//img/Airport/airline_photos/delta.jpg)"></div>
               </div>
               <div class="description">
                 <h1>한줄평</h1>
                 <h2>별점</h2>
-                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
                 <p class="read-more">
                   <a href="#"> visit Website</a>
                 </p>
@@ -96,10 +96,11 @@
             <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
 
             <a><span class="button">Fly To Website</span></a>
+            
 -->
             <div class="blog-card">
               <div class="meta">
-                <div class="photo" style="background-image: url(..//img/Airport/airport.jpg)"></div>
+                <div class="photo" style="background-image: url(..//img/Airport/airline_photos/lufthansa.jpg)"></div>
               </div>
               <div class="description">
                 <h1>한줄평</h1>
@@ -110,7 +111,6 @@
                 </p>
               </div>
             </div>
-
           </div>
         </li>
         <li>
@@ -122,9 +122,19 @@
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card alt">
+              <div class="meta">
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/virgin.png)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
@@ -136,9 +146,19 @@
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card">
+              <div class="meta">
+                <div class="photo" style="background-image: url(..//img/Airport/airline_photos/swiss.png)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
@@ -148,25 +168,44 @@
             <h2>Eva Airline</h2>
             <span>에바 항공</span>
           </a>
-
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card">
+              <div class="meta">
+                <div class="photo" style="background-image: url(..//img/Airport/airline_photos/eva.jpg)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
           <a class="expand_airline">
             <div class="right-arrow">7</div>
             <div class="icon_airline newzealand"></div>
-            <h2>Newzealand</h2>
+            <h2>Air Newzealand</h2>
             <span>뉴질랜드 항공</span>
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card alt">
+              <div class="meta">
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/newzealand.jpg)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
@@ -178,23 +217,43 @@
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card alt">
+              <div class="meta">
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/alaska.png)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
           <a class="expand_airline">
             <div class="right-arrow">9</div>
-            <div class="icon_airline cosmic"></div>
-            <h2>Cosmic Airline</h2>
-            <span>코스믹 항공</span>
+            <div class="icon_airline sas"></div>
+            <h2>Scandinavia Airlines</h2>
+            <span>스칸디나비아 항공</span>
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card">
+              <div class="meta">
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/sas.jpg)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
@@ -206,9 +265,19 @@
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card alt">
+              <div class="meta">
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/eurofly.jpg)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
@@ -220,9 +289,19 @@
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card">
+              <div class="meta">
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/finnair.jpg)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
@@ -234,9 +313,19 @@
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card alt">
+              <div class="meta">
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/klm.png)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
@@ -248,9 +337,19 @@
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card">
+              <div class="meta">
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/france.jpg)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
@@ -262,9 +361,19 @@
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card">
+              <div class="meta">
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/american.png)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
         <li>
@@ -276,9 +385,19 @@
           </a>
 
           <div class="detail">
-            <div><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</span></div><br />
-
-            <a><span class="button">Fly To Website</span></a>
+            <div class="blog-card">
+              <div class="meta">
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/korean.png)"></div>
+              </div>
+              <div class="description">
+                <h1>한줄평</h1>
+                <h2>별점</h2>
+                <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
+                <p class="read-more">
+                  <a href="#"> visit Website</a>
+                </p>
+              </div>
+            </div>
           </div>
         </li>
 
