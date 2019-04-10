@@ -28,7 +28,7 @@
   </section>
   <!-- End banner Area -->
 
-  <!-- star list Area -->
+  <!-- start list Area -->
   <div class="container">
     <div class="text" style="margin-left:0; margin-top:50px">
       <p style="margin-left:0">Airline Top15</p>
@@ -419,8 +419,69 @@
     </nav>
 -->
   </div>
-
   <!-- End list Area -->
+  
+  <!-- start airline slider -->
+
+  <div class="aos-item fslider-body">
+    <div class="fslider-container" data-aos="fade-up-right">
+      <div class="fslider-control left infactive"></div>
+      <div class="fslider-control fright"></div>
+      <ul class="fslider-pagi"></ul>
+      <div class="aos-item__inner fslider">
+        <div class="fslide fslide-0 factive">
+          <div class="fslide__bg"></div>
+          <div class="fslide__content">
+            <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+              <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+            </svg>
+            <div class="fslide__text">
+              <h2 class="fslide__text-heading">Best Hotel</h2>
+              <a href="Hotel.php" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="fslide fslide-1 ">
+          <div class="fslide__bg"></div>
+          <div class="fslide__content">
+            <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+              <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+            </svg>
+            <div class="fslide__text">
+              <h2 class="fslide__text-heading">Experience</h2>
+              <a href="experience.php" target="_blank" class="fslide__text-link" style="color: white; cursor: none">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="fslide fslide-2">
+          <div class="fslide__bg"></div>
+          <div class="fslide__content">
+            <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+              <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+            </svg>
+            <div class="fslide__text">
+              <h2 class="fslide__text-heading">Food</h2>
+              <a href="Food.php" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="fslide fslide-3">
+          <div class="fslide__bg"></div>
+          <div class="fslide__content">
+            <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+              <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+            </svg>
+            <div class="fslide__text">
+              <h2 class="fslide__text-heading">2019 Best</h2>
+              <a href="#" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end airline slider -->
+  
   <!-- start footer Area -->
   <?php
       include 'commonPHP/footer.php';
