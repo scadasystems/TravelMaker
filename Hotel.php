@@ -335,7 +335,7 @@
             </div>
         </div>
         <div class="word3">
-            <span>에서 어워드를 수상한 호텔 카테고리 더 보기</span>
+            <span>에서 인기좋은 호텔 카테고리 더 보기</span>
         </div>
     </div>
     <!-- end Category title-->
