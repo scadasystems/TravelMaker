@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Jua|Abril+Fatface|Black+Han+Sans|Do+Hyeon+Sans|Nanum+Gothic+Coding|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Jua|Abril+Fatface|Black+Han+Sans|Do+Hyeon+Sans|Nanum+Gothic+Coding|Ubuntu|Sunflower:300');
 
 html,
 body {
@@ -773,14 +773,17 @@ body {
 .category-title .blue {color: #0887AC;}
 .category-title .orange {color: #EC8C00;}
 .category-title .red {color: #C53B3B;}
-.category-title {margin: 0 auto; width: 70%; height: 120px; margin-top: 120px}
-.category-title .flip-container {justify-content: center; margin-left: -70%; font-size: 3rem; display: flex; box-sizing: border-box; font-family: 'Black Han Sans', sans-serif;}
-.category-title .flip-container .flipper {
+.category-title {margin: 0 auto; width: 1200px; height: 100px;}
+.flip-container {font-size: 3rem; box-sizing: border-box; font-family: Poppins, sans-serif;}
+
+.flip-container .flipper {
+    font-family: 'Black Han Sans', sans-serif;
+    margin-left: -20%;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     position: relative;
-    -webkit-transform-origin: 50% 50px;
-    transform-origin: 50% 50px;
+    -webkit-transform-origin: 50% 30px;
+    transform-origin: 50% 30px;
     -webkit-animation-name: rotate;
     animation-name: rotate;
     -webkit-animation-duration: 1.2s;
@@ -792,20 +795,20 @@ body {
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 }
-.category-title .flip-container .flipper .word1,
-.category-title .flip-container .flipper .word2 {-webkit-backface-visibility: hidden; backface-visibility: hidden; left: 50%; position: absolute;}
-.category-title .flip-container .flipper .word1 {-webkit-transform: translateX(-50%); transform: translateX(-50%); width: 200px; background: #fff; padding: 10px 20px; z-index: 2;}
-.category-title .flip-container .flipper .word2 {-webkit-transform: translateX(-50%) rotateX(180deg); transform: translateX(-50%) rotateX(180deg); background: #fff; width: 200px; padding: 10px;}
+.flip-container .flipper .word1,
+.flip-container .flipper .word2 {-webkit-backface-visibility: hidden; backface-visibility: hidden; left: 30%; position: absolute; letter-spacing: -0.05em;}
+.flip-container .flipper .word1 {-webkit-transform: translateX(-50%); transform: translateX(-50%); padding: 10px 20px;}
+.flip-container .flipper .word2 {-webkit-transform: translateX(-50%) rotateX(180deg); transform: translateX(-50%) rotateX(180deg); padding: 10px 20px;}
+.category-title .word3 {text-align: center; font-family: 'Nanum Gothic Coding', monospace; font-size: 4vh; font-weight: bold; margin-left: 40px;}
+
 @-webkit-keyframes rotate {
     0%, 30% {-webkit-transform: rotateX(0); transform: rotateX(0);}
-    70%, 100% {-webkit-transform: rotateX(-180deg); transform: rotateX(-180deg);}
+    70%, 100% {-webkit-transform: rotateX(-180deg); transform: rotateX(-180deg); }
 }
 @keyframes rotate {
-    0%, 30% {-webkit-transform: rotateX(0); transform: rotateX(0);}
+    0%, 30% {-webkit-transform: rotateX(0); transform: rotateX(0); }
     70%, 100% {-webkit-transform: rotateX(-180deg); transform: rotateX(-180deg);}
 }
-.category-title .word3 {display: inline-block}
-
 /* label */
 figure.lulzmGrid .lulzmGrid-img {position: relative; height: 100%; background-size: cover;opacity: 1; width: 100%; height: 230px; vertical-align: top; -webkit-transition-delay: 0.2s; transition-delay: 0.2s; -webkit-transition: all 0.3s ease-in; transition: all 0.3s ease-in; border-radius: 20px}
 figure.lulzmGrid .lulzmGrid-img-cover {position: absolute; height: 100%; width: 100%; background-color: rgba(0,0,0,0.3); z-index: 1; border-radius: 20px}
