@@ -43,14 +43,14 @@
             <span>콴타스항공</span>
           </a>
 
-          <div class="detail">
+          <div class="detail" style="display: block">
             <div class="blog-card alt">
               <div class="meta">
                 <div class="photo" style="background-image: url(../img/Airport/airline_photos/qantas.jpg)"></div>
               </div>
               <div class="description">
                 <h1>한줄평</h1>
-                <h2>별점</h2>
+                <h2>4.9</h2>
                 <p>항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 항공사소개 </p>
                 <p class="read-more">
                   <a href="#"> visit Website</a>
