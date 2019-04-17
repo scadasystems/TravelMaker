@@ -661,79 +661,106 @@
 </div>
     
   <!-- end food item-->
-   
+   <!-- Start site category title -->
+    <div class="header wrap">
+        <h2 class="background double"><span>다른 것들이 필요하신가요? <span style="color: orange">Travel Maker 카테고리 더 보기</span></span></h2>
+    </div> <!-- end site category title-->
+    <!--  -->
     <!-- Start Gallery -->
-    <div class="site-section">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-7 text-center">
-                    <h2 class="font-weight-light text-black">Our Destinations</h2>
-                    <p class="color-black-opacity-5">Choose Your Next Destination</p>
+    <div class="site-link">
+    <div class="container">
+        <div class="row">
+            <!-- 1. -->
+            <figure class="lulzmGrid col-sm">
+                <!-- Label -->
+                <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotels-main.jpg);">
+                    <div class="lulzmGrid-label">Best Hotel</div>
+                    <div class="lulzmGrid-img-cover"></div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                    <a href="Hotel.php" class="unit-1 text-center">
-                        <img src="img/experience/01-greece.jpg" alt="Image" class="img-fluid">
-                        <div class="unit-1-text">
-                            
-                            <h3 class="unit-1-heading">Hotel</h3>
-                            <strong>호텔 리스트를 원하시나요?</strong>
-                        </div>
-                    </a>
+                <!-- end Label -->
+                <figcaption>
+                    <h3>Best Hotel</h3>
+                    <p>2019년도 1분기 베스트 호텔을 보러 가고 싶나요?</p>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php' "><span>Go ! </span></button>
+                </figcaption>
+            </figure>
+            <figure class="lulzmGrid col-sm">
+                <!-- Label -->
+                <div class="lulzmGrid-img" style="background-image: url(img/experience/experience-main.jpg);">
+                    <div class="lulzmGrid-label">Experience</div>
+                    <div class="lulzmGrid-img-cover"></div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                    <a href="experience.php" class="unit-1 text-center">
-                        <img src="img/experience/02-rome.jpg" alt="Image" class="img-fluid">
-                        <div class="unit-1-text">
-                            
-                            <h3 class="unit-1-heading">Experience</h3>
-                            <strong> 다양한 경험을 쌓으시고 싶으신가요?</strong>
-                        </div>
-                    </a>
+                <!-- end Label -->
+                <figcaption>
+                    <h3>Best Experience</h3>
+                    <p>재미있고 추억의 경험을 얻고 싶으세요?</p>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='experience.php' "><span>Go ! </span></button>
+                </figcaption>
+            </figure>
+            <figure class="lulzmGrid col-sm">
+                <!-- Label -->
+                <div class="lulzmGrid-img" style="background-image: url(img/Food/Food-banner.png);">
+                    <div class="lulzmGrid-label">Best Food</div>
+                    <div class="lulzmGrid-img-cover"></div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                    <a href="Airport.php" class="unit-1 text-center">
-                        <img src="img/experience/03-japan.jpg" alt="Image" class="img-fluid">
-                        <div class="unit-1-text">
-                            
-                            <h3 class="unit-1-heading">Airport</h3>
-                            <strong>항공사 정보를 원하시나요?</strong>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                    <a href="#" class="unit-1 text-center">
-                        <img src="img/experience/04-dubai.jpg" alt="Image" class="img-fluid">
-                        <div class="unit-1-text">
-                            <strong class="text-primary mb-2 d-block">$320</strong>
-                            <h3 class="unit-1-heading">Camels, Dubai</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                    <a href="#" class="unit-1 text-center">
-                        <img src="img/experience/05-london.jpg" alt="Image" class="img-fluid">
-                        <div class="unit-1-text">
-                            <strong class="text-primary mb-2 d-block">$290</strong>
-                            <h3 class="unit-1-heading">Elizabeth Tower, London</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                    <a href="#" class="unit-1 text-center">
-                        <img src="img/experience/06-australia.jpg" alt="Image" class="img-fluid">
-                        <div class="unit-1-text">
-                            <strong class="text-primary mb-2 d-block">$390</strong>
-                            <h3 class="unit-1-heading">Opera House, Australia</h3>
-                        </div>
-                    </a>
-                </div>
-            </div>
+                <!-- end Label -->
+                <figcaption>
+                    <h3>Best Food</h3>
+                    <p>현지에 유명한 요리를 드시고 싶으신가요?</p>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Food.php' "><span>Go ! </span></button>
+                </figcaption>
+            </figure>
         </div>
+        <div class="row">
+            <figure class="lulzmGrid col-sm">
+                <!-- Label -->
+                <div class="lulzmGrid-img" style="background-image: url(img/Airport/airport.jpg);">
+                    <div class="lulzmGrid-label">Best Airport</div>
+                    <div class="lulzmGrid-img-cover"></div>
+                </div>
+                <!-- end Label -->
+                <figcaption>
+                    <h3>Best Airport</h3>
+                    <p>수많은 항공사 중 여행객들이 추천하는 항공사는?</p>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Airport.php' "><span>Go ! </span></button>
+                </figcaption>
+            </figure>
+            <figure class="lulzmGrid col-sm">
+                <!-- Label -->
+                <div class="lulzmGrid-img" style="background-image: url(img/main/main-banner.jpg);">
+                    <div class="lulzmGrid-label">2019 BEST</div>
+                    <div class="lulzmGrid-img-cover"></div>
+                </div>
+                <!-- end Label -->
+                <figcaption>
+                    <h3>2019 BEST</h3>
+                    <p>
+                        <script>
+                            document.write(new Date().getFullYear() + '년 ');
+                            document.write((new Date().getMonth() + 1) + '월 ');
+                            document.write(new Date().getDate() + '일 ');
+                        </script>
+                        - Best를 알고 싶나요?
+                    </p>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='2019-best.php' "><span>Go ! </span></button>
+                </figcaption>
+            </figure>
+            <figure class="lulzmGrid col-sm">
+                <!-- Label -->
+                <div class="lulzmGrid-img" style="background-image: url(img/our_team2.jpg);">
+                    <div class="lulzmGrid-label">Help Center</div>
+                    <div class="lulzmGrid-img-cover"></div>
+                </div>
+                <!-- end Label -->
+                <figcaption>
+                    <h3>Help Center</h3>
+                    <p>저희한테 궁금한 점이 있으신가요?</p>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='contact.php' "><span>Go ! </span></button>
+                </figcaption>
+            </figure>
+        </div>
+    </div> <!-- end site category Grid -->
     </div>
-
     <!-- End Gallery -->
     
   <!-- start footer Area -->
