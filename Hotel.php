@@ -4,6 +4,7 @@
 <?php
    include 'commonPHP/commonHead.php'
 ?>
+
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 </head>
@@ -39,15 +40,8 @@
                     <p class="pt-20">
                         <script>
                             document.write(new Date().getFullYear() + '년 ');
-
-                        </script>
-                        <script>
                             document.write((new Date().getMonth() + 1) + '월 ');
-
-                        </script>
-                        <script>
                             document.write(new Date().getDate() + '일 ');
-
                         </script>
                         까지<br>전 세계 여행자들이 추천한 여행지를 보여드립니다~
                     </p>
@@ -327,25 +321,158 @@
     </div>
     <!-- end slider -->
     <!-- start Category title -->
-    <div class="category-title">
-        <div class="flip-container">
-            <div class="flipper">
-                <p class="word1"><span class="blue">호텔</span><span class="orange">의 </span><span class="red">모든것</span></p>
-                <p class="word2"><span class="blue">Tra</span><span class="orange">vel </span><span class="red">Maker</span></p>
+    <div class="category-section">
+        <div class="category-title">
+            <div class="flip-container">
+                <div class="flipper">
+                    <p class="word1"><span class="blue">여행</span><span class="orange">의 </span><span class="red">모든것</span></p>
+                    <p class="word2"><span class="blue">Tra</span><span class="orange">vel </span><span class="red">Maker</span></p>
+                </div>
             </div>
-        </div>
-        <div class="word3">
-            <span>에서 인기좋은 호텔 카테고리 더 보기</span>
-        </div>
+            <div class="word3">
+                <span>에서 인기많은 호텔 카테고리 더 보기</span>
+            </div>
+        </div> <!-- end Category title-->
+        <!-- start Category Grid -->
+        <div class="container">
+            <div class="row">
+                <!-- 1. -->
+                <figure class="lulzmGrid col-sm">
+                    <!-- Label -->
+                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-best.jpg);">
+                        <div class="lulzmGrid-label">Best Hotel</div>
+                        <div class="lulzmGrid-img-cover"></div>
+                    </div>
+                    <!-- end Label -->
+                    <figcaption>
+                        <h3>Best Hotel</h3>
+                        <p>2019년도 1분기 베스트 호텔을 보러 가고 싶나요?</p>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php' "><span>Go ! </span></button>
+                    </figcaption>
+                </figure>
+                <figure class="lulzmGrid col-sm">
+                    <!-- Label -->
+                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-luxury.jpg);">
+                        <div class="lulzmGrid-label">Luxury</div>
+                        <div class="lulzmGrid-img-cover"></div>
+                    </div>
+                    <!-- end Label -->
+                    <figcaption>
+                        <h3>Luxury</h3>
+                        <p>최고의 럭셔리한 호텔을 찾으시나요?</p>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-luxury.php' "><span>Go ! </span></button>
+                    </figcaption>
+                </figure>
+                <figure class="lulzmGrid col-sm">
+                    <!-- Label -->
+                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-romantic.jpg);">
+                        <div class="lulzmGrid-label">Romantic</div>
+                        <div class="lulzmGrid-img-cover"></div>
+                    </div>
+                    <!-- end Label -->
+                    <figcaption>
+                        <h3>Romantic</h3>
+                        <p>사랑하는 사람과 최고의 추억을 만들고 싶은가요?</p>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-romantic.php' "><span>Go ! </span></button>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="row">
+                <figure class="lulzmGrid col-sm">
+                    <!-- Label -->
+                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-service.jpg);">
+                        <div class="lulzmGrid-label">Service</div>
+                        <div class="lulzmGrid-img-cover"></div>
+                    </div>
+                    <!-- end Label -->
+                    <figcaption>
+                        <h3>Service</h3>
+                        <p>여행객들이 추천하는 서비스 좋은 호텔을 찾으시나요?</p>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-service.php' "><span>Go ! </span></button>
+                    </figcaption>
+                </figure>
+                <figure class="lulzmGrid col-sm">
+                    <!-- Label -->
+                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-goodvalue.jpg);">
+                        <div class="lulzmGrid-label">Good Value</div>
+                        <div class="lulzmGrid-img-cover"></div>
+                    </div>
+                    <!-- end Label -->
+                    <figcaption>
+                        <h3>Good Value</h3>
+                        <p>가성비가 좋은 호텔! 여기 있습니다.</p>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-goodvalue.php' "><span>Go ! </span></button>
+                    </figcaption>
+                </figure>
+                <figure class="lulzmGrid col-sm">
+                    <!-- Label -->
+                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-family.jpg);">
+                        <div class="lulzmGrid-label">Family</div>
+                        <div class="lulzmGrid-img-cover"></div>
+                    </div>
+                    <!-- end Label -->
+                    <figcaption>
+                        <h3>Family</h3>
+                        <p>가족들과 오붓한 시간을 보내시려고요?</p>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-family.php' "><span>Go ! </span></button>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="row">
+                <figure class="lulzmGrid col-sm">
+                    <!-- Label -->
+                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-small.jpg);">
+                        <div class="lulzmGrid-label">Small</div>
+                        <div class="lulzmGrid-img-cover"></div>
+                    </div>
+                    <!-- end Label -->
+                    <figcaption>
+                        <h3>Small Hotel</h3>
+                        <p>작지만 행복을 만들기에는 충분합니다.</p>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-smallhotel.php' "><span>Go ! </span></button>
+                    </figcaption>
+                </figure>
+                <figure class="lulzmGrid col-sm">
+                    <!-- Label -->
+                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-motel.jpg);">
+                        <div class="lulzmGrid-label">Motel</div>
+                        <div class="lulzmGrid-img-cover"></div>
+                    </div>
+                    <!-- end Label -->
+                    <figcaption>
+                        <h3>Motel / B&B</h3>
+                        <p>숙소에 돈을 투자하고 싶지 않다고요?</p>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-motel.php' "><span>Go ! </span></button>
+                    </figcaption>
+                </figure>
+                <figure class="lulzmGrid col-sm">
+                    <!-- Label -->
+                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-inclusive.jpeg);">
+                        <div class="lulzmGrid-label">All inclusive Hotel</div>
+                        <div class="lulzmGrid-img-cover"></div>
+                    </div>
+                    <!-- end Label -->
+                    <figcaption>
+                        <h3>All inclusive Hotel</h3>
+                        <p>All Inclusive : 조식,중식,석식 세끼와 함께 여러가지 제공</p>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-inclusive.php'"><span>Go ! </span></button>
+                    </figcaption>
+                </figure>
+            </div>
+        </div> <!-- end Category Grid -->
     </div>
-    <!-- end Category title-->
-    <!-- start Category Grid -->
+    <!-- Start site category title -->
+    <div class="header wrap">
+        <h2 class="background double"><span>다른 것들이 필요하신가요? <span style="color: orange">Travel Maker 카테고리 더 보기</span></span></h2>
+    </div> <!-- end site category title-->
+    <!--  -->
+    <!-- start site category Grid -->
     <div class="container">
         <div class="row">
             <!-- 1. -->
             <figure class="lulzmGrid col-sm">
                 <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-best.jpg);">
+                <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotels-main.jpg);">
                     <div class="lulzmGrid-label">Best Hotel</div>
                     <div class="lulzmGrid-img-cover"></div>
                 </div>
@@ -358,119 +485,84 @@
             </figure>
             <figure class="lulzmGrid col-sm">
                 <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-luxury.jpg);">
-                    <div class="lulzmGrid-label">Luxury</div>
+                <div class="lulzmGrid-img" style="background-image: url(img/experience/experience-main.jpg);">
+                    <div class="lulzmGrid-label">Experience</div>
                     <div class="lulzmGrid-img-cover"></div>
                 </div>
                 <!-- end Label -->
                 <figcaption>
-                    <h3>Luxury</h3>
-                    <p>최고의 럭셔리한 호텔을 찾으시나요?</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php' "><span>Go ! </span></button>
+                    <h3>Best Experience</h3>
+                    <p>재미있고 추억의 경험을 얻고 싶으세요?</p>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='experience.php' "><span>Go ! </span></button>
                 </figcaption>
             </figure>
             <figure class="lulzmGrid col-sm">
                 <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-romantic.jpg);">
-                    <div class="lulzmGrid-label">Romantic</div>
+                <div class="lulzmGrid-img" style="background-image: url(img/Food/Food-banner.png);">
+                    <div class="lulzmGrid-label">Best Food</div>
                     <div class="lulzmGrid-img-cover"></div>
                 </div>
                 <!-- end Label -->
                 <figcaption>
-                    <h3>Romantic</h3>
-                    <p>사랑하는 사람과 최고의 추억을 만들고 싶은가요?</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php' "><span>Go ! </span></button>
+                    <h3>Best Food</h3>
+                    <p>현지에 유명한 요리를 드시고 싶으신가요?</p>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Food.php' "><span>Go ! </span></button>
                 </figcaption>
             </figure>
         </div>
         <div class="row">
             <figure class="lulzmGrid col-sm">
                 <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-service.jpg);">
-                    <div class="lulzmGrid-label">Service</div>
+                <div class="lulzmGrid-img" style="background-image: url(img/Airport/airport.jpg);">
+                    <div class="lulzmGrid-label">Best Airport</div>
                     <div class="lulzmGrid-img-cover"></div>
                 </div>
                 <!-- end Label -->
                 <figcaption>
-                    <h3>Service</h3>
-                    <p>여행객들이 추천하는 서비스 좋은 호텔을 찾으시나요?</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php' "><span>Go ! </span></button>
+                    <h3>Best Airport</h3>
+                    <p>수많은 항공사 중 여행객들이 추천하는 항공사는?</p>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Airport.php' "><span>Go ! </span></button>
                 </figcaption>
             </figure>
             <figure class="lulzmGrid col-sm">
                 <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-goodvalue.jpg);">
-                    <div class="lulzmGrid-label">Good Value</div>
+                <div class="lulzmGrid-img" style="background-image: url(img/main/main-banner.jpg);">
+                    <div class="lulzmGrid-label">2019 BEST</div>
                     <div class="lulzmGrid-img-cover"></div>
                 </div>
                 <!-- end Label -->
                 <figcaption>
-                    <h3>Good Value</h3>
-                    <p>가성비가 좋은 호텔! 여기 있습니다.</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php' "><span>Go ! </span></button>
+                    <h3>2019 BEST</h3>
+                    <p>
+                        <script>
+                            document.write(new Date().getFullYear() + '년 ');
+                            document.write((new Date().getMonth() + 1) + '월 ');
+                            document.write(new Date().getDate() + '일 ');
+                        </script>
+                        - Best를 알고 싶나요?
+                    </p>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='2019-best.php' "><span>Go ! </span></button>
                 </figcaption>
             </figure>
             <figure class="lulzmGrid col-sm">
                 <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-family.jpg);">
-                    <div class="lulzmGrid-label">Family</div>
+                <div class="lulzmGrid-img" style="background-image: url(img/our_team2.jpg);">
+                    <div class="lulzmGrid-label">Help Center</div>
                     <div class="lulzmGrid-img-cover"></div>
                 </div>
                 <!-- end Label -->
                 <figcaption>
-                    <h3>Family</h3>
-                    <p>가족들과 오붓한 시간을 보내시려고요?</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php' "><span>Go ! </span></button>
+                    <h3>Help Center</h3>
+                    <p>저희한테 궁금한 점이 있으신가요?</p>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='contact.php' "><span>Go ! </span></button>
                 </figcaption>
             </figure>
         </div>
-        <div class="row">
-            <figure class="lulzmGrid col-sm">
-                <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-small.jpg);">
-                    <div class="lulzmGrid-label">Small</div>
-                    <div class="lulzmGrid-img-cover"></div>
-                </div>
-                <!-- end Label -->
-                <figcaption>
-                    <h3>Small Hotel</h3>
-                    <p>작지만 행복을 만들기에는 충분합니다.</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php' "><span>Go ! </span></button>
-                </figcaption>
-            </figure>
-            <figure class="lulzmGrid col-sm">
-                <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-motel.jpg);">
-                    <div class="lulzmGrid-label">Motel</div>
-                    <div class="lulzmGrid-img-cover"></div>
-                </div>
-                <!-- end Label -->
-                <figcaption>
-                    <h3>Motel / B&B</h3>
-                    <p>숙소에 돈을 투자하고 싶지 않다고요?</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php' "><span>Go ! </span></button>
-                </figcaption>
-            </figure>
-            <figure class="lulzmGrid col-sm">
-                <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-inclusive.jpeg);">
-                    <div class="lulzmGrid-label">All inclusive Hotel</div>
-                    <div class="lulzmGrid-img-cover"></div>
-                </div>
-                <!-- end Label -->
-                <figcaption>
-                    <h3>All inclusive Hotel</h3>
-                    <p>Half Board : 하루에 두끼 제공(주로 조식,석식)<br>Full Board : 조식,중식,석식 하루 세끼 제공<br>All Inclusive : 조식,중식,석식 세끼와 함께 여러가지 제공</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php'"><span>Go ! </span></button>
-                </figcaption>
-            </figure>
-        </div>
-    </div>
-    <!-- end Category Grid -->
+    </div> <!-- end site category Grid -->
     <!-- start footer Area -->
     <?php
       include 'commonPHP/footer.php';
-   ?>
+    ?>
     <!-- End footer Area -->
     <!-- Script -->
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
