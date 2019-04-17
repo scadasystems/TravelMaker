@@ -32,7 +32,16 @@
     </div>
   </section>
   <!-- End banner Area -->
-
+<div id="go-slide"></div>
+  <!-- start Slider -->
+  <div class="ftext">
+    <p>전 세계 </p>
+    <p>
+      <span class="fword wisteria"> 레스토랑</span>
+      <span class="fword belize"> TOP15를 안내</span>
+    </p>
+    <p>합니다.</p>
+  </div>
   <!--start food-slider -->
    
     <div class="aos-item fslider-body">
@@ -103,25 +112,44 @@
         </div>
       </div>
     </div>
-
-    
     
     <!--end food-slider -->
     
   <!-- start food item-->
+    <h1 class="food-items">
+  <span>W</span>
+  <span>o</span>
+  <span>r</span>
+  <span>d</span>
+  <span>   </span>
+  <span>B</span>
+  <span>e</span>
+  <span>s</span>
+  <span>t</span>
+  <span>   </span>
+  <span>F</span>
+  <span>o</span>
+  <span>o</span>
+  <span>d</span>
+</h1>
+
+
+ 
+    
+    
  <div class="food-card">
    <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
       <div class="img img1"></div>
       <div class="info">
-        <h2>Super S</h2>
-        <p>A stand-on with an exceptional compact stance. Great for tight spaces and trailering.</p>
+        <h2>음식</h2>
+        <p>음식에 대한 간단한 소개</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>음식</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
@@ -130,15 +158,15 @@
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs><path d="M0 0h24v24H0V0z" id="a"/></defs><clipPath id="b"><use overflow="visible" xlink:href="#a"/></clipPath><path clip-path="url(#b)" d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/>
           </svg>
-          <p>23 Reviews</p>
+          <p>45 Reviews</p>
         </div>
         <ul>
-          <li>Manage backyard gates with ease with the 36" deck option</li>
+          <li>이 음식은 이곳 지역의 현지인들에게도 유명한 음식이며, 관광객들이 필수적으로 찾는 음식이다.</li>
           <li>Your choice of deck sizes ranging from 36", 48", 52" and 60"</li>
           <li>Updated hip bolstering offers superior operator comfort and positioning</li>
         </ul>
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 사이트 주소 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
       </div>
@@ -645,29 +673,32 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                    <a href="#" class="unit-1 text-center">
+                    <a href="Hotel.php" class="unit-1 text-center">
                         <img src="img/experience/01-greece.jpg" alt="Image" class="img-fluid">
                         <div class="unit-1-text">
-                            <strong class="text-primary mb-2 d-block">$590</strong>
-                            <h3 class="unit-1-heading">Santorini, Greece</h3>
+                            
+                            <h3 class="unit-1-heading">Hotel</h3>
+                            <strong>호텔 리스트를 원하시나요?</strong>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                    <a href="#" class="unit-1 text-center">
+                    <a href="experience.php" class="unit-1 text-center">
                         <img src="img/experience/02-rome.jpg" alt="Image" class="img-fluid">
                         <div class="unit-1-text">
-                            <strong class="text-primary mb-2 d-block">$390</strong>
-                            <h3 class="unit-1-heading">Rome, Italy</h3>
+                            
+                            <h3 class="unit-1-heading">Experience</h3>
+                            <strong> 다양한 경험을 쌓으시고 싶으신가요?</strong>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                    <a href="#" class="unit-1 text-center">
+                    <a href="Airport.php" class="unit-1 text-center">
                         <img src="img/experience/03-japan.jpg" alt="Image" class="img-fluid">
                         <div class="unit-1-text">
-                            <strong class="text-primary mb-2 d-block">$390</strong>
-                            <h3 class="unit-1-heading">Mount Fuji, Japan</h3>
+                            
+                            <h3 class="unit-1-heading">Airport</h3>
+                            <strong>항공사 정보를 원하시나요?</strong>
                         </div>
                     </a>
                 </div>

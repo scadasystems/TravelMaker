@@ -2,7 +2,7 @@
 <html class="no-js">
 <!-- Head -->
 <?php
-   include 'commonPHP/commonHead.php'
+   include '../commonPHP/commonHead.php'
 ?>
 
 <head>
@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <?php
-   include 'commonPHP/Header.php'
+  <?php
+   include '../commonPHP/Header.php'
   ?>
     <!-- end Header -->
     <!-- start banner Area -->
