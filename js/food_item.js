@@ -138,3 +138,65 @@ function transition() {
 cards.forEach(function (card) {
   return card.addEventListener('click', transition);
 });
+//end item
+
+
+//text
+var fwords = document.getElementsByClassName('fword');
+var fwordArray = [];
+var currentFword = 0;
+
+fwords[currentFword].style.opacity = 1;
+for (var i = 0; i < fwords.length; i++) {
+  splitLetters(fwords[i]);
+}
+
+function changeFword() {
+  var cw = fwordArray[currentFword];
+  var nw = currentFword == fwords.length - 1 ? fwordArray[0] : fwordArray[currentFword + 1];
+  for (var i = 0; i < cw.length; i++) {
+    animateLetterOut(cw, i);
+  }
+
+  for (var i = 0; i < nw.length; i++) {
+    nw[i].className = 'letter behind';
+    nw[0].parentElement.style.opacity = 1;
+    animateLetterIn(nw, i);
+  }
+
+  currentFword = (currentFword == fwordArray.length - 1) ? 0 : currentFword + 1;
+}
+
+function animateLetterOut(cw, i) {
+  setTimeout(function () {
+    cw[i].className = 'letter out';
+  }, 340+(i * 80));
+}
+
+function animateLetterIn(nw, i) {
+  setTimeout(function () {
+    nw[i].className = 'letter in';
+  }, i * 30);
+}
+
+function splitLetters(fword) {
+  var content = fword.innerHTML;
+  fword.innerHTML = '';
+  var letters = [];
+  for (var i = 0; i < content.length; i++) {
+    var letter = document.createElement('span');
+    letter.className = 'letter';
+    letter.innerHTML = content.charAt(i);
+    fword.appendChild(letter);
+    letters.push(letter);
+  }
+
+  fwordArray.push(letters);
+}
+
+changeFword();
+setInterval(changeFword, 1500);
+////////////////////////////////////
+
+
+
