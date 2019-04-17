@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 #item-list ul {
   padding: 0;
   margin: 20px 0;
@@ -251,8 +255,12 @@
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
-  color: #a2a2a2;
+  color: #fff;
   margin-top: 5px;
+  width: 50px;
+  padding: 5px 5px;
+  border-radius: 20px;
+  background-color: skyblue;
 }
 
 .blog-card .description .read-more {
