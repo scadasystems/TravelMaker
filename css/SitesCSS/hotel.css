@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Jua|Abril+Fatface|Black+Han+Sans|Do+Hyeon+Sans|Nanum+Gothic+Coding|Ubuntu|Sunflower:300');
-
+/** Google fonts **
+    font-family: 'Jua', sans-serif;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Sunflower', sans-serif;
+*/
 html,
 body {
   height: 100%;
@@ -762,6 +770,8 @@ body {
 /****************************
 *  Category Gird
 *****************************/
+.category-section {margin: 100px 0 50px 0}
+
 /* 더보기 버튼 */
 .lulzm-readmore-button {background-color: transparent; border: none; color: #ffffff; cursor: pointer; font-family: 'Poppins', Arial, sans-serif; font-size: 17.5px; font-weight: 500; line-height: 48px; margin: 15px 30px; outline: none; padding: 0 43px 0 0; position: relative; text-transform: uppercase;}
 .lulzm-readmore-button span {background-color: darkorange; border-radius: 5px 0 0 5px; padding: 10px 20px; -webkit-transition: all 0.15s ease-in; transition: all 0.15s ease-in;}
@@ -773,7 +783,7 @@ body {
 .category-title .blue {color: #0887AC;}
 .category-title .orange {color: #EC8C00;}
 .category-title .red {color: #C53B3B;}
-.category-title {margin: 0 auto; width: 1200px; height: 100px;}
+.category-title {margin: 0 auto; width: 1200px; height: 60px;}
 .flip-container {font-size: 3rem; box-sizing: border-box; font-family: Poppins, sans-serif;}
 
 .flip-container .flipper {
@@ -797,9 +807,9 @@ body {
 }
 .flip-container .flipper .word1,
 .flip-container .flipper .word2 {-webkit-backface-visibility: hidden; backface-visibility: hidden; left: 30%; position: absolute; letter-spacing: -0.05em;}
-.flip-container .flipper .word1 {-webkit-transform: translateX(-50%); transform: translateX(-50%); padding: 10px 20px;}
+.flip-container .flipper .word1 {-webkit-transform: translateX(-50%); transform: translateX(-50%);}
 .flip-container .flipper .word2 {-webkit-transform: translateX(-50%) rotateX(180deg); transform: translateX(-50%) rotateX(180deg); padding: 10px 20px;}
-.category-title .word3 {text-align: center; font-family: 'Nanum Gothic Coding', monospace; font-size: 4vh; font-weight: bold; margin-left: 40px;}
+.category-title .word3 {color: black; text-align: center; font-family: 'Nanum Gothic Coding', monospace; font-size: 4vh; font-weight: bold; margin-left: 40px;}
 
 @-webkit-keyframes rotate {
     0%, 30% {-webkit-transform: rotateX(0); transform: rotateX(0);}
@@ -817,7 +827,6 @@ figure.lulzmGrid:hover .lulzmGrid-img,
 figure.lulzmGrid:hover .lulzmGrid-img-cover,
 figure.lulzmGrid:hover .lulzmGrid-label {-webkit-transform: rotateX(-100deg) translateY(50%) scale(0.5); transform: rotateX(-100deg) translateY(50%) scale(0.5); opacity: 0; -webkit-transition-delay: 0; transition-delay: 0;}
 
-
 /* 카테고리 그리드뷰 */
 figure.lulzmGrid {position: relative; overflow: hidden; margin: 10px; width: 100%; color: #000; text-align: left; font-size: 16px; -webkit-perspective: 10em; perspective: 170em;}
 figure.lulzmGrid * {-webkit-box-sizing: border-box; box-sizing: border-box;}
@@ -829,4 +838,12 @@ figure.lulzmGrid p {font-size: 0.8em; font-weight: 500; margin: 0 0 15px;}
 figure.lulzmGrid:hover img {-webkit-transform: rotateX(-100deg) translateY(50%) scale(0.5); transform: rotateX(-100deg) translateY(50%) scale(0.5); opacity: 0; -webkit-transition-delay: 0; transition-delay: 0;}
 figure.lulzmGrid:hover figcaption {-webkit-transform: rotateX(0deg) translateY(-50%) scale(1); transform: rotateX(0deg) translateY(-50%) scale(1); opacity: 1; -webkit-transition-delay: 0.5s; transition-delay: 0.5s; border: 1px solid orange; border-radius: 20px; padding: 30px 0 50px 30px}
 
+/* 사이트 카테고리 그리드뷰 라벨 */
+.header.wrap {margin: 0 auto; width: 90%; padding-top: 20px; padding-bottom: 50px;}
+.header.wrap h2 {font-size: 4vh; margin-top: 30px; text-align: center;}
+.header.wrap h2.background {position: relative; z-index: 1;}
+.header.wrap h2.background:before {border-top: 2px solid #dfdfdf;content: ""; margin: 0 auto; position: absolute; top: 50%; left: 0; right: 0; bottom: 0; width: 95%; z-index: -1;}
+.header.wrap h2.background span {font-family: 'Jua', sans-serif; background: #fff; padding: 0 15px;}
+.header.wrap h2.double:before {border-top: none;}
+.header.wrap h2.double:after {border-bottom: 1px solid yellow; -webkit-box-shadow: 0 1px 0 0 red; -moz-box-shadow: 0 1px 0 0 red; box-shadow: 0 1px 0 0 red; content: ""; margin: 0 auto; position: absolute; top: 45%; left: 0; right: 0; width: 95%; z-index: -1;}
 
