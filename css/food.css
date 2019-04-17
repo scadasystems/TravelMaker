@@ -18,6 +18,8 @@ svg {
 	min-height: 24px;
 }
 
+.site-link{ margin-bottom: 10vh;}
+
 .food-card{
      display: flex;
   align-items: center;
@@ -1038,3 +1040,7 @@ svg {
   }
 }
 
+
+.site-link {
+    
+}
