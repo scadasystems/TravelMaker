@@ -278,6 +278,9 @@ body{
   border: 2px solid #5ad67d;
   font-weight: bolder;
 }
+.description p{
+  font-weight: bold;
+}
 
 .blog-card .description .read-more a:after {
   content: "\f061";
