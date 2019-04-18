@@ -11,8 +11,8 @@
 
 <body>
     <?php
-   include 'commonPHP/Header.php'
-  ?>
+       include 'commonPHP/Header.php'
+    ?>
     <!-- end Header -->
     <!-- start banner Area -->
     <section class="about-banner relative">
@@ -42,6 +42,7 @@
                             document.write(new Date().getFullYear() + '년 ');
                             document.write((new Date().getMonth() + 1) + '월 ');
                             document.write(new Date().getDate() + '일 ');
+
                         </script>
                         까지<br>전 세계 여행자들이 추천한 여행지를 보여드립니다~
                     </p>
@@ -538,6 +539,7 @@
                             document.write(new Date().getFullYear() + '년 ');
                             document.write((new Date().getMonth() + 1) + '월 ');
                             document.write(new Date().getDate() + '일 ');
+
                         </script>
                         - Best를 알고 싶나요?
                     </p>
