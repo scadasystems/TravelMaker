@@ -112,7 +112,7 @@ body{
 }
 
 .euro {
-  background: url("../img/Airport/airline_logos/eurofly.png") top left no-repeat;
+  background: url("../img/Airport/airline_logos/japan.png") top left no-repeat;
 }
 
 .finnair {
@@ -268,14 +268,15 @@ body{
 }
 
 .blog-card .description .read-more a {
-  color: #5ad67d;
+  color: #fff;
   display: inline-block;
   position: relative;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: #5ad67d;
   height: 30px;
   padding: 5px;
   border: 2px solid #5ad67d;
+  font-weight: bolder;
 }
 
 .blog-card .description .read-more a:after {
