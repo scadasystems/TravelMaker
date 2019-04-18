@@ -42,7 +42,7 @@ class CitiesSlider extends React.Component {
     const { activeSlide, prevSlide, sliderReady } = this.state;
     return (
       React.createElement("div", { className: classNames('slider', { 's--ready': sliderReady }) },
-      React.createElement("p", { className: "slider__top-heading" }, "Experience TOP 15"),
+      React.createElement("p", { className: "slider__top-heading" }, "세계의 다양한 경험"),
       React.createElement("div", { className: "slider__slides" },
       this.props.slides.map((slide, index) =>
       React.createElement("div", {
@@ -76,32 +76,33 @@ class CitiesSlider extends React.Component {
 const slides = [
 {
   city: 'Paris',
-  country: 'France',
+  country: '프랑스',
   img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/paris.jpg' },
 {
-  city: '안녕하세요',
-  country: '대한민국',
-  img: 'https://media-cdn.tripadvisor.com/media/photo-s/05/f9/ab/f9/bayon-temple.jpg' },
+  city: 'Geneva City',
+  country: '스위스',
+  img: 'https://www.10wallpaper.com/wallpaper/1366x768/1303/switzerland_lake_geneva_city-World_Travel_HD_photography_Wallpaper_1366x768.jpg' },
 {
-  city: 'Singapore',
+  city: 'Marina Bay Sands',
+  country: '싱가포르',
   img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg' },
 {
-  city: '왜안돼',
-  country: '대한민국',
-  img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/paris.jpg' },
+  city: 'Venezia',
+  country: '이탈리아',
+  img: 'https://www.10wallpaper.com/wallpaper/1366x768/1303/venice_italy_river_building-World_Travel_HD_photography_Wallpaper_1366x768.jpg' },
 {
   city: 'Prague',
-  country: 'Czech Republic',
+  country: '체코',
   img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg' },
 
 {
   city: 'Amsterdam',
-  country: 'Netherlands',
+  country: '네덜란드',
   img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg' },
 
 {
   city: 'Moscow',
-  country: 'Russia',
+  country: '러시아',
   img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg' }];
 
 

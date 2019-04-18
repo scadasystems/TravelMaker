@@ -1,16 +1,4 @@
-/**
- * demo.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2018, Codrops
- * http://www.codrops.com
- */
 {
-	// Calculates the offsetTop or offsetLeft of an element relative to the viewport 
-	// (not counting with any transforms the element might have)
 	const getOffset = (elem, axis) => {
 		let offset = 0;
 		const type = axis === 'top' ? 'offsetTop' : 'offsetLeft';
@@ -22,11 +10,9 @@
 		} while( elem = elem.offsetParent );
 		return offset;
 	}
-	// Calculates the distance between two points.
 	const distance = (p1,p2) => Math.hypot(p2.x-p1.x, p2.y-p1.y);
-	// Generates a random number.
 	const randNumber = (min,max) => Math.floor(Math.random() * (max - min + 1)) + min;
-	// Gets the mouse position. From http://www.quirksmode.org/js/events_properties.html#position
+
 	const getMousePos = (e) => {
 		let posx = 0;
 		let posy = 0;
@@ -50,7 +36,7 @@
 		values = values.split(',');
 		return Math.round(Math.asin(values[1]) * (180/Math.PI));
 	};
-	// Scroll control functions. Taken from https://stackoverflow.com/a/4770179.
+	// Scroll control functions. Taken from 
 	const keys = {37: 1, 38: 1, 39: 1, 40: 1};
 	const preventDefault = (e) => {
 		e = e || window.event;
@@ -113,19 +99,7 @@
             this.initEvents();
 		}
 		initEvents() {
-			/**
-			 * Mouseenter: 
-			 * - Scale up the DOM.bg element.
-			 * - Animate the number letters.
-			 * 
-			 * Mousemove: 
-			 * - tilt - move both the number, image and title elements. 
-			 * 
-			 * 
-			 * Mouseleave: 
-			 * - Scale down the DOM.bg element.
-			 * - Animate the number letters.
-			 */
+
 			this.toggleAnimationOnHover = (type) => {
 				// Scale up the bg element.
 				TweenMax.to(this.DOM.bg, 1, {
@@ -537,7 +511,7 @@
 		var msnry = new Masonry( grid.DOM.el, {
 			// options
 			itemSelector: '.grid__item',
-			columnWidth: 260,
+			columnWidth: 280,
 			gutter: 100,
 			fitWidth: true
 		});

@@ -3,10 +3,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 *::after,
 *::before {
 	box-sizing: border-box;
+    
 }
 
 body {
-	--color-text: #4800d4;
+	--color-text: #4800d4!important;
     --color-bg: #e8e8e8;
     --color-link: #ec1752;
     --color-link-hover: #eb1851;
@@ -207,7 +208,7 @@ main {
 }
 
 .grid__item:nth-child(even) .grid__item-img {
-	transform: rotate3d(0,0,1,4deg);
+	transform: rotate3d(0,0,1,2deg);
 }
 
 .grid__item:nth-child(odd) .grid__item-img {
@@ -215,11 +216,13 @@ main {
 }
 
 .grid__item-title {
+    font-family: 'Jua', sans-serif;
 	font-weight: normal;
 	position: absolute;
 	left: 0;
 	top: 0;
 	margin: 0 0 0 1rem;
+    font-size: 2rem;
 	-webkit-writing-mode: vertical-rl;
 	writing-mode: vertical-rl;
 	transform: rotate(180deg);
@@ -227,11 +230,12 @@ main {
 }
 
 .grid__item-number {
+    font-family: 'Jua', sans-serif;
 	font-weight: bold;
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	font-size: 2.65rem;
+	font-size: 2.5vw;
 	margin: 0 0 0.15rem;
 }
 
@@ -417,7 +421,6 @@ main {
 		font-size: 3vw;
 	}
 	.content__item-text {
-  		column-count: 2;
   		column-gap: 20px;
   	}
 	.content__item-img {
