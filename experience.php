@@ -449,7 +449,7 @@
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/charming.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
-    <script src="js/demo.js"></script>
+    <script src="js/cardView.js"></script>
 
 
 
