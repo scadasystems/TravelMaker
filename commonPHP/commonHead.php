@@ -1,5 +1,5 @@
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
   <link rel="shortcut icon" href="img/fav.png">
   <meta charset="UTF-8">
   <title>Travel Maker</title>

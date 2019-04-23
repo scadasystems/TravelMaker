@@ -34,9 +34,9 @@
         <div class="container-fluid">
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="header-right col-lg-6 col-md-6">
-                    <h1>
-                        베스트 호텔 <br>Top 20<br>in the world
-                    </h1>
+                    <h1>베스트 호텔</h1>
+                    <h1>Top 20</h1>
+                    <h1>in the world</h1>
                     <p class="pt-20">
                         <script>
                             document.write(new Date().getFullYear() + '년 ');
