@@ -3,13 +3,11 @@ window.addEventListener('scroll', function () {
     var app_position = $('.intro').offset().top;
     var card_position = $('#app').offset().top;
 
-    if (window.scrollY >= app_position) { 
+    if (window.scrollY >= 800) { 
         el.classList.add('shown'), el.classList.add('animated'), el.classList.add('lightSpeedIn');
-    } else if (window.scrollY >= card_position) {
-        el.classList.add('shown');
     }
 });
-
+//app_position
 
 
 //var text = $(".split");
