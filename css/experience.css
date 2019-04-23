@@ -60,7 +60,7 @@
 .slider__slide.s--active .slider__slide-part-inner {-webkit-transform: translateX(0);transform: translateX(0);transition-timing-function: ease;}
 .slider__slide.s--active .slider__slide-part-inner:before {opacity: 1;}
 .slider__control {z-index: 100;position: absolute;left: 50px;top: 50%;width: 50px;height: 50px;margin-top: -25px;border-radius: 50%;background: rgba(255, 255, 255, 0.4);-webkit-transform: translateX(-50px);transform: translateX(-50px);opacity: 0;transition: all 0.5s 1s;cursor: pointer;}
-.slider__control:before {content: '';position: absolute;left: 50%;top: 50%;width: 20px;height: 20px;margin-left: -10px;margin-top: -10px;border: 2px solid #000;border-bottom: none;border-right: none;-webkit-transform:translateX(5px) rotate(-45deg);transform: translateX(5px) rotate(-45deg);}
+.slider__control:before {content: '';position: absolute;left: 50%;top: 50%;width: 20px;height: 20px;margin-left: -10px;margin-top: -10px;border: 2px solid #000; opacity: 0.4; border-bottom: none;border-right: none;-webkit-transform:translateX(5px) rotate(-45deg);transform: translateX(5px) rotate(-45deg);}
 .slider__control--right {left: auto;right: 50px;-webkit-transform: translateX(50px);transform: translateX(50px);}
 .slider__control--right:before {-webkit-transform: translateX(-5px) rotate(135deg);transform: translateX(-5px) rotate(135deg);}
 .slider.s--ready .slider__control {-webkit-transform: translateX(0);transform: translateX(0);opacity: 1;}
@@ -80,8 +80,8 @@
 
 .intro_img{position: absolute;}
 .intro_img img{max-width: 100%;}
-.intro_1{top: 0;right: 0; -webkit-transition:all .2s ease-in-out;}
-.intro_images:hover .intro_1{-webkit-transform:rotate(-20deg);}
+.intro_1{top: 0;right: 0; -webkit-transition:all .2s ease-in-out; animation: show 5s linear;}
+.intro_images:hover .intro_1{-webkit-transform:rotate(-20deg); }
 .intro_2{bottom: 0;right: 98px;box-shadow: 0px 23px 35px rgba(4,4,4,0.54);-webkit-transition:all .2s ease-in-out;}
 .intro_images:hover .intro_2{-webkit-transform:rotate(-20deg);}
 .intro_3{top: 51px;left: 0;box-shadow: 0px 23px 35px rgba(4,4,4,0.54);-webkit-transition:all .2s ease-in-out;}

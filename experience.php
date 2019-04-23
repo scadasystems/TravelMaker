@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="css/base.css" />
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/modal-video.min.css">
 <script src="js/textAnimated.js"></script>
 
 <!--  Card View  -->
@@ -67,10 +68,10 @@
 
                 <!-- Intro Image -->
                 <div class="col-lg-7 intro_col">
-                    <div class="intro_images magic_up">
-                        <div class="intro_1 intro_img"><img src="https://colorlib.com/preview/theme/samira/images/intro_3.jpg" alt=""></div>
-                        <div class="intro_2 intro_img"><img src="https://colorlib.com/preview/theme/samira/images/intro_2.jpg" alt=""></div>
-                        <div class="intro_3 intro_img"><img src="https://colorlib.com/preview/theme/samira/images/intro_1.jpg" alt=""></div>
+                    <div class="intro_images magic_up" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/5fjQg6XlO0o">
+                        <div class="intro_1 intro_img"><img src="img/experience/image1.jpg" alt=""></div>
+                        <div class="intro_2 intro_img"><img src="img/experience/image3.jpg" alt=""></div>
+                        <div class="intro_3 intro_img"><img src="img/experience/image2.jpg" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -428,13 +429,26 @@
     <!-- End footer Area -->
 
     <!-- Script -->
-    <script src="js/experience_siler.js"></script>
+    <script src="js/experience_slider.js"></script>
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
     <script src="js/hoverIntent.js"></script>
     <script src="js/superfish.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    
+    <!--   modalVideo   -->
+    <script src="js/jquery-modal-video.min.js"></script>
+    <script>
+        $(".intro_images").modalVideo({
+            channel: 'youtube',
+                youtube:{
+                 autoplay:1,
+                 controls:0,
+                 nocookie: true
+              }
+        });
+   </script>
 
     <!-- CardView -->
     <script src="js/imagesloaded.pkgd.min.js"></script>
