@@ -7,7 +7,7 @@
 ::-ms-input-placeholder {color: #777777; font-weight: 300;}
 
 
-body {color: #777777; font-family: "Poppins", sans-serif; font-size: 14px; font-weight: 300; line-height: 1.625em; position: relative;}
+body {color: #777777; font-family: "Poppins", sans-serif !important; font-size: 14px !important; font-weight: 300 !important; line-height: 1.625em !important; position: relative !important;}
 ol, ul {margin: 0; padding: 0; list-style: none;}
 select {display: block;}
 figure {margin: 0;}
@@ -2030,80 +2030,3 @@ body.mobile-nav-active #mobile-nav-toggle {color: #fff;}
 .main-sub-write {
    font-family: 'Jua', sans-serif;
 }
-
-
-
-/*
-*
-*    Other Pages
-*
-*
-*/
-
-<<<<<<< HEAD
-/* =================================== */
-/*  Hotel.php
-/* =================================== */
-.link-nav {margin-top: 10px; margin-bottom: 0px;}
-.about-banner {background: url(../img/Hotel/hotels-main.jpg) center; background-size: cover;}
-.about-banner .overlay-bg {background: rgba(4, 9, 30, 0.4);}
-.about-content {margin-top: 70px; padding: 90px 0px; text-align: center;}
-@media (max-width: 767px) {
-  .about-content {margin-top: 70px;}
-}
-.about-content h1 {font-size: 48px; font-weight: 600;}
-.about-content a {color: #fff; font-weight: 300; font-size: 14px;}
-.about-content .lnr {margin: 0px 10px; font-weight: 600;}
-
-
-
-
-
-
-
-
-
-
-/* =================================== */
-/*  Experience.php
-/* =================================== */
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> master
-
-/* =================================== */
-/*  Food.php
-/* =================================== */
-.Food-banner {background: url(../img/Food/Food-banner.png) center; background-size: cover;}
-
-
-
-
-
-
-
-
-
-
-/* =================================== */
-/*  Airport.php
-/* =================================== */
-.Airport-banner {background: url(../img/Airport/airport.jpg) center; background-size: cover;}
-
-
-
-
-
-
-
-
