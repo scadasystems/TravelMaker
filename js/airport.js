@@ -7,10 +7,6 @@ $(document).ready(function () {
     });
   });
 
-  $('.pagination-inner a').on('click', function () {
-    $(this).siblings().removeClass('pagination-active');
-    $(this).addClass('pagination-active');
-  })
   
   var $fslider = $(".fslider"),
       $fslideBGs = $(".fslide__bg"),
