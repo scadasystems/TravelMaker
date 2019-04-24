@@ -57,12 +57,11 @@
                 <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
               </svg>
               <div class="fslide__text">
-                <h2 class="fslide__text-heading">정보 보안이란?</h2>
+                <h2 class="fslide__text-heading">1. Odette</h2>
                 <p class="fslide__text-desc" style="color: white">
-                  정보의 수집, 가공, 저장, 검색, 송신, 수신 도중에 정보의 훼손, 변조, 유출 등을 방지하기 위한 관리적, 기술적 방법을 의미한다. 정보 보호란 정보를 제공하는 공급자 측면과 사용자 측면에서 이해할 수 있다. <br>
-                  정보를 보호하고 보안을 유지하는 것을 말하며 정보보안과 동의어로 쓰이곤 한다. 정보의 흐름 전체의 보호를 망라하는 개념이다. 범주로 나누어 물리적 보호, 기술적 보호, 관리적 보호로 나눌 수있다.
+                  Odette는 상대적으로 겸손한 싱가포르의 신중한 레스토랑으로 남아 있습니다. 또한 세계에서 가장 훌륭한 식사 경험 중 하나를 제공하며, 맹렬한 근대성을 지닌 전통과 고풍스런 맛을 지닌 철학적 개념, 대담하고 따뜻한 감동을 결합합니다.
                 </p>
-                <a href="https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B4_%EB%B3%B4%EC%95%88" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+                <a href="http://www.odetterestaurant.com/?utm_source=tripadvisor&utm_medium=referral" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
               </div>
             </div>
           </div>
@@ -73,9 +72,9 @@
                 <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
               </svg>
               <div class="fslide__text">
-                <h2 class="fslide__text-heading">해킹이란?</h2>
-                <p class="fslide__text-desc" style="color: white">해킹(hacking)은 전자 회로나 컴퓨터의 하드웨어, 소프트웨어, 네트워크, 웹사이트 등 각종 정보 체계가 본래의 설계자나 관리자, 운영자가 의도하지 않은 동작을 일으키도록 하거나 체계 내에서 주어진 권한 이상으로 정보를 열람, 복제, 변경 가능하게 하는 행위를 광범위하게 이르는 말이다.</p>
-                <a href="https://ko.wikipedia.org/wiki/%ED%95%B4%ED%82%B9" target="_blank" class="fslide__text-link" style="color: white; cursor: none">Read More</a>
+                <h2 class="fslide__text-heading">2. Gaggan</h2>
+                <p class="fslide__text-desc" style="color: white">Gaggan 레스토랑은 놀랍고 풍미가 깊은 요리로 방콕에서 유명한 레스토랑이며, 향후 2020 년에 개간을 마친 후, 후쿠오카 (일본)로 이동하여 La Maison de la Nature Goh의 동료 요리사 Takeshi Fukuyama와 함께 10 석의 레스토랑을 오픈 할 계획이랍니다 그전에 가보시는건 어떨까요?</p>
+                <a href="http://www.eatatgaggan.com/" target="_blank" class="fslide__text-link" style="color: white; cursor: none">Read More</a>
               </div>
             </div>
           </div>
@@ -86,11 +85,11 @@
                 <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
               </svg>
               <div class="fslide__text">
-                <h2 class="fslide__text-heading">컴퓨터 바이러스란?</h2>
+                <h2 class="fslide__text-heading">3. Den</h2>
                 <p class="fslide__text-desc" style="color: white">
-                  컴퓨터 바이러스(computer virus, 문화어: 콤퓨터 비루스)는 스스로를 복제하여 컴퓨터를 감염시키는 컴퓨터 프로그램이다. 복제 기능이 없는 다른 종류의 악성 코드, 애드웨어, 스파이웨어와 혼동하여 잘못 쓰이는 경우도 있다. 바이러스는 한 컴퓨터에서 다른 컴퓨터로(일부 형식의 실행 코드로) 확산할 수 있다. 바이러스는 네트워크 파일 시스템이나, 다른 컴퓨터를 통해 접근하는 파일 시스템 상의 파일을 감염시킴으로써 다른 컴퓨터로의 확산 가능성을 높일 수 있다.
+                  관광객들에 고향의 맛은 각각 다르지만 부드럽고 매일 먹고 싶어지는 맛을 여행객들에게 전함으로써 레스토랑 랭킹 3위를 달리고 있습니다. 
                 </p>
-                <a href="https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+                <a href="https://www.jimbochoden.com/" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
               </div>
             </div>
           </div>
@@ -101,11 +100,176 @@
                 <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
               </svg>
               <div class="fslide__text">
-                <h2 class="fslide__text-heading">컴퓨터 백신이란?</h2>
+                <h2 class="fslide__text-heading">4. Sühring</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  아름답게 복원 된 타운 하우스의 현대 독일 음식 및 제철 재료와 많은 양의 기술을 사용하여 쌍둥이 인 Thomas와 Mathias Sühring은 본국에서 영감을 얻은 제철 요리의 시식 메뉴를 제공합니다. 수링 (Sühring)은 2017 년 아시아 최고의 레스토랑 50 위 중 두 번째로 높은 순위에 올랐으며 2 년 연속 4 위를 유지했다
+                </p>
+                <a href="http://www.restaurantsuhring.com/" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+            <div class="fslide fslide-4">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">5. Florilège</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  떠오르는 별 요리사가 독창적 인 프랑스 요리로 군중 가운데 서 있습니다.꼭 먹어야 할 요리에는 녹색 호랑이 새우, 오리와 옥살류, 비둘기로 채워진 만주족 만두와 포트 와인 조림 등이 있습니다. 이 레스토랑은 2016 년 One To Watch 상을 처음 수상했으며 지난 2 년간 아시아 최고의 레스토랑 50 개 목록 중 5 위 안에 머물렀다.
+                </p>
+                <a href="http://www.aoyama-florilege.jp/" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+            <div class="fslide fslide-5">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">6. Ultraviolet by Paul Pairet</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  식사와 환대가 예술로 만들어진 상하이 미식 핫스팟. Paul Pairet의 자외선은 세계에서 가장 전위가 많은 레스토랑 경험으로 여겨집니다. 앞서 언급 한 프랑스 주방장 인 Ultraviolet은 밤 10 명 정도의 손님으로 열리 며 비밀의 도시 지역에서 최고의 식사를 경험할 수 있습니다.
+                </p>
+                <a href="http://uvbypp.cc/" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+            <div class="fslide fslide-6">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">7. Mume</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  유럽의 기법은 접시에 식용 예술을 만들기 위해 대만 재료를 만난다. 농부, 어부 및 지역 식품 생산자들과 긴밀히 협력하여 지역 식량 공급망을 지원하고 수입 제품의 탄소 발자국을 줄이기 위해 제품의 아름다움을 선보입니다.
+                </p>
+                <a href="http://www.mume.tw" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+            <div class="fslide fslide-7">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">8. Narisawa</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  세계적으로 유명한 일식 요리사의 혁신적인 사토 야마 요리.<br>2018 년 나리사와 (Narisawa) 요리사는 아시아 50 대 레스토랑 목록에서 동료들의 투표로 선정 된 Chef 's Choice Award에 대한 찬사를 보냈습니다.
+                </p>
+                <a href="http://www.narisawa-yoshihiro.com/" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+            <div class="fslide fslide-8">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">9. Nihonryori RyuGin</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  일본 가이세키 왕이 계절의 재료를 작은 예술 작품으로 승화시킵니다. 야마모토 세이지 (Seiji Yamamoto) 요리사가 아메리칸 익스프레스 아이콘 상을 수상한 최초의 상인으로 2019 년 아시아 50 대 레스토랑에 처음으로 선정되었으며 10 년 이상 일본의 미식가 중 한 명이었던 사람에게 경의를 표하는 찬사를 보냈습니다.
+                </p>
+                <a href="http://www.nihonryori-ryugin.com/" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+            <div class="fslide fslide-9">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">10. Burnt Ends</h2>
                 <p class="fslide__text-desc" style="color: white">
                   바이러스 검사 소프트웨어(문화어: 비루스 검사 쏘프트웨어, 비루스방역프로그람) 또는 안티바이러스 소프트웨어(영어: antivirus software) 은 악성 소프트웨어를 찾아내서 제거하는 기능을 갖춘 컴퓨터 프로그램이다. 대한민국에서는 이를 지칭하는데 백신 프로그램 이라는 말이 일상용어로 사용되고 있다. 한국에서 백신이라는 용어는 V3의 초기 버전인 Vaccine(=V1), V2, V2PLUS로 인해 대중적인 용어가 되었다. 원래 목적은 바이러스만 잡는 것이었으나, 현대에는 악성코드, 피싱 공격, 트로이 목마, 웜 등도 검출한다.
                 </p>
-                <a href="https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4_%EA%B2%80%EC%82%AC_%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+                <a href="http://www.burntends.com.sg/" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+            <div class="fslide fslide-10">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">11. The Chairman</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  바이러스 검사 소프트웨어(문화어: 비루스 검사 쏘프트웨어, 비루스방역프로그람) 또는 안티바이러스 소프트웨어(영어: antivirus software) 은 악성 소프트웨어를 찾아내서 제거하는 기능을 갖춘 컴퓨터 프로그램이다. 대한민국에서는 이를 지칭하는데 백신 프로그램 이라는 말이 일상용어로 사용되고 있다. 한국에서 백신이라는 용어는 V3의 초기 버전인 Vaccine(=V1), V2, V2PLUS로 인해 대중적인 용어가 되었다. 원래 목적은 바이러스만 잡는 것이었으나, 현대에는 악성코드, 피싱 공격, 트로이 목마, 웜 등도 검출한다.
+                </p>
+                <a href="http://www.thechairmangroup.com/" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+            <div class="fslide fslide-11">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">12. Otto e Mezzo Bombana</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  바이러스 검사 소프트웨어(문화어: 비루스 검사 쏘프트웨어, 비루스방역프로그람) 또는 안티바이러스 소프트웨어(영어: antivirus software) 은 악성 소프트웨어를 찾아내서 제거하는 기능을 갖춘 컴퓨터 프로그램이다. 대한민국에서는 이를 지칭하는데 백신 프로그램 이라는 말이 일상용어로 사용되고 있다. 한국에서 백신이라는 용어는 V3의 초기 버전인 Vaccine(=V1), V2, V2PLUS로 인해 대중적인 용어가 되었다. 원래 목적은 바이러스만 잡는 것이었으나, 현대에는 악성코드, 피싱 공격, 트로이 목마, 웜 등도 검출한다.
+                </p>
+                <a href="http://www.ottoemezzobombana.com/" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+            <div class="fslide fslide-12">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">13. Mingles</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  바이러스 검사 소프트웨어(문화어: 비루스 검사 쏘프트웨어, 비루스방역프로그람) 또는 안티바이러스 소프트웨어(영어: antivirus software) 은 악성 소프트웨어를 찾아내서 제거하는 기능을 갖춘 컴퓨터 프로그램이다. 대한민국에서는 이를 지칭하는데 백신 프로그램 이라는 말이 일상용어로 사용되고 있다. 한국에서 백신이라는 용어는 V3의 초기 버전인 Vaccine(=V1), V2, V2PLUS로 인해 대중적인 용어가 되었다. 원래 목적은 바이러스만 잡는 것이었으나, 현대에는 악성코드, 피싱 공격, 트로이 목마, 웜 등도 검출한다.
+                </p>
+                <a href="http://www.restaurant-mingles.com/" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+            <div class="fslide fslide-13">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">14. La Cime</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  바이러스 검사 소프트웨어(문화어: 비루스 검사 쏘프트웨어, 비루스방역프로그람) 또는 안티바이러스 소프트웨어(영어: antivirus software) 은 악성 소프트웨어를 찾아내서 제거하는 기능을 갖춘 컴퓨터 프로그램이다. 대한민국에서는 이를 지칭하는데 백신 프로그램 이라는 말이 일상용어로 사용되고 있다. 한국에서 백신이라는 용어는 V3의 초기 버전인 Vaccine(=V1), V2, V2PLUS로 인해 대중적인 용어가 되었다. 원래 목적은 바이러스만 잡는 것이었으나, 현대에는 악성코드, 피싱 공격, 트로이 목마, 웜 등도 검출한다.
+                </p>
+                <a href="http://www.la-cime.com/" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
+              </div>
+            </div>
+          </div>
+            <div class="fslide fslide-14">
+            <div class="fslide__bg"></div>
+            <div class="fslide__content">
+              <svg class="fslide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="fslide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="fslide__text">
+                <h2 class="fslide__text-heading">15. Belon</h2>
+                <p class="fslide__text-desc" style="color: white">
+                  바이러스 검사 소프트웨어(문화어: 비루스 검사 쏘프트웨어, 비루스방역프로그람) 또는 안티바이러스 소프트웨어(영어: antivirus software) 은 악성 소프트웨어를 찾아내서 제거하는 기능을 갖춘 컴퓨터 프로그램이다. 대한민국에서는 이를 지칭하는데 백신 프로그램 이라는 말이 일상용어로 사용되고 있다. 한국에서 백신이라는 용어는 V3의 초기 버전인 Vaccine(=V1), V2, V2PLUS로 인해 대중적인 용어가 되었다. 원래 목적은 바이러스만 잡는 것이었으나, 현대에는 악성코드, 피싱 공격, 트로이 목마, 웜 등도 검출한다.
+                </p>
+                <a href="http://belonsoho.com/" target="_blank" class="fslide__text-link" style="color: white; cursor: none;">Read More</a>
               </div>
             </div>
           </div>

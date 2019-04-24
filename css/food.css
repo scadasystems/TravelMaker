@@ -323,7 +323,7 @@ svg {
 }
 .fslide:nth-child(1) .fslide__bg {
   left: 0;
-  background-image: url("../img/bg-img/fslide02.jpg");
+  background-image: url("../img/Food/top1.jpg");
 }
 .fslide:nth-child(1) .fslide__overlay-path {
   fill: gray;
@@ -338,14 +338,14 @@ svg {
 }
 .fslide:nth-child(2) .fslide__bg {
   left: -50%;
-  background-image: url("../img/bg-img/fslide01.jpg");
+  background-image: url("../img/Food/top2.jpg");
 }
 .fslide:nth-child(2) .fslide__overlay-path {
-  fill: slategray;
+  fill: gray;
 }
 @media (max-width: 991px) {
   .fslide:nth-child(2) .fslide__text {
-    background-color: rgba(225, 204, 174, 0.8);
+    background-color: rgba(233, 156, 126, 0.8);
   }
 }
 .fslide:nth-child(3) {
@@ -353,14 +353,14 @@ svg {
 }
 .fslide:nth-child(3) .fslide__bg {
   left: -100%;
-  background-image: url("../img/bg-img/fslide03.jpg");
+  background-image: url("../img/Food/top3.jpg");
 }
 .fslide:nth-child(3) .fslide__overlay-path {
-  fill: darkcyan;
+  fill: gray;
 }
 @media (max-width: 991px) {
   .fslide:nth-child(3) .fslide__text {
-    background-color: rgba(173, 197, 205, 0.8);
+    background-color: rgba(233, 156, 126, 0.8);
   }
 }
 .fslide:nth-child(4) {
@@ -371,13 +371,164 @@ svg {
   background-image: url("../img/bg-img/fslide04.jpg");
 }
 .fslide:nth-child(4) .fslide__overlay-path {
-  fill: mediumslateblue;
+  fill: gray;
 }
 @media (max-width: 991px) {
   .fslide:nth-child(4) .fslide__text {
-    background-color: rgba(203, 198, 195, 0.8);
+    background-color: rgba(233, 156, 126, 0.8);
   }
 }
+.fslide:nth-child(5) {
+  left: 400%;
+}
+.fslide:nth-child(5) .fslide__bg {
+  left: -200%;
+  background-image: url("../img/bg-img/fslide04.jpg");
+}
+.fslide:nth-child(5) .fslide__overlay-path {
+  fill: gray;
+}
+@media (max-width: 991px) {
+  .fslide:nth-child(5) .fslide__text {
+    background-color: rgba(233, 156, 126, 0.8);
+  }
+}
+.fslide:nth-child(6) {
+  left: 500%;
+}
+.fslide:nth-child(6) .fslide__bg {
+  left: -250%;
+  background-image: url("../img/bg-img/fslide04.jpg");
+}
+.fslide:nth-child(6) .fslide__overlay-path {
+  fill: gray;
+}
+@media (max-width: 991px) {
+  .fslide:nth-child(6) .fslide__text {
+    background-color: rgba(233, 156, 126, 0.8);
+  }
+}
+.fslide:nth-child(7) {
+  left: 600%;
+}
+.fslide:nth-child(7) .fslide__bg {
+  left: -300%;
+  background-image: url("../img/bg-img/fslide04.jpg");
+}
+.fslide:nth-child(7) .fslide__overlay-path {
+  fill: gray;
+}
+@media (max-width: 991px) {
+  .fslide:nth-child(7) .fslide__text {
+    background-color: rgba(233, 156, 126, 0.8);
+  }
+}
+.fslide:nth-child(8) {
+  left: 700%;
+}
+.fslide:nth-child(8) .fslide__bg {
+  left: -350%;
+  background-image: url("../img/bg-img/fslide04.jpg");
+}
+.fslide:nth-child(8) .fslide__overlay-path {
+  fill: gray;
+}
+@media (max-width: 991px) {
+  .fslide:nth-child(8) .fslide__text {
+    background-color: rgba(233, 156, 126, 0.8);
+  }
+}
+.fslide:nth-child(9) {
+  left: 800%;
+}
+.fslide:nth-child(9) .fslide__bg {
+  left: -400%;
+  background-image: url("../img/bg-img/fslide04.jpg");
+}
+.fslide:nth-child(9) .fslide__overlay-path {
+  fill: gray;
+}
+@media (max-width: 991px) {
+  .fslide:nth-child(9) .fslide__text {
+    background-color: rgba(233, 156, 126, 0.8);
+  }
+}
+.fslide:nth-child(10) {
+  left: 900%;
+}
+.fslide:nth-child(10) .fslide__bg {
+  left: -450%;
+  background-image: url("../img/bg-img/fslide04.jpg");
+}
+.fslide:nth-child(10) .fslide__overlay-path {
+  fill: gray;
+}
+@media (max-width: 991px) {
+  .fslide:nth-child(10) .fslide__text {
+    background-color: rgba(233, 156, 126, 0.8);
+  }
+}
+.fslide:nth-child(11) {
+  left: 1000%;
+}
+.fslide:nth-child(11) .fslide__bg {
+  left: -500%;
+  background-image: url("../img/bg-img/fslide04.jpg");
+}
+.fslide:nth-child(11) .fslide__overlay-path {
+  fill: gray;
+}
+@media (max-width: 991px) {
+  .fslide:nth-child(11) .fslide__text {
+    background-color: rgba(233, 156, 126, 0.8);
+  }
+}
+.fslide:nth-child(12) {
+  left: 1100%;
+}
+.fslide:nth-child(12) .fslide__bg {
+  left: -550%;
+  background-image: url("../img/bg-img/fslide04.jpg");
+}
+.fslide:nth-child(12) .fslide__overlay-path {
+  fill: gray;
+}
+@media (max-width: 991px) {
+  .fslide:nth-child(12) .fslide__text {
+    background-color: rgba(233, 156, 126, 0.8);
+  }
+}
+.fslide:nth-child(13) {
+  left: 1200%;
+}
+.fslide:nth-child(13) .fslide__bg {
+  left: -600%;
+  background-image: url("../img/bg-img/fslide04.jpg");
+}
+.fslide:nth-child(13) .fslide__overlay-path {
+  fill: gray;
+}
+@media (max-width: 991px) {
+  .fslide:nth-child(13) .fslide__text {
+    background-color: rgba(233, 156, 126, 0.8);
+  }
+}
+.fslide:nth-child(14) {
+  left: 1300%;
+}
+.fslide:nth-child(14) .fslide__bg {
+  left: -650%;
+  background-image: url("../img/bg-img/fslide04.jpg");
+}
+.fslide:nth-child(14) .fslide__overlay-path {
+  fill: gray;
+}
+@media (max-width: 991px) {
+  .fslide:nth-child(14) .fslide__text {
+    background-color: rgba(233, 156, 126, 0.8);
+  }
+}
+
 .fslide__content {
   position: absolute;
   top: 0;
@@ -972,7 +1123,7 @@ svg {
 	}
 }
 
-
+/*아이템 제목*/
 
 .food-items{
   height: 100px;

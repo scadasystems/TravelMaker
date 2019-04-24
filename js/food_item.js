@@ -95,14 +95,14 @@ $(document).ready(function() {
       changeFslides(true);
       return;
     }
-    if (diff > -8 && diff < 8) {
+    if (diff > -16 && diff < 16) {
       changeFslides();
       return;
     }
-    if (diff <= -8) {
+    if (diff <= -16) {
       navigateLeft();
     }
-    if (diff >= 8) {
+    if (diff >= 16) {
       navigateRight();
     }
   });
@@ -141,7 +141,7 @@ cards.forEach(function (card) {
 //end item
 
 
-//text
+//레스토랑 text
 var fwords = document.getElementsByClassName('fword');
 var fwordArray = [];
 var currentFword = 0;
