@@ -73,7 +73,7 @@ body { overflow-x: hidden; overflow-y: auto; }
     .header-right p { font-size: 15px !important; }
 }
 @media (max-width: 850px) { 
-    .header-right p { font-size: 5px !important; }
+    .header-right p { font-size: 15px !important; }
 }
 @media (max-width: 767px) { 
     .header-right { background: url(../../img/banner/Tulemar%20Bungalows.jpg) center no-repeat; background-size: cover; padding: 100px 120px; position: relative; z-index: 1; }
@@ -153,90 +153,152 @@ button:hover:after { transition: 800ms ease all; width: 100%; }
 *     슬라이드 부분
 *  ==================== */
 #go-slide { height: 30px; }
-.text { display: block; font-family: 'Jua', sans-serif; font-size: 40px; font-weight: 100; height: 40px; margin-bottom: -20px; margin-left: auto; margin-right: auto; margin-top: 100px; width: 735px; text-align: center;}
+.text { display: block; font-family: 'Jua', sans-serif; font-size: 40px; font-weight: 100; height: 40px; margin-bottom: -20px; margin-left: 50%; transform: translate(-50%); margin-top: 100px; width: 735px; text-align: center;}
 @media (max-width: 810px) {
     .text {font-size: 35px !important; }
     .text p:last-child { margin-left: 300px !important; }
 }
 @media (max-width: 720px) {
-    .text {font-size: 27px !important; }
+    .text {font-size: 27px !important; margin-bottom: -40px !important;}
     .text p:last-child { margin-left: 235px !important; }
+}
+@media (max-width:620px) {
+    .text {font-size: 20px !important;}
+    .text p:last-child { margin-left: 175px !important; }
 }
 .text p { color: black; display: inline-block; margin: 0; vertical-align: top; }
 .text p:last-child { margin-left: 350px; }
-.word { opacity: 0; position: absolute; width: 500px; }
-.letter { display: inline-block; float: left; position: relative; transform: translateZ(25px); transform-origin: 50% 50% 25px; -webkit-transform: translateZ(25px); -webkit-transform-origin: 50% 50% 25px; }
-.letter.out { transform: rotateX(90deg); transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19), --webkit-transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19); transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19); transition: --webkit-transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19); -webkit-transform: rotateX(90deg); }
-.letter.behind { transform: rotateX(-90deg); -webkit-transform: rotateX(-90deg); }
-.letter.in { transform: rotateX(0deg); transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275), --webkit-transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275); transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275); transition: --webkit-transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275); -webkit-transform: rotateX(0deg); }
-.wisteria { color: #8e44ad; }
-.belize { color: #2980b9; }
-.pomegranate { color: #c0392b; }
-.green { color: #16a085; }
-.midnight { color: #2c3e50; }
-.js-transitions-disabled * { transition: none !important; }
-.carousel { height: 70%; margin: 50px 20px 50px 20px; overflow: hidden; perspective: 50vw; perspective-origin: 50% 50%; position: relative; -webkit-perspective: 50vw; -webkit-perspective-origin: 50% 50%; }
-.carousel__control { background: #fff; bottom: 0; height: 160px; margin: auto; position: absolute; right: 0; top: 0; width: 40px; z-index: 1; }
-.carousel__control a { box-sizing: border-box; display: block; padding-top: 75%; position: relative; width: 100%; }
-.carousel__control a:hover:before { background-color: rgba(0, 0, 0, 0.4); }
+.word {position: absolute; width: 500px; opacity: 0;}
+.letter {display: inline-block; position: relative; float: left;
+  -webkit-transform: translateZ(25px);
+          transform: translateZ(25px);
+  -webkit-transform-origin: 50% 50% 25px;
+          transform-origin: 50% 50% 25px;}
+.letter.out {
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+  transition: -webkit-transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);}
+.letter.behind {
+  -webkit-transform: rotateX(-90deg);
+          transform: rotateX(-90deg);}
+.letter.in {
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  transition: -webkit-transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);}
+.wisteria {color: #8e44ad;}
+.belize {color: #2980b9;}
+.pomegranate {color: #c0392b;}
+.green {color: #16a085;}
+.midnight {color: #2c3e50;}
+
+/* ========================
+*     호텔Top15 슬라이더
+*  ======================== */
+.js-transitions-disabled * {transition: none !important;}
+.carousel {margin: 50px 20px 50px 20px; position: relative; height: 70%; overflow: hidden; -webkit-perspective: 50vw; perspective: 50vw; -webkit-perspective-origin: 50% 50%; perspective-origin: 50% 50%;}
+.carousel__control {position: absolute; height: 160px; width: 40px; background: #fff; right: 0; top: 0; bottom: 0; margin: auto; z-index: 1;}
+.carousel__control a {position: relative; display: block; width: 100%; padding-top: 75%; box-sizing: border-box;}
+.carousel__control a:hover:before {background-color: rgba(0,0,0,0.4);}
 .carousel__control a.active:before,
-.carousel__control a.active:hover:before { background-color: rgba(0, 0, 0, 0.6); }
-.carousel__control a:first-child { margin-top: 15px; }
-.carousel__control a:before { background: rgba(0, 0, 0, 0.2); border-radius: 50%; content: ''; display: block; left: 0; margin: auto; margin-top: -12.5%; padding-top: 25%; position: absolute; right: 0; top: 50%; width: 25%; }
-.carousel__stage { bottom: 20px; left: 20px; margin: auto; position: absolute; right: 20px; top: 20px; transform: translateZ(calc(-50vh + 20px)); transform-style: preserve-3d; -webkit-transform: translateZ(calc(-50vh + 20px)); -webkit-transform-style: preserve-3d; }
-.spinner { backface-visibility: hidden; bottom: 0; height: calc(100vh - 40px); left: 0; margin: auto; position: absolute; right: auto; top: 0; transform: rotateX(0); transform-origin: 50% 50%; transform-style: preserve-3d; transition: transform 1s, --webkit-transform 1s; transition: transform 1s; transition: --webkit-transform 1s; -webkit-backface-visibility: hidden; -webkit-transform: rotateX(0); -webkit-transform-origin: 50% 50%; -webkit-transform-style: preserve-3d; width: calc(50vw - (20px)); }
-.js-spin-fwd .spinner { transform: rotateX(-90deg); -webkit-transform: rotateX(-90deg); }
-.js-spin-bwd .spinner { transform: rotateX(90deg); -webkit-transform: rotateX(90deg); }
-.js-spin-fwd .spinner--right { transform: rotateX(90deg); -webkit-transform: rotateX(90deg); }
-.js-spin-bwd .spinner--right { transform: rotateX(-90deg); -webkit-transform: rotateX(-90deg); }
-.spinner--right { left: auto; right: -45px; }
-.spinner__face { display: none; height: 100%; overflow: hidden; position: absolute; width: 100%; }
-.spinner__face.js-next { display: block; transform: rotateX(90deg) translateZ(calc(50vh - 20px)); -webkit-transform: rotateX(90deg) translateZ(calc(50vh - 20px)); }
-.spinner--right .spinner__face.js-next { transform: rotateX(270deg) translateZ(calc(50vh - 20px)); -webkit-transform: rotateX(270deg) translateZ(calc(50vh - 20px)); }
-.js-spin-bwd .spinner__face.js-next { transform: rotateX(-90deg) translateZ(calc(50vh - 20px)); -webkit-transform: rotateX(-90deg) translateZ(calc(50vh - 20px)); }
-.js-spin-bwd .spinner--right .spinner__face.js-next { transform: rotateX(-270deg) translateZ(calc(50vh - 20px)); -webkit-transform: rotateX(-270deg) translateZ(calc(50vh - 20px)); }
-.js-active { display: block; transform: translateZ(calc(50vh - 20px)); -webkit-transform: translateZ(calc(50vh - 20px)); }
-.content { height: 100%; left: 0; position: absolute; width: 200%; }
-.spinner--right .content { left: -100%; }
+.carousel__control a.active:hover:before {background-color: rgba(0,0,0,0.6);}
+.carousel__control a:first-child {margin-top: 15px;}
+.carousel__control a:before {position: absolute; top: 50%; left: 0; right: 0; margin: auto; border-radius: 50%; padding-top: 25%; width: 25%; background: rgba(0,0,0,0.2); content: ''; display: block; margin-top: -12.5%;}
+.carousel__stage {position: absolute; top: 20px; bottom: 20px; left: 20px; right: 20px; margin: auto; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; -webkit-transform: translateZ(calc(-50vh + 20px));transform: translateZ(calc(-50vh + 20px));}
+.spinner {position: absolute; width: calc(50vw - (20px)); height: calc(100vh - 40px); top: 0; left: 0; right: auto; bottom: 0; margin: auto; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; transition: -webkit-transform 1s; transition: transform 1s; transition: transform 1s, -webkit-transform 1s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
+}
+.js-spin-fwd .spinner {
+  -webkit-transform: rotateX(-90deg);
+          transform: rotateX(-90deg);
+}
+.js-spin-bwd .spinner {
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+}
+.js-spin-fwd .spinner--right {
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+}
+.js-spin-bwd .spinner--right {
+  -webkit-transform: rotateX(-90deg);
+          transform: rotateX(-90deg);
+}
+.spinner--right {right: -45px; left: auto;}
+.spinner__face {display: none; position: absolute; width: 100%; height: 100%; overflow: hidden;}
+.spinner__face.js-next {display: block;
+  -webkit-transform: rotateX(90deg) translateZ(calc(50vh - 20px));
+          transform: rotateX(90deg) translateZ(calc(50vh - 20px));
+}
+.spinner--right .spinner__face.js-next {
+  -webkit-transform: rotateX(270deg) translateZ(calc(50vh - 20px));
+          transform: rotateX(270deg) translateZ(calc(50vh - 20px));
+}
+.js-spin-bwd .spinner__face.js-next {
+  -webkit-transform: rotateX(-90deg) translateZ(calc(50vh - 20px));
+          transform: rotateX(-90deg) translateZ(calc(50vh - 20px));
+}
+.js-spin-bwd .spinner--right .spinner__face.js-next {
+  -webkit-transform: rotateX(-270deg) translateZ(calc(50vh - 20px));
+          transform: rotateX(-270deg) translateZ(calc(50vh - 20px));
+}
+.js-active {display: block;
+  -webkit-transform: translateZ(calc(50vh - 20px));
+          transform: translateZ(calc(50vh - 20px));
+}
+.content {position: absolute; width: 200%; height: 100%; left: 0;}
+.spinner--right .content {left: -100%;}
 .content__left,
-.content__right { height: 100%; left: 0; position: absolute; top: 0; width: 49%; }
-.content__right { left: auto; right: 50px; }
-.content__left:after { background-color: rgba(0, 0, 0, 0.1); content: ""; display: block; height: 100%; position: absolute; width: 100%; }
-.content__left h1 { background-color: rgb(0, 0, 0, 0.3); color: #fff; font-family: 'Abril Fatface', cursive; font-size: 3vw; height: 10vw; letter-spacing: 0.15em; line-height: 0.6; margin-top: -3vw; opacity: 1; padding-top: 25px; position: absolute; text-align: center; top: 50%; width: 100%; }
-.content__left span { font-family: 'Black Han Sans', sans-serif; font-size: 1.5vw; font-weight: 100; letter-spacing: 0.2em; opacity: 0.9; }
-.content__right { align-items: center; display: flex; justify-content: center; }
-.content__right .content__main { color: #fff; font-family: 'Nanum Gothic Coding', monospace; font-size: 1.3vw; font-weight: 300; line-height: 1.65; margin: 0; opacity: 0.8; padding: 0 8vw; position: absolute; text-align: left; }
-.content__right .content__main p:last-child { font-size: 0.85em; letter-spacing: 0.15em; text-transform: uppercase; }
-.content__right .content__index { color: #fff; font-family: oswald; font-size: 30vh; opacity: 0.04; position: absolute; right: -1vh; top: 35vh; }
-[data-type="tulemar"] .content__left { background: url(../../img/Hotel/hotel_01.jpg) no-repeat center center; background-position: left; background-size: cover; }
+.content__right {position: absolute; left: 0; top: 0; width: 49%; height: 100%;}
+.content__right {right: 50px; left: auto;}
+.content__left:after {position: absolute; display: block; content: ""; width: 100%; height: 100%; background-color: rgba(0,0,0,0.1);}
+.content__left h1 {position: absolute; top: 50%; margin-top: -3vw; text-align: center; font-family: 'Abril Fatface', cursive; font-size: 3vw; height: 10vw; opacity: 1; color: #fff; width: 100%; letter-spacing: 0.15em; line-height: 0.6; padding-top: 25px; background-color: rgb(0,0,0,0.3);}
+.content__left span {font-family: 'Black Han Sans', sans-serif; font-size: 1.5vw; font-weight: 100; letter-spacing: 0.2em; opacity: 0.9;}
+.content__right {display: flex; align-items: center; justify-content: center;}
+.content__right .content__main {position: absolute; font-family: 'Nanum Gothic Coding', monospace; text-align: left; color: #fff; font-size: 1.3vw; padding: 0 8vw; line-height: 1.65; font-weight: 300; margin: 0; opacity: 0.8;}
+.content__right .content__main p:last-child {text-transform: uppercase; letter-spacing: 0.15em; font-size: 0.85em;}
+.content__right .content__index {font-size: 30vh; position: absolute; right: -1vh; top: 35vh; opacity: 0.04; font-family: oswald; color: #fff;}
+[data-type="tulemar"] .content__left { background: url(../../img/Hotel/hotel_01.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="tulemar"] .content__left { background-image: none; }
-[data-type="belvedere"] .content__left { background: url(../../img/Hotel/hotel_02.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="belvedere"] .content__left { background: url(../../img/Hotel/hotel_02.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="belvedere"] .content__left { background-image: none; }
-[data-type="viroth"] .content__left { background: url(../../img/Hotel/hotel_03.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="viroth"] .content__left { background: url(../../img/Hotel/hotel_03.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="viroth"] .content__left { background-image: none; }
-[data-type="kenting"] .content__left { background: url(../../img/Hotel/hotel_04.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="kenting"] .content__left { background: url(../../img/Hotel/hotel_04.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="kenting"] .content__left { background-image: none; }
-[data-type="tux"] .content__left { background: url(../../img/Hotel/hotel_05.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="tux"] .content__left { background: url(../../img/Hotel/hotel_05.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="tux"] .content__left { background-image: none; }
-[data-type="inn"] .content__left { background: url(../../img/Hotel/hotel_06.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="inn"] .content__left { background: url(../../img/Hotel/hotel_06.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="inn"] .content__left { background-image: none; }
-[data-type="pedregal"] .content__left { background: url(../../img/Hotel/hotel_07.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="pedregal"] .content__left { background: url(../../img/Hotel/hotel_07.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="pedregal"] .content__left { background-image: none; }
-[data-type="palacio"] .content__left { background: url(../../img/Hotel/hotel_08.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="palacio"] .content__left { background: url(../../img/Hotel/hotel_08.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="palacio"] .content__left { background-image: none; }
-[data-type="caves"] .content__left { background: url(../../img/Hotel/hotel_09.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="caves"] .content__left { background: url(../../img/Hotel/hotel_09.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="caves"] .content__left { background-image: none; }
-[data-type="siesta"] .content__left { background: url(../../img/Hotel/hotel_10.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="siesta"] .content__left { background: url(../../img/Hotel/hotel_10.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="siesta"] .content__left { background-image: none; }
-[data-type="retreat"] .content__left { background: url(../../img/Hotel/hotel_11.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="retreat"] .content__left { background: url(../../img/Hotel/hotel_11.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="retreat"] .content__left { background-image: none; }
-[data-type="12"] .content__left { background: url(../../img/Hotel/hotel_12.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="12"] .content__left { background: url(../../img/Hotel/hotel_12.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="12"] .content__left { background-image: none; }
-[data-type="13"] .content__left { background: url(../../img/Hotel/hotel_13.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="13"] .content__left { background: url(../../img/Hotel/hotel_13.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="13"] .content__left { background-image: none; }
-[data-type="14"] .content__left { background: url(../../img/Hotel/hotel_14.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="14"] .content__left { background: url(../../img/Hotel/hotel_14.jpg) no-repeat center center; background-size: cover; }
 .spinner--right [data-type="14"] .content__left { background-image: none; }
-[data-type="15"] .content__left { background: url(../../img/Hotel/hotel_15.jpg) no-repeat center center; background-position: left; background-size: cover; }
+[data-type="15"] .content__left { background: url(../../img/Hotel/hotel_15.jpg) no-repeat center center; background-size: cover; }
+
+/* ====================
+*     카테고리 부분
+*  ==================== */
 .spinner--right [data-type="15"] .content__left { background-image: none; }
 .category-section { margin: 100px 0 50px 0; }
 .lulzm-readmore-button { background-color: transparent; border: none; color: #ffffff; cursor: pointer; font-family: 'Poppins', Arial, sans-serif; font-size: 17.5px; font-weight: 500; line-height: 48px; margin: 15px 30px; outline: none; padding: 0 43px 0 0; position: relative; text-transform: uppercase; }
@@ -244,33 +306,51 @@ button:hover:after { transition: 800ms ease all; width: 100%; }
 .lulzm-readmore-button:after { background-color: orange; border-radius: 0 10px 10px 0; content: "\f08e"; font-family: FontAwesome; height: 48px; padding: 1px 30px 0 18px; position: absolute; right: 0%; top: 1px; transition: all 0.15s ease-in; -webkit-transition: all 0.15s ease-in; }
 .lulzm-readmore-button:hover span { background-color: #ba2340; }
 .lulzm-readmore-button:hover:after { background-color: #da3655; box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.5); margin-top: -5px; }
+/* 여행의 모든것 */
 .category-title .blue { color: #0887AC; }
 .category-title .orange { color: #EC8C00; }
 .category-title .red { color: #C53B3B; }
 .category-title { height: 60px; margin: 0 auto; width: 1200px; }
 .flip-container { box-sizing: border-box; font-family: Poppins, sans-serif; font-size: 3rem; }
-.flip-container .flipper { animation-direction: alternate; animation-duration: 1.2s; animation-iteration-count: infinite; animation-name: rotate; animation-timing-function: cubic-bezier(0.53, 0.9, 0.2, 0.7); font-family: 'Black Han Sans', sans-serif; margin-left: -20%; position: relative; transform-origin: 50% 30px; transform-style: preserve-3d; -webkit-animation-direction: alternate; -webkit-animation-duration: 1.2s; -webkit-animation-iteration-count: infinite; -webkit-animation-name: rotate; -webkit-animation-timing-function: cubic-bezier(0.53, 0.9, 0.2, 0.7); -webkit-transform-origin: 50% 30px; -webkit-transform-style: preserve-3d; }
+.flip-container .flipper { animation-direction: alternate; animation-duration: 1.2s; animation-iteration-count: infinite; animation-name: rotate; animation-timing-function: cubic-bezier(0.53, 0.9, 0.2, 0.7); font-family: 'Black Han Sans', sans-serif; margin-left: -20%; position: relative; transform-origin: 50% 30px; transform-style: preserve-3d; 
+    -webkit-animation-direction: alternate; 
+    -webkit-animation-duration: 1.2s; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-name: rotate; 
+    -webkit-animation-timing-function: cubic-bezier(0.53, 0.9, 0.2, 0.7); 
+    -webkit-transform-origin: 50% 30px; 
+    -webkit-transform-style: preserve-3d; }
 .flip-container .flipper .word1,
 .flip-container .flipper .word2 { backface-visibility: hidden; left: 30%; letter-spacing: -0.05em; position: absolute; -webkit-backface-visibility: hidden; }
-.flip-container .flipper .word1 { transform: translateX(-50%); -webkit-transform: translateX(-50%); }
-.flip-container .flipper .word2 { padding: 10px 20px; transform: translateX(-50%) rotateX(180deg); -webkit-transform: translateX(-50%) rotateX(180deg); }
+.flip-container .flipper .word1 { 
+    transform: translateX(-50%); 
+    -webkit-transform: translateX(-50%); }
+.flip-container .flipper .word2 { padding: 10px 20px; margin-top: 25px;
+    transform: translateX(-50%) rotateX(180deg); 
+    -webkit-transform: translateX(-50%) rotateX(180deg); }
 .category-title .word3 { color: black; font-family: 'Nanum Gothic Coding', monospace; font-size: 4vh; font-weight: bold; margin-left: 40px; text-align: center; }
 @-webkit-keyframes rotate { 0%,
-	 30% { transform: rotateX(0); -webkit-transform: rotateX(0); }
-70%,
-	 100% { transform: rotateX(-180deg); -webkit-transform: rotateX(-180deg); }
+    30% { 
+        transform: rotateX(0); 
+        -webkit-transform: rotateX(0); }
+    70%, 100% { 
+        transform: rotateX(-180deg); 
+        -webkit-transform: rotateX(-180deg); }
 }
 @keyframes rotate { 0%,
-	 30% { transform: rotateX(0); -webkit-transform: rotateX(0); }
-70%,
-	 100% { transform: rotateX(-180deg); -webkit-transform: rotateX(-180deg); }
-}
+    30% { transform: rotateX(0); -webkit-transform: rotateX(0); }
+    70%, 100% { transform: rotateX(-180deg); -webkit-transform: rotateX(-180deg); }
+} /* end */
+
+/* 라벨 */
 figure.lulzmGrid .lulzmGrid-img { background-size: cover; border-radius: 20px; height: 100%; height: 230px; opacity: 1; position: relative; transition: all 0.3s ease-in; transition-delay: 0.2s; vertical-align: top; -webkit-transition: all 0.3s ease-in; -webkit-transition-delay: 0.2s; width: 100%; }
 figure.lulzmGrid .lulzmGrid-img-cover { background-color: rgba(0, 0, 0, 0.3); border-radius: 20px; height: 100%; position: absolute; width: 100%; z-index: 1; }
 figure.lulzmGrid .lulzmGrid-label { color: white; font-family: 'Ubuntu', sans-serif; font-size: 1vm; font-size: 4vh; left: 50%; position: absolute; text-align: center; top: 50%; transform: translate(-50%, -50%); z-index: 2; }
 figure.lulzmGrid:hover .lulzmGrid-img,
 figure.lulzmGrid:hover .lulzmGrid-img-cover,
 figure.lulzmGrid:hover .lulzmGrid-label { opacity: 0; transform: rotateX(-100deg) translateY(50%) scale(0.5); transition-delay: 0; -webkit-transform: rotateX(-100deg) translateY(50%) scale(0.5); -webkit-transition-delay: 0; }
+
+/* 카테고리 그리드뷰 */
 figure.lulzmGrid { color: #000; font-size: 16px; margin: 10px; overflow: hidden; perspective: 170em; position: relative; text-align: left; -webkit-perspective: 10em; width: 100%; }
 figure.lulzmGrid * { box-sizing: border-box; -webkit-box-sizing: border-box; }
 figure.lulzmGrid img { border-radius: 20px; height: 230px; opacity: 1; transition: all 0.3s ease-in; transition-delay: 0.2s; vertical-align: top; -webkit-transition: all 0.3s ease-in; -webkit-transition-delay: 0.2s; width: 100%; }
@@ -281,6 +361,8 @@ figure.lulzmGrid h3 { font-weight: 800; margin: 0; text-transform: uppercase; }
 figure.lulzmGrid p { font-size: 0.8em; font-weight: 500; margin: 0 0 15px; }
 figure.lulzmGrid:hover img { opacity: 0; transform: rotateX(-100deg) translateY(50%) scale(0.5); transition-delay: 0; -webkit-transform: rotateX(-100deg) translateY(50%) scale(0.5); -webkit-transition-delay: 0; }
 figure.lulzmGrid:hover figcaption { border: 1px solid orange; border-radius: 20px; opacity: 1; padding: 30px 0 50px 30px; transform: rotateX(0deg) translateY(-50%) scale(1); transition-delay: 0.5s; -webkit-transform: rotateX(0deg) translateY(-50%) scale(1); -webkit-transition-delay: 0.5s; }
+
+/* 사이트 카테고리 그리드뷰 라벨 */
 .header.wrap { margin: 0 auto; padding-bottom: 50px; padding-top: 20px; width: 90%; }
 .header.wrap h2 { font-size: 4vh; margin-top: 30px; text-align: center; }
 .header.wrap h2.background { position: relative; z-index: 1; }
