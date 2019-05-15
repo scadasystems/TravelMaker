@@ -1,19 +1,85 @@
 ﻿<!DOCTYPE html>
 <html class="no-js">
 <!-- Head -->
-<?php
-   include 'commonPHP/commonHead.php'
-?>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+    <link rel="shortcut icon" href="../img/fav.png">
+    <meta charset="UTF-8">
+    <title>Travel Maker</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Jua|Poppins:100,200,400,300,500,600,700|Cabin" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/linearicons.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="../css/nice-select.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="allinone_thumbnailsBanner.css" type="text/css">
+    
+    <style>
+        html,
+        body {margin: 0; padding: 0; overflow-x: hidden;}
+        #containingDiv {width: 960px; margin: 0 auto; padding: 140px 0 0 0;}
+        #bottomText {width: 100%; font: 18px 'Lato', sans-serif; color: #333333; border-top: 1px solid #cccccc; padding: 10px 0 0 0; margin-top: 100px; text-align: center;}
+        @media screen and (min-width:1200px) {
+            #containingDiv {width: 960px; margin: 0 auto; padding: 140px 0 0 0;}
+            #bottomText {width: 100%; font: 18px 'Lato', sans-serif; color: #333333; border-top: 1px solid #cccccc; padding: 10px 0 0 0; margin-top: 100px; text-align: center;}
+        }
+        @media screen and (max-width:767px) {
+            #containingDiv {width: 100%; margin: 0 auto; padding: 60px 0 0 0;}
+            #bottomText {width: 100%; font: 14px 'Lato', sans-serif; color: #333333; border-top: 1px solid #cccccc; padding: 10px 0 0 0; margin-top: 50px; text-align: center;}
+        }
+    </style>
 </head>
 
+
 <body>
- 
-  <?php
-   include 'commonPHP/Header.php'
-  ?>
+    <header id="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-sm-6 col-6 header-top-left">
+                        <ul>
+                            <li><a href="../commonPHP/developer.html">Visit Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-6 header-top-right">
+                        <div class="header-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="https://github.com/scadasystems/TravelMaker" target="_blank"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container main-menu">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="../index.php"><img src="../img/logo2.png" style="width:100px"></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="../Hotel.php">호텔</a></li>
+                        <li><a href="../experience.php">경험</a></li>
+                        <li><a href="../Food.php">음식점</a></li>
+                        <li><a href="../Airport.php">항공사</a></li>
+                        <li><a href="">2019 베스트</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
     <!-- end Header -->
     <!-- start banner Area -->
     <section class="about-banner relative">
@@ -24,303 +90,108 @@
                     <h1 class="text-white" style="font-size:80px;font-family: 'Black Han Sans', sans-serif; font-weight:100;">
                         Best Hotels
                     </h1>
-                    <p class="text-white link-nav"><a href="index.php">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="Hotel.php"> 호텔</a></p>
+                    <p class="text-white link-nav"><a href="../index.php">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="../Hotel.php"> 호텔</a></p>
                 </div>
             </div>
         </div>
     </section>
     <!-- End banner Area -->
-    <!--================ Start banner section =================-->
-    <section class="home-banner-area relative">
-        <div class="container-fluid">
-            <div class="row d-flex align-items-center justify-content-center">
-                <div class="header-right col-lg-6 col-md-6">
-                    <h1>
-                        베스트 호텔 <br>Top 20<br>in the world
-                    </h1>
-                    <p class="pt-20">
-                        <script>
-                            document.write(new Date().getFullYear() + '년 ');
-                            document.write((new Date().getMonth() + 1) + '월 ');
-                            document.write(new Date().getDate() + '일 ');
-                        </script>
-                        까지<br>전 세계 여행자들이 추천한 여행지를 보여드립니다~
-                    </p>
-                    <a href="#go-slide" class="main_btn">
-                        보러가기
-                        <img src="img/next.png" alt="">
-                    </a>
+    <!--================ Start slider section =================-->
+    <div id="bannerBg">
+        <div id="containingDiv">
+            <div id="allinone_thumbnailsBanner_simple" style="display:none;">
+                <ul class="allinone_thumbnailsBanner_list">
+                    <!-- SLIDER IMAGES -->
+                    <!-- 카야카피 -->
+                    <li data-bottom-thumb="images/Slide/1.jpg" data-text-id="#allinone_thumbnailsBanner_photoText1"><img src="images/Slide/1.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/2.jpg" data-text-id="#allinone_thumbnailsBanner_photoText2"><img src="images/Slide/2.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/3.jpg" data-text-id="#allinone_thumbnailsBanner_photoText3"><img src="images/Slide/3.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/4.jpg" data-text-id="#allinone_thumbnailsBanner_photoText4"><img src="images/Slide/4.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/5.jpg" data-text-id="#allinone_thumbnailsBanner_photoText5"><img src="images/Slide/5.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/6.jpg" data-text-id="#allinone_thumbnailsBanner_photoText6"><img src="images/Slide/6.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/7.jpg" data-text-id="#allinone_thumbnailsBanner_photoText7"><img src="images/Slide/7.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/8.jpg" data-text-id="#allinone_thumbnailsBanner_photoText8"><img src="images/Slide/8.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/9.jpg" data-text-id="#allinone_thumbnailsBanner_photoText9"><img src="images/Slide/9.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/10.jpg" data-text-id="#allinone_thumbnailsBanner_photoText10"><img src="images/Slide/10.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/11.jpg" data-text-id="#allinone_thumbnailsBanner_photoText11"><img src="images/Slide/11.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/12.jpg" data-text-id="#allinone_thumbnailsBanner_photoText12"><img src="images/Slide/12.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/13.jpg" data-text-id="#allinone_thumbnailsBanner_photoText13"><img src="images/Slide/13.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/14.jpg" data-text-id="#allinone_thumbnailsBanner_photoText14"><img src="images/Slide/14.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide/15.jpg" data-text-id="#allinone_thumbnailsBanner_photoText15"><img src="images/Slide/15.jpg" alt="" /></li>
+                </ul>
+                <!-- TEXTS -->
+                <div id="allinone_thumbnailsBanner_photoText1" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement11_simpleResponsive" data-initial-left="0" data-initial-top="60" data-final-left="0" data-final-top="305" data-duration="0.5" data-fade-start="0" data-delay="0">
+                        &nbsp;&nbsp;&nbsp;1. <a href="https://kr.hotels.com/ho430624/kayakapi-peulimieom-keibeu-chapadochia-eogub-teoki/" target="_blank">카야카피 프리미엄 케이브</a> - 차파도치아<br/>&nbsp;&nbsp;&nbsp;위르귀프, 터키</div>
                 </div>
-                <div class="col-lg-6 col-md-6 header-left">
-                    <div class="">
-                        <img class="img-fluid w-100" src="img/banner/Tulemar%20Bungalows.jpg">
-                    </div>
-                    <div class="video-popup d-flex align-items-center">
-                        <a class="play-video video-play-button animate" href="https://www.youtube.com/watch?v=C1lAmdD0XGI" data-animate="zoomIn" data-duration="1.5s" data-delay="0.1s">
-                            <span></span>
-                        </a>
-                        <div class="watch">
-                            <h5 style="padding: 5px; background-color: rgb(0, 0, 0, 0.3)">Watch Intro Video</h5>
-                            <p style="padding: 5px; background-color: rgb(0, 0, 0, 0.3)">Now Top 1 hotel - Tulemar Bungalows & Villas</p>
-                        </div>
-                    </div>
+                
+                <div id="allinone_thumbnailsBanner_photoText2" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement21_simpleResponsive" data-initial-left="200" data-initial-top="60" data-final-left="45" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0">
+                        <span style="font-weight:bold;">2. <a href="https://kr.hotels.com/ho605814/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">리아드 케이레딘</a></span><br />마라케시, 모로코</div>
+                </div>
+                
+                <div id="allinone_thumbnailsBanner_photoText3" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement31_simpleResponsive" data-initial-left="70" data-initial-top="160" data-final-left="70" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span>3. <a href="https://kr.hotels.com/ho649372576/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">빌라 라라 호텔</a></span><br />바이외, 프랑스</div>
+                </div>
+                
+                <div id="allinone_thumbnailsBanner_photoText4" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement41_simpleResponsive" data-initial-left="100" data-initial-top="60" data-final-left="480" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="text-transform:uppercase; font-weight:bold;">4. <a href="https://kr.hotels.com/ho265619/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">로즈우드 마야코바</a></span><br>플라야 델 카르멘, 멕시코</div>
+                </div>
+                
+                <div id="allinone_thumbnailsBanner_photoText5" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement51_simpleResponsive" data-initial-left="0" data-initial-top="200" data-final-left="0" data-final-top="0" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="font-weight:bold; text-transform:uppercase;">5. <a href="https://kr.hotels.com/ho416915936/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">호텔 41</a></span><br />런던, 영국</div>
+                </div>
+                <!---------------------------------------->
+                <div id="allinone_thumbnailsBanner_photoText6" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement11_simpleResponsive" data-initial-left="0" data-initial-top="60" data-final-left="0" data-final-top="305" data-duration="0.5" data-fade-start="0" data-delay="0">
+                        &nbsp;&nbsp;&nbsp;6. <a href="https://kr.hotels.com/ho236769/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">바로스 몰디브</a><br/>&nbsp;&nbsp;&nbsp;바로스섬, 몰디브</div>
+                </div>
+                
+                <div id="allinone_thumbnailsBanner_photoText7" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement21_simpleResponsive" data-initial-left="200" data-initial-top="60" data-final-left="45" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0">
+                        <span style="font-weight:bold;">7. <a href="https://kr.hotels.com/ho136170/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">더 오베로이 라이빌라스</a></span><br />자이푸르, 인도</div>
+                </div>
+                
+                <div id="allinone_thumbnailsBanner_photoText8" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement31_simpleResponsive" data-initial-left="70" data-initial-top="160" data-final-left="70" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span>8. <a href="https://kr.hotels.com/ho594058/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">포르토 빌리지</a> - 올 인클루시브</span><br />사니, 그리스</div>
+                </div>
+                
+                <div id="allinone_thumbnailsBanner_photoText9" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement41_simpleResponsive" data-initial-left="100" data-initial-top="60" data-final-left="480" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="text-transform:uppercase; font-weight:bold;">9. <a href="https://kr.hotels.com/ho327104/?as-srs-report=HomePage%7CAutoS%7CHOTEL%7C%EB%94%94%20%EC%96%B4%ED%8D%BC%20%ED%95%98%EC%9A%B0%EC%8A%A4%7C0%7C0%7C0%7C4%7C1%7C4%7C327104&tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">디 어퍼 하우스</a></span><br>홍콩, 중국</div>
+                </div>
+                
+                <div id="allinone_thumbnailsBanner_photoText10" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement51_simpleResponsive" data-initial-left="0" data-initial-top="200" data-final-left="0" data-final-top="0" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="font-weight:bold; text-transform:uppercase;">10. <a href="https://kr.hotels.com/ho131880/?as-srs-report=HomePage%7CAutoS%7CHOTEL%7C%EB%A7%88%EB%9D%BC%EC%BC%80%EC%8A%88%7C0%7C0%7C0%7C3%7C1%7C3%7C131880&tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">마라케슈 레 세미라미스</a></span><br />마라케시, 모로코</div>
+                </div>
+                <!---------------------------------------->
+                <div id="allinone_thumbnailsBanner_photoText11" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement11_simpleResponsive" data-initial-left="0" data-initial-top="60" data-final-left="0" data-final-top="305" data-duration="0.5" data-fade-start="0" data-delay="0">
+                        &nbsp;&nbsp;&nbsp;11. <a href="https://kr.hotels.com/ho143425/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">로열 페드레갈 호텔</a><br/>&nbsp;&nbsp;&nbsp;카보 산 루카스, 멕시코</div>
+                </div>
+                
+                <div id="allinone_thumbnailsBanner_photoText12" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement21_simpleResponsive" data-initial-left="200" data-initial-top="60" data-final-left="45" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0">
+                        <span style="font-weight:bold;">12. <a href="https://kr.hotels.com/ho537039/?as-srs-report=HomePage%7CAutoS%7CHOTEL%7C12%20Mandapa%20a%20Ritz-Carlton%20Reserve%7C0%7C0%7C0%7C1%7C1%7C1%7C537039&tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">만다파, 어 리츠칼튼 리저브</a></span><br />우붓, 인도네시아</div>
+                </div>
+                
+                <div id="allinone_thumbnailsBanner_photoText13" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement31_simpleResponsive" data-initial-left="70" data-initial-top="160" data-final-left="70" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span>13. <a href="https://kr.hotels.com/ho536988/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">품 바이탕</a></span><br>시엠립, 캄보디아</div>
+                </div>
+                
+                <div id="allinone_thumbnailsBanner_photoText14" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement41_simpleResponsive" data-initial-left="100" data-initial-top="60" data-final-left="480" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="text-transform:uppercase; font-weight:bold;">14. <a href="https://kr.hotels.com/ho406055/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">벨몬드 팔라시오 나사레나스</a></span><br>쿠스코, 페루</div>
+                </div>
+                
+                <div id="allinone_thumbnailsBanner_photoText15" class="allinone_thumbnailsBanner_texts">
+                    <div class="allinone_thumbnailsBanner_text_line textElement51_simpleResponsive" data-initial-left="0" data-initial-top="200" data-final-left="0" data-final-top="0" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="font-weight:bold; text-transform:uppercase;">15. <a href="https://kr.hotels.com/ho413589/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">안드로니스 부티크 호텔</a></span><br />이아, 그리스</div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--================ End banner section =================-->
-    <div id="go-slide"></div>
-    <!-- start Slider -->
-    <div class="text">
-        <p>키보드 방향키 중 </p>
-        <p>
-            <span class="word wisteria"> ← 을 누르면 이전으로 이동</span>
-            <span class="word belize"> → 을 누르면 다음으로 이동</span>
-        </p>
-        <p>합니다.</p>
+        <div id="bottomText" style="margin-top:140px;"></div>
     </div>
-    <div class="carousel">
-        <div class="carousel__control">
-        </div>
-        <div class="carousel__stage">
-            <div class="spinner spinner--left">
-                <div class="spinner__face js-active" data-bg="#27323c">
-                    <div class="content" data-type="tulemar">
-                        <div class="content__left">
-                            <h1>Tulemar Bungalows<br><span>마누엘 안토니오, 코스타리카</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>“완벽한 휴가. 가장 좋았던 부분은 그저 베란다에서 쉬면서 바다를 바라보고 날아가는 앵무새를 보는 것이었습니다.” </p>
-                                <!-- 버튼 넣기 -->
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">01</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#19304a">
-                    <div class="content" data-type="belvedere">
-                        <div class="content__left">
-                            <h1>Hotel Belvedere<br><span>리치오네, 이탈리아</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>
-                                    “환상적인 분위기, 훌륭한 직원들, 좋은 가이드는 물론 자전거도 즐길 수 있어 계속 다시 찾고 싶어요. 냉정한 비평가마저 만족시킬 수 있는 것이 성공의 공식이죠.”
-                                </p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">02</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#2b2533">
-                    <div class="content" data-type="viroth">
-                        <div class="content__left">
-                            <h1>Viroth's Hotel<br><span>시엠립, 캄보디아</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>
-                                    “세련되고 고요한, 푸르고 럭셔리한 오아시스. 친절하게 도움을 주면서도 지나치지 않은 서비스. 비로스는 장엄한 사원을 볼 수 있는 멋진 장소에 그치지 않고 그 자체로도 갈 만한 곳입니다.”
-                                </p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">03</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#312f2d">
-                    <div class="content" data-type="kenting">
-                        <div class="content__left">
-                            <h1>Kenting Amanda Hotel<br><span>Hengchun, 핑둥</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>“...”</p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">04</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#312f2d">
-                    <div class="content" data-type="tux">
-                        <div class="content__left">
-                            <h1>Hotel Alpin Spa Tuxerhof<br><span>턱스, 오스트리아</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>“...”</p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">05</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#312f2d">
-                    <div class="content" data-type="inn">
-                        <div class="content__left">
-                            <h1>French Quarter Inn<br><span>찰스턴, 사우스캐롤라이나</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>“위치는 편리하고 객실은 깔끔하며 와인, 치즈, 쿠키를 비롯한 다른 서프라이즈 역시 훌륭합니다. 베개도 직접 선택할 수 있었고요."</p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">06</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#312f2d">
-                    <div class="content" data-type="pedregal">
-                        <div class="content__left">
-                            <h1>The Resort at Pedregal<br><span>카보 산 루카스, 멕시코</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>“..."</p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">07</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#312f2d">
-                    <div class="content" data-type="palacio">
-                        <div class="content__left">
-                            <h1>Belmond Palacio Nazarenas<br><span>쿠스코, 페루</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>“..."</p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">08</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#312f2d">
-                    <div class="content" data-type="caves">
-                        <div class="content__left">
-                            <h1>Kayakapi Premium Caves<br><span>위르귀프, 터키</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>
-                                    “최고입니다!!!”<br>
-                                    “완벽한 호텔”
-                                </p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">09</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#312f2d">
-                    <div class="content" data-type="siesta">
-                        <div class="content__left">
-                            <h1>Hanoi La Siesta Hotel<br><span>하노이, 베트남</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>
-                                    “서비스, 객실 그리고 음식에 완전히 반했습니다. 평가에서 가능하면 10개라도 별을 주고 싶네요.”
-                                </p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">10</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#312f2d">
-                    <div class="content" data-type="retreat">
-                        <div class="content__left">
-                            <h1>Golden Temple Retreat<br><span>시엠립, 캄보디아</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>
-                                    “Amazing hotel ever ”
-                                    “만족만족만족”
-                                </p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">11</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#312f2d">
-                    <div class="content" data-type="12">
-                        <div class="content__left">
-                            <h1>Quinta Jardins do Lago<br><span>푼샬, 포르투갈</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>
-                                    “...”
-                                </p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">12</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#312f2d">
-                    <div class="content" data-type="13">
-                        <div class="content__left">
-                            <h1>The Oberoi Rajvilas<br><span>자이푸르, 인도</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>
-                                    “...”
-                                </p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">13</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#312f2d">
-                    <div class="content" data-type="14">
-                        <div class="content__left">
-                            <h1>Hotel Amira Istanbul<br><span>이스탄불, 터키</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>
-                                    “마주쳤던 모든 직원이 친절했고 잘 응대해주었어요. 옥상 데크는 평화로운 오아시스 같은 곳이구요. 와인 한 잔을 즐기면서 아름다운 마르마라해를 즐기기에 완벽한 곳입니다.”
-                                </p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">14</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="spinner__face" data-bg="#312f2d">
-                    <div class="content" data-type="15">
-                        <div class="content__left">
-                            <h1>Hotel 41<br><span>런던, 영국</span></h1>
-                        </div>
-                        <div class="content__right">
-                            <div class="content__main">
-                                <p>
-                                    “숙박과 서비스 모두 훌륭합니다.”<br>
-                                    “놀라운 서비스 덕에 좋은 시간을 보냈습니다!!! ”
-                                </p>
-                                <p><button class="btn-hotel">호텔 웹사이트 방문</button></p>
-                            </div>
-                            <h3 class="content__index">15</h3>
-                        </div>
-                    </div>
-                </div>
-                <!-- end Best Hotel 15-->
-            </div>
-        </div>
-    </div>
-    <!-- end slider -->
+    <!--================ Finish slider section =================-->
+
+
     <!-- start Category title -->
     <div class="category-section">
         <div class="category-title">
@@ -340,7 +211,7 @@
                 <!-- 1. -->
                 <figure class="lulzmGrid col-sm">
                     <!-- Label -->
-                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-best.jpg);">
+                    <div class="lulzmGrid-img" style="background-image: url(../img/Hotel/hotel-best.jpg);">
                         <div class="lulzmGrid-label">Best Hotel</div>
                         <div class="lulzmGrid-img-cover"></div>
                     </div>
@@ -348,12 +219,12 @@
                     <figcaption>
                         <h3>Best Hotel</h3>
                         <p>2019년도 1분기 베스트 호텔을 보러 가고 싶나요?</p>
-                        <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php' "><span>Go ! </span></button>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='../Hotel.php' "><span>Go ! </span></button>
                     </figcaption>
                 </figure>
                 <figure class="lulzmGrid col-sm">
                     <!-- Label -->
-                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-luxury.jpg);">
+                    <div class="lulzmGrid-img" style="background-image: url(../img/Hotel/hotel-luxury.jpg);">
                         <div class="lulzmGrid-label">Luxury</div>
                         <div class="lulzmGrid-img-cover"></div>
                     </div>
@@ -361,12 +232,12 @@
                     <figcaption>
                         <h3>Luxury</h3>
                         <p>최고의 럭셔리한 호텔을 찾으시나요?</p>
-                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-luxury.php' "><span>Go ! </span></button>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='../otherSites/Hotel-luxury.php' "><span>Go ! </span></button>
                     </figcaption>
                 </figure>
                 <figure class="lulzmGrid col-sm">
                     <!-- Label -->
-                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-romantic.jpg);">
+                    <div class="lulzmGrid-img" style="background-image: url(../img/Hotel/hotel-romantic.jpg);">
                         <div class="lulzmGrid-label">Romantic</div>
                         <div class="lulzmGrid-img-cover"></div>
                     </div>
@@ -374,14 +245,14 @@
                     <figcaption>
                         <h3>Romantic</h3>
                         <p>사랑하는 사람과 최고의 추억을 만들고 싶은가요?</p>
-                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-romantic.php' "><span>Go ! </span></button>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='../otherSites/Hotel-romantic.php' "><span>Go ! </span></button>
                     </figcaption>
                 </figure>
             </div>
             <div class="row">
                 <figure class="lulzmGrid col-sm">
                     <!-- Label -->
-                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-service.jpg);">
+                    <div class="lulzmGrid-img" style="background-image: url(../img/Hotel/hotel-service.jpg);">
                         <div class="lulzmGrid-label">Service</div>
                         <div class="lulzmGrid-img-cover"></div>
                     </div>
@@ -389,12 +260,12 @@
                     <figcaption>
                         <h3>Service</h3>
                         <p>여행객들이 추천하는 서비스 좋은 호텔을 찾으시나요?</p>
-                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-service.php' "><span>Go ! </span></button>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='../otherSites/Hotel-service.php' "><span>Go ! </span></button>
                     </figcaption>
                 </figure>
                 <figure class="lulzmGrid col-sm">
                     <!-- Label -->
-                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-goodvalue.jpg);">
+                    <div class="lulzmGrid-img" style="background-image: url(../img/Hotel/hotel-goodvalue.jpg);">
                         <div class="lulzmGrid-label">Good Value</div>
                         <div class="lulzmGrid-img-cover"></div>
                     </div>
@@ -402,12 +273,12 @@
                     <figcaption>
                         <h3>Good Value</h3>
                         <p>가성비가 좋은 호텔! 여기 있습니다.</p>
-                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-goodvalue.php' "><span>Go ! </span></button>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='../otherSites/Hotel-goodvalue.php' "><span>Go ! </span></button>
                     </figcaption>
                 </figure>
                 <figure class="lulzmGrid col-sm">
                     <!-- Label -->
-                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-family.jpg);">
+                    <div class="lulzmGrid-img" style="background-image: url(../img/Hotel/hotel-family.jpg);">
                         <div class="lulzmGrid-label">Family</div>
                         <div class="lulzmGrid-img-cover"></div>
                     </div>
@@ -415,14 +286,14 @@
                     <figcaption>
                         <h3>Family</h3>
                         <p>가족들과 오붓한 시간을 보내시려고요?</p>
-                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-family.php' "><span>Go ! </span></button>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='../otherSites/Hotel-family.php' "><span>Go ! </span></button>
                     </figcaption>
                 </figure>
             </div>
             <div class="row">
                 <figure class="lulzmGrid col-sm">
                     <!-- Label -->
-                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-small.jpg);">
+                    <div class="lulzmGrid-img" style="background-image: url(../img/Hotel/hotel-small.jpg);">
                         <div class="lulzmGrid-label">Small</div>
                         <div class="lulzmGrid-img-cover"></div>
                     </div>
@@ -430,12 +301,12 @@
                     <figcaption>
                         <h3>Small Hotel</h3>
                         <p>작지만 행복을 만들기에는 충분합니다.</p>
-                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-smallhotel.php' "><span>Go ! </span></button>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='../otherSites/Hotel-smallhotel.php' "><span>Go ! </span></button>
                     </figcaption>
                 </figure>
                 <figure class="lulzmGrid col-sm">
                     <!-- Label -->
-                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-motel.jpg);">
+                    <div class="lulzmGrid-img" style="background-image: url(../img/Hotel/hotel-motel.jpg);">
                         <div class="lulzmGrid-label">Motel</div>
                         <div class="lulzmGrid-img-cover"></div>
                     </div>
@@ -443,12 +314,12 @@
                     <figcaption>
                         <h3>Motel / B&B</h3>
                         <p>숙소에 돈을 투자하고 싶지 않다고요?</p>
-                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-motel.php' "><span>Go ! </span></button>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='../otherSites/Hotel-motel.php' "><span>Go ! </span></button>
                     </figcaption>
                 </figure>
                 <figure class="lulzmGrid col-sm">
                     <!-- Label -->
-                    <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotel-inclusive.jpeg);">
+                    <div class="lulzmGrid-img" style="background-image: url(../img/Hotel/hotel-inclusive.jpeg);">
                         <div class="lulzmGrid-label">All inclusive Hotel</div>
                         <div class="lulzmGrid-img-cover"></div>
                     </div>
@@ -456,7 +327,7 @@
                     <figcaption>
                         <h3>All inclusive Hotel</h3>
                         <p>All Inclusive : 조식,중식,석식 세끼와 함께 여러가지 제공</p>
-                        <button class="lulzm-readmore-button" type="button" onclick="location.href='otherSites/Hotel-inclusive.php'"><span>Go ! </span></button>
+                        <button class="lulzm-readmore-button" type="button" onclick="location.href='../otherSites/Hotel-inclusive.php'"><span>Go ! </span></button>
                     </figcaption>
                 </figure>
             </div>
@@ -473,7 +344,7 @@
             <!-- 1. -->
             <figure class="lulzmGrid col-sm">
                 <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotels-main.jpg);">
+                <div class="lulzmGrid-img" style="background-image: url(../img/Hotel/hotels-main.jpg);">
                     <div class="lulzmGrid-label">Best Hotel</div>
                     <div class="lulzmGrid-img-cover"></div>
                 </div>
@@ -481,12 +352,12 @@
                 <figcaption>
                     <h3>Best Hotel</h3>
                     <p>2019년도 1분기 베스트 호텔을 보러 가고 싶나요?</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php' "><span>Go ! </span></button>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='../Hotel.php' "><span>Go ! </span></button>
                 </figcaption>
             </figure>
             <figure class="lulzmGrid col-sm">
                 <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/experience/experience-main.jpg);">
+                <div class="lulzmGrid-img" style="background-image: url(../img/experience/experience-main.jpg);">
                     <div class="lulzmGrid-label">Experience</div>
                     <div class="lulzmGrid-img-cover"></div>
                 </div>
@@ -494,12 +365,12 @@
                 <figcaption>
                     <h3>Best Experience</h3>
                     <p>재미있고 추억의 경험을 얻고 싶으세요?</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='experience.php' "><span>Go ! </span></button>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='../experience.php' "><span>Go ! </span></button>
                 </figcaption>
             </figure>
             <figure class="lulzmGrid col-sm">
                 <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/Food/Food-banner.png);">
+                <div class="lulzmGrid-img" style="background-image: url(../img/Food/Food-banner.png);">
                     <div class="lulzmGrid-label">Best Food</div>
                     <div class="lulzmGrid-img-cover"></div>
                 </div>
@@ -507,14 +378,14 @@
                 <figcaption>
                     <h3>Best Food</h3>
                     <p>현지에 유명한 요리를 드시고 싶으신가요?</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Food.php' "><span>Go ! </span></button>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='../Food.php' "><span>Go ! </span></button>
                 </figcaption>
             </figure>
         </div>
         <div class="row">
             <figure class="lulzmGrid col-sm">
                 <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/Airport/airport.jpg);">
+                <div class="lulzmGrid-img" style="background-image: url(../img/Airport/airport.jpg);">
                     <div class="lulzmGrid-label">Best Airport</div>
                     <div class="lulzmGrid-img-cover"></div>
                 </div>
@@ -522,12 +393,12 @@
                 <figcaption>
                     <h3>Best Airport</h3>
                     <p>수많은 항공사 중 여행객들이 추천하는 항공사는?</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='Airport.php' "><span>Go ! </span></button>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='../Airport.php' "><span>Go ! </span></button>
                 </figcaption>
             </figure>
             <figure class="lulzmGrid col-sm">
                 <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/main/main-banner.jpg);">
+                <div class="lulzmGrid-img" style="background-image: url(../img/main/main-banner.jpg);">
                     <div class="lulzmGrid-label">2019 BEST</div>
                     <div class="lulzmGrid-img-cover"></div>
                 </div>
@@ -539,15 +410,16 @@
                             document.write(new Date().getFullYear() + '년 ');
                             document.write((new Date().getMonth() + 1) + '월 ');
                             document.write(new Date().getDate() + '일 ');
+
                         </script>
                         - Best를 알고 싶나요?
                     </p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='2019-best.php' "><span>Go ! </span></button>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='../2019-best.php' "><span>Go ! </span></button>
                 </figcaption>
             </figure>
             <figure class="lulzmGrid col-sm">
                 <!-- Label -->
-                <div class="lulzmGrid-img" style="background-image: url(img/our_team2.jpg);">
+                <div class="lulzmGrid-img" style="background-image: url(../img/our_team2.jpg);">
                     <div class="lulzmGrid-label">Help Center</div>
                     <div class="lulzmGrid-img-cover"></div>
                 </div>
@@ -555,31 +427,123 @@
                 <figcaption>
                     <h3>Help Center</h3>
                     <p>저희한테 궁금한 점이 있으신가요?</p>
-                    <button class="lulzm-readmore-button" type="button" onclick="location.href='contact.php' "><span>Go ! </span></button>
+                    <button class="lulzm-readmore-button" type="button" onclick="location.href='../contact.php' "><span>Go ! </span></button>
                 </figcaption>
             </figure>
         </div>
     </div> <!-- end site category Grid -->
     <!-- start footer Area -->
-    <?php
-      include 'commonPHP/footer.php';
-    ?>
+    <footer class="footer-area section-gap">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6>About</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6>Navigation Links</h6>
+                        <div class="row">
+                            <div class="col">
+                                <ul>
+                                    <li><a href="../index.php">Home</a></li>
+                                    <li><a href="../Hotel.php">호텔</a></li>
+                                    <li><a href="../experience.php">경험</a></li>
+                                    <li><a href="../Food.php">음식점</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li><a href="../Airport.php">항공사</a></li>
+                                    <li><a href="#">2019 베스트</a></li>
+                                    <li><a href="#">Help Center</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6>Newsletter</h6>
+                        <p>
+                            새로운 정보를 원하시는 분들은 아래에 이메일 주소를 적어주세요. <br>저희가 따끈한 신상들을 보내드릴게요!
+                        </p>
+                        <div id="mc_embed_signup">
+                            <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscription relative">
+                                <div class="input-group d-flex flex-row">
+                                    <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                    <button class="btn bb-btn"><span class="lnr lnr-location"></span></button>
+                                </div>
+                                <div class="mt-10 info"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                    <div class="single-footer-widget mail-chimp">
+                        <h6 class="mb-20">Developers</h6>
+                        <ul>
+                            <li><img src="../img/our_team.jpg" alt="" style="width: 250xp; height: 130px"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                <p class="col-lg-8 col-sm-12 footer-text m-0">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <a>Copyright &copy;<script>
+                            document.write(new Date().getFullYear());
+
+                        </script> All rights reserved | This Site is made with <i class="fa fa-heart-o" aria-hidden="true"></i>by Travel Maker</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+                <div class="col-lg-4 col-sm-12 footer-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="https://github.com/scadasystems/TravelMaker" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- End footer Area -->
     <!-- Script -->
-    <script src="js/vendor/jquery-2.2.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/easing.min.js"></script>
-    <script src="js/hoverIntent.js"></script>
-    <script src="js/superfish.min.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/vendor/bootstrap.min.js"></script>
+    <script src="../js/jquery-ui.js"></script>
+    <script src="../js/easing.min.js"></script>
+    <script src="../js/hoverIntent.js"></script>
+    <script src="../js/superfish.min.js"></script>
+    <script src="../js/jquery.ajaxchimp.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/jquery.nice-select.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/mail-script.js"></script>
+    <script src="ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+    <script src="ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js" type="text/javascript"></script>
+    <script src="js/allinone_thumbnailsBanner.js" type="text/javascript"></script>
+    <script src="js/reflection.js" type="text/javascript"></script>
+    <script>
+        jQuery(function() {
+            jQuery('#allinone_thumbnailsBanner_simple').allinone_thumbnailsBanner({
+                skin: 'simple',
+                numberOfThumbsPerScreen: 7,
+                width: 960,
+                height: 384,
+                thumbsReflection: 0,
+                responsive: true
+            });
+        });
+    </script>
 </body>
 
 </html>
