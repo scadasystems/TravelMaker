@@ -59,7 +59,7 @@ body{
   line-height: 22px;
 }
 
-.right-arrow {
+.rank {
   width: 10px;
   height: 10px;
   float: left;
@@ -200,49 +200,15 @@ body{
   font-size: 0.9rem;
 }
 
-.blog-card .details a {
-  text-decoration: dotted underline;
-}
 
 .blog-card .details ul li {
   display: inline-block;
-}
-
-.blog-card .details .author:before {
-  font-family: FontAwesome;
-  margin-right: 10px;
-  content: "\f007";
-}
-
-.blog-card .details .date:before {
-  font-family: FontAwesome;
-  margin-right: 10px;
-  content: "\f133";
-}
-
-.blog-card .details .tags ul:before {
-  font-family: FontAwesome;
-  content: "\f02b";
-  margin-right: 10px;
-}
-
-.blog-card .details .tags li {
-  margin-right: 2px;
-}
-
-.blog-card .details .tags li:first-child {
-  margin-left: -4px;
 }
 
 .blog-card .description {
   padding: 1rem;
   position: relative;
   z-index: 1;
-}
-
-.blog-card .description h1,
-.blog-card .description h2 {
-  font-family: Poppins, sans-serif;
 }
 
 .blog-card .description h1 {
@@ -253,11 +219,9 @@ body{
 
 .blog-card .description h2 {
   font-size: 1rem;
-  font-weight: 300;
-  text-transform: uppercase;
   color: #fff;
   margin-top: 5px;
-  width: 53px;
+  width: 54px;
   padding: 5px 5px;
   border-radius: 20px;
   background-color: skyblue;
@@ -301,20 +265,6 @@ body{
   margin: 1rem 0 0;
 }
 
-.blog-card p:first-of-type {
-  margin-top: 1.25rem;
-}
-
-.blog-card p:first-of-type:before {
-  content: "";
-  position: absolute;
-  height: 5px;
-  background: #5ad67d;
-  width: 35px;
-  top: -0.75rem;
-  border-radius: 3px;
-}
-
 .blog-card:hover .details {
   left: 0%;
 }
@@ -335,13 +285,8 @@ body{
   }
 
   .blog-card .description:before {
+    content: normal;
     transform: skewX(-3deg);
-    content: "";
-    width: 30px;
-    position: absolute;
-    left: -10px;
-    top: 0;
-    bottom: 0;
     z-index: -1;
   }
 
@@ -350,8 +295,8 @@ body{
   }
 
   .blog-card.alt .description:before {
+    content:normal;
     left: inherit;
-    right: -10px;
     transform: skew(3deg);
   }
 
@@ -665,34 +610,3 @@ svg {
   -webkit-transform: rotateX(0);
   transform: rotateX(0);
 }
-
-/* text animation */
-#flip {
-  height:50px;
-  overflow:hidden;
-}
-
-#flip > div > p {
-  color:#000;
-  padding:4px 12px;
-  height:45px;
-  margin-bottom:45px;
-  display:inline-block;
-}
-
-#flip div:first-child{
-  animation: show 5s linear;
-}
-
-
-@keyframes show {
-  0% {margin-top:-270px;}
-  5% {margin-top:-180px;}
-  33% {margin-top:-180px;}
-  38% {margin-top:-90px;}
-  66% {margin-top:-90px;}
-  71% {margin-top:0px;}
-  99.99% {margin-top:0px;}
-  100% {margin-top:-270px;}
-}
-/* End text animation */
