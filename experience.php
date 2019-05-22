@@ -7,6 +7,14 @@
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="css/modal-video.min.css">
 <script src="js/textAnimated.js"></script>
+<!--  slide view  -->
+<link rel="stylesheet" href="css/icomoon.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/slide-view.css">
 
 <!--  Card View  -->
 <script>
@@ -15,6 +23,7 @@
         var e, t = document.createElement("style");
         return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
     };
+
 </script>
 <!--  Card View  -->
 <?php
@@ -89,233 +98,256 @@
 
     <!-- Start CardView -->
     <h1 id="startCartView" class="text_cardView">Experience TOP 15</h1>
-    <div class="grid-wrap">
-        <div class="grid">
-            <a href="#" class="grid__item">
-                <div class="grid__item-bg"></div>
-                <div class="grid__item-wrap">
-                    <img class="grid__item-img" src="https://media-cdn.tripadvisor.com/media/photo-w/02/1f/d3/4c/caption.jpg" alt="Some image" />
+    <div id="colorlib-rooms" class="colorlib-light-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 animate-box">
+                    <div class="owl-carousel owl-carousel2">
+                        <div class="item">
+                            <a href="img/experience/photo_2.jpg" class="room image-popup-link" style="background-image: url(img/experience/photo_2.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-half full"></i></span>
+                                <h3><a>London Eye</a></h3>
+                                <p class="price">
+                                    <span class="currency">런던</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 랜드마크, 전망대 & 타워, 흥미거리 & 랜드마크</li>
+                                    <li><i class="icon-check"></i> 비싸지만 런던에서 꼭 봐야하는 경치</li>
+                                    <li><i class="icon-check"></i> 오전 11:00 - 오후 6:00</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/take_on_a_street_go_kart.jpg" class="room image-popup-link" style="background-image: url(img/experience/take_on_a_street_go_kart.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i></span>
+                                <h3><a>MariCAR</a></h3>
+                                <p class="price">
+                                    <span class="currency">오사카</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 투어, 야외 활동, 관광 투어, 개인 여행, 야간 투어</li>
+                                    <li><i class="icon-check"></i> 오사카에서 짜릿한 액티비티 여행</li>
+                                    <li><i class="icon-check"></i> 오전 10:00 - 오후 10:00</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/siam_park.jpg" class="room image-popup-link" style="background-image: url(img/experience/siam_park.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-half full"></i><i class="icon-star-full"></i></span>
+                                <h3><a href="rooms-suites.html">Siam Park City</a></h3>
+                                <p class="price">
+                                    <span class="currency">방콕</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 워터파크 & 놀이공원, 테마 파크 , 흥미거리</li>
+                                    <li><i class="icon-check"></i> 좋은 모험과 워터 파크, 환상적인 장소</li>
+                                    <li><i class="icon-check"></i> 오전 10:00 - 오후 6:00</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/caption.jpg" class="room image-popup-link" style="background-image: url(img/experience/caption.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-half full"></i></span>
+                                <h3><a>TaipeiEYE</a></h3>
+                                <p class="price">
+                                    <span class="currency">타이페이</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 콘서트 & 쇼, 극장</li>
+                                    <li><i class="icon-check"></i> 경극과 기예공연을 동시에 볼수 있어요.</li>
+                                    <li><i class="icon-check"></i> 오후 7:00 - 오후 9:00</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/dolphin_quest.jpg" class="room image-popup-link" style="background-image: url(img/experience/dolphin_quest.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-half full"></i></span>
+                                <h3><a>Dolphin Quest</a></h3>
+                                <p class="price">
+                                    <span class="currency">하와이</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 보트 투어 / 수상 스포츠, 투어, 야외 활동</li>
+                                    <li><i class="icon-check"></i> 와이콜로아 돌핀퀘스트 키즈프로그램!</li>
+                                    <li><i class="icon-check"></i> 오전 8:30 - 오후 5:00</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/musee_du_louvre.jpg" class="room image-popup-link" style="background-image: url(img/experience/musee_du_louvre.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-half full"></i></span>
+                                <h3><a href="rooms-suites.html">Louvre Museum</a></h3>
+                                <p class="price">
+                                    <span class="currency">파리</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 랜드마크, 박물관, 건축물, 흥미거리 & 랜드마크</li>
+                                    <li><i class="icon-check"></i> 파리의 대표적 박물관</li>
+                                    <li><i class="icon-check"></i> 오전 9:00 - 오후 9:45</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/danang_dragon_bridge.jpg" class="room image-popup-link" style="background-image: url(img/experience/danang_dragon_bridge.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
+                                <h3><a>Dragon Bridge</a></h3>
+                                <p class="price">
+                                    <span class="currency">다낭</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 랜드마크, 흥미거리 & 랜드마크, 브리지</li>
+                                    <li><i class="icon-check"></i> 비싸지만 런던에서 꼭 봐야하는 경치</li>
+                                    <li><i class="icon-check"></i> 오전 12:00 - 오후 12:00</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/nice.jpg" class="room image-popup-link" style="background-image: url(img/experience/nice.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
+                                <h3><a>Aguinid Falls</a></h3>
+                                <p class="price">
+                                    <span class="currency">세부</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 자연 / 공원, 폭포</li>
+                                    <li><i class="icon-check"></i> 세부는 축복받은 자연의땅</li>
+                                    <li><i class="icon-check"></i> 오전 12:00 - 오후 12:00</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/jaeju.jpg" class="room image-popup-link" style="background-image: url(img/experience/jaeju.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
+                                <h3><a href="rooms-suites.html">제주김녕미로공원</a></h3>
+                                <p class="price">
+                                    <span class="currency">제주</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 랜드마크, 자연 / 공원, 가든, 흥미거리</li>
+                                    <li><i class="icon-check"></i> 미로찾는 재미가 좋아요</li>
+                                    <li><i class="icon-check"></i> 오전 9:00 - 오후 6:00</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/getlstd_property_photo.jpg" class="room image-popup-link" style="background-image: url(img/experience/getlstd_property_photo.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i></span>
+                                <h3><a>The Roman Food Tour</a></h3>
+                                <p class="price">
+                                    <span class="currency">로마</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 강좌 & 워크숍, 투어, 음식 / 음료, 푸드 투어</li>
+                                    <li><i class="icon-check"></i> 현지인처럼 먹는다!</li>
+                                    <li><i class="icon-check"></i> 오전 12:00 - 오후 12:00</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/elafonissi_beach.jpg" class="room image-popup-link" style="background-image: url(img/experience/elafonissi_beach.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-half full"></i></span>
+                                <h3><a>Elafonissi Beach</a></h3>
+                                <p class="price">
+                                    <span class="currency">그리스</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 자연 / 공원, 야외 활동, 해변</li>
+                                    <li><i class="icon-check"></i>너무나도 낭만적인</li>
+                                    <li><i class="icon-check"></i>오전 12:00 - 오후 12:00</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/waterbom_bali.jpg" class="room image-popup-link" style="background-image: url(img/experience/waterbom_bali.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-half full"></i></span>
+                                <h3><a>Waterbom Bali</a></h3>
+                                <p class="price">
+                                    <span class="currency">발리</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 워터파크 & 놀이공원</li>
+                                    <li><i class="icon-check"></i> 깨끗한 물과 복잡하지 않은 워터파크</li>
+                                    <li><i class="icon-check"></i> 오전 9:00 - 오후 6:00</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/phuket_bird_park.jpg" class="room image-popup-link" style="background-image: url(img/experience/phuket_bird_park.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-half full"></i><i class="icon-star-full"></i></span>
+                                <h3><a>Phuket Bird Park</a></h3>
+                                <p class="price">
+                                    <span class="currency">푸켓</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 자연 / 공원, 자연 & 야생동물 서식지</li>
+                                    <li><i class="icon-check"></i> 여러쇼와 새를 보는 즐거움</li>
+                                    <li><i class="icon-check"></i> 오전 9:00 - 오후 5:00</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/photo.jpg" class="room image-popup-link" style="background-image: url(img/experience/photo.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-half full"></i></span>
+                                <h3><a>Basilica of the Sagrada Familia</a></h3>
+                                <p class="price">
+                                    <span class="currency">바르셀로나</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 랜드마크, 건축물, 흥미거리 & 랜드마크, 교회 & 성당</li>
+                                    <li><i class="icon-check"></i> 스페인에 오면 꼭 가봐야할 곳</li>
+                                    <li><i class="icon-check"></i> 오전 9:00 - 오후 8:00
+</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="img/experience/l_un_des_bassins.jpg" class="room image-popup-link" style="background-image: url(img/experience/l_un_des_bassins.jpg);"></a>
+                            <div class="desc text-center">
+                                <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-half full"></i></span>
+                                <h3><a>Jardin Majorelle</a></h3>
+                                <p class="price">
+                                    <span class="currency">마라케시</span>
+                                </p>
+                                <ul>
+                                    <li><i class="icon-check"></i> 자연 / 공원, 가든</li>
+                                    <li><i class="icon-check"></i> 마라케시에서 가장 현대적인곳</li>
+                                    <li><i class="icon-check"></i>오전 8:00 - 오후 5:30</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-book">Book now!</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <h3 class="grid__item-title">Seoul</h3>
-                <h4 class="grid__item-number">서울&nbsp;N&nbsp;타워</h4>
-            </a>
-            <a href="#" class="grid__item">
-                <div class="grid__item-bg"></div>
-                <div class="grid__item-wrap">
-                    <img class="grid__item-img" src="https://media-cdn.tripadvisor.com/media/photo-s/02/1c/ab/64/la-terrasse-lille-et.jpg" alt="Some image" />
-                </div>
-                <h3 class="grid__item-title">Paris</h3>
-                <h4 class="grid__item-number">Musée&nbsp;d'Orsay</h4>
-            </a>
-            <a href="#" class="grid__item">
-                <div class="grid__item-bg"></div>
-                <div class="grid__item-wrap">
-                    <img class="grid__item-img" src="https://media-cdn.tripadvisor.com/media/photo-o/04/c5/48/a2/comedie-tour-eiffel.jpg" alt="Some image" />
-                </div>
-                <h3 class="grid__item-title">Paris</h3>
-                <h4 class="grid__item-number">에펠&nbsp;타워</h4>
-            </a>
-            <a href="#" class="grid__item">
-                <div class="grid__item-bg"></div>
-                <div class="grid__item-wrap">
-                    <img class="grid__item-img" src="https://media-cdn.tripadvisor.com/media/photo-w/0f/3e/f4/f0/photo2jpg.jpg" alt="Some image" />
-                </div>
-                <h3 class="grid__item-title">Rome</h3>
-                <h4 class="grid__item-number">콜로세움</h4>
-            </a>
-            <a href="#" class="grid__item">
-                <div class="grid__item-bg"></div>
-                <div class="grid__item-wrap">
-                    <img class="grid__item-img" src="https://media-cdn.tripadvisor.com/media/photo-s/17/29/0b/80/photo0jpg.jpg" alt="Some image" />
-                </div>
-                <h3 class="grid__item-title">Beijing</h3>
-                <h4 class="grid__item-number">만리장성</h4>
-            </a>
-            <a href="#" class="grid__item">
-                <div class="grid__item-bg"></div>
-                <div class="grid__item-wrap">
-                    <img class="grid__item-img" src="https://media-cdn.tripadvisor.com/media/photo-s/00/12/08/be/brandenburg-gate-at-night.jpg" alt="Some image" />
-                </div>
-                <h3 class="grid__item-title">Berlin</h3>
-                <h4 class="grid__item-number">Brandenburg&nbsp;Gate</h4>
-            </a>
-
-            <a href="#" class="grid__item">
-                <div class="grid__item-bg"></div>
-                <div class="grid__item-wrap">
-                    <img class="grid__item-img" src="https://media-cdn.tripadvisor.com/media/photo-w/13/8f/7e/b0/lincoln-road.jpg" alt="Some image" />
-                </div>
-                <h3 class="grid__item-title">Miami&nbsp;Beach</h3>
-                <h4 class="grid__item-number">링컨로드</h4>
-            </a>
-            <a href="#" class="grid__item">
-                <div class="grid__item-bg"></div>
-                <div class="grid__item-wrap">
-                    <img class="grid__item-img" src="https://media-cdn.tripadvisor.com/media/photo-s/17/2f/f8/73/torre-na-cidade-velha.jpg" alt="Some image" />
-                </div>
-                <h3 class="grid__item-title">parague</h3>
-                <h4 class="grid__item-number">Charles&nbsp;Bridge</h4>
-            </a>
-            <a href="#" class="grid__item">
-                <div class="grid__item-bg"></div>
-                <div class="grid__item-wrap">
-                    <img class="grid__item-img" src="https://media-cdn.tripadvisor.com/media/photo-w/15/43/75/21/photo0jpg.jpg" alt="Some image" />
-                </div>
-                <h3 class="grid__item-title">Kyoto</h3>
-                <h4 class="grid__item-number">금각사</h4>
-            </a>
-            <a href="#" class="grid__item">
-                <div class="grid__item-bg"></div>
-                <div class="grid__item-wrap">
-                    <img class="grid__item-img" src="https://post-phinf.pstatic.net/MjAxODAyMTBfMjEz/MDAxNTE4MjQ5MTEzMTc2.-YIFvgVVdCdpiVizy3rjGPx_VYyE1VCmkZ-CK-Eelokg.WAx0JZV5pmv1HbW0YMxD2PYekznWiDQ6QhiAOlEo94wg.PNG/%EB%94%94%EC%A6%88%EB%8B%88.PNG?type=w1200" alt="Some image" />
-                </div>
-                <h3 class="grid__item-title">California</h3>
-                <h4 class="grid__item-number">Disneyland&nbsp;Park</h4>
-            </a>
-            <a href="#" class="grid__item">
-                <div class="grid__item-bg"></div>
-                <div class="grid__item-wrap">
-                    <img class="grid__item-img" src="img/experience/11.jpg" alt="Some image" />
-                </div>
-                <h3 class="grid__item-title">Making the best of it</h3>
-                <h4 class="grid__item-number">EC5</h4>
-            </a>
-            <a href="#" class="grid__item">
-                <div class="grid__item-bg"></div>
-                <div class="grid__item-wrap">
-                    <img class="grid__item-img" src="img/experience/12.jpg" alt="Some image" />
-                </div>
-                <h3 class="grid__item-title">Haunted Blessings</h3>
-                <h4 class="grid__item-number">2VX</h4>
-            </a>
+            </div>
         </div>
-    </div><!-- /grid-wrap -->
-    <div class="content">
-        <div class="content__item">
-            <div class="content__item-intro">
-                <img class="content__item-img" src="https://img.traveldata.sk/hotel/9/90/1436706.jpg" alt="Some image" />
-                <h2 class="content__item-title">Sharm El Sheikh</h2>
-            </div>
-            <h3 class="content__item-subtitle">"스쿠버다이버들의 천국"</h3>
-            <div class="content__item-text">
-                <p>한국에서는 아직 생소하지만, 유럽인들에게는 최고의 휴양지로 꼽히는 곳이다. 사르코지 프랑스 전 대통령과 토니 블레어 전 영국 총리도 이곳에서 휴가를 보냈으며, 중동의 부호들은 이곳의 고급 리조트에서 VVIP 여행을 즐긴다. 샤름 엘 셰이크의 곳곳에는 '별 다섯 개' 호텔과 리조트가 즐비하다.<br><br>샤름 엘 셰이크에 간다면 꼭 한번 스노클링과 다이빙에 도전할 만하다. 해양 액티비티를 즐기는 이들에게 홍해는 '꿈의 바다'로 꼽히기 때문이다. 이곳에는 250여 종의 산호와 1,000여 종의 물고기가 있는 것으로 알려진다. 하지만 굳이 물 속으로 들어가지 않고, 해변이나 배 위에서 바다를 바라보는 것도 환상적이다.<br><br>시나이 반도에 위치한 샤름 엘 셰이크는 이집트 본토와 '다른 나라'로 느껴질 만큼 분위기가 다르다. 히잡을 둘러쓴 사람을 보기 힘들고, 밤이면 노천 바(Bar)에서 유흥을 즐길 수 있다. 양탄자와 물담배로 외관을 장식하고 있는 노천 바들을 보고 있자면, 비로소 '먼 나라' 이집트에 와 있다는 느낌이 난다.</p>
-            </div>
-        </div><!-- /content__item -->
-        <div class="content__item">
-            <div class="content__item-intro">
-                <img class="content__item-img" src="img/experience/2.jpg" alt="Some image" />
-                <h2 class="content__item-title">Tenerife</h2>
-            </div>
-            <h3 class="content__item-subtitle">"유럽인들의 하와이"</h3>
-            <div class="content__item-text">
-                <p>대서양에 위치한 화산섬이다. 총 7개의 섬으로 이뤄진 스페인령 카나리아 제도(Canary Islands) 에 속해 있는데, 위치상으로는 아프리카와 더 가깝다. 유럽권에선 '유럽의 하와이'라고 불리는 곳이지만, 한국인은 축구에 관심 있는 경우가 아니라면(테네리페는 스페인 2부 리그가 있는 곳이다) 모르는 사람이 더 많다. 그러나 테네리페가 60~70년대 한국인 원양어선 선원들이 찾던 곳이며, 이곳에 '한국인 선원 위령비'가 있다는 걸 알고 나면 놀라게 된다.<br><br>테네리페 섬의 가장 큰 볼거리는 해발고도 3,718m의 화산 봉우리 '엘 테이데(El Teide)'다. 대서양에서 가장 높은 이곳에는 국립공원이 조성돼 있다. 매캐한 유황 가스가 뿜어져 나오는 용암, 척박한 땅에서 뿌리내린 희귀 식물 등 사람의 손이 닿지 않은 대자연을 느끼기에 제격이다.<br><br>매년 초에는 세계적인 규모의 카니발 '산타 크루즈 드 테네리페(Santa Cruz de Tenerife)'가 열려 많은 관광객들이 찾는다. 테네리페 섬을 포함한 카나리아 제도 일대는 미국 드라마 '왕좌의 게임', 영화 '본 시리즈' 촬영지로도 유명하다.</p>
-            </div>
-        </div><!-- /content__item -->
-        <div class="content__item">
-            <div class="content__item-intro">
-                <img class="content__item-img" src="https://media-cdn.tripadvisor.com/media/photo-s/0d/af/70/3c/the-white-tower-the-norman.jpg" alt="Some image" />
-                <h2 class="content__item-title">Courchevewl</h2>
-            </div>
-            <h3 class="content__item-subtitle">"알프스에 둘러싸인 산속 마을"</h3>
-            <div class="content__item-text">
-                <p>알프스 산자락에 위치한 프랑스의 조그만 마을이다. 사실 쿠쉐빌은 겨울철 스키어들에게 더 유명하다. 높은 고도와 산맥이 만든 자연 스키장은 전세계 모든 스키어들의 로망이다. 여름의 쿠쉐빌은 느긋하게 휴식을 취하기에 좋다. 클래식을 들으며 자연경관을 즐길 수 있는데, 이곳에서 매년 7월 실내악 축제인 '뮤직알프 페스티벌'이 열리기 때문이다.<br><br>단 하나 오점은 쿠쉐빌에 가기 위해 '세계에서 가장 위험한 공항'을 거쳐야 하는 것이다. 쿠쉐빌 국제공항은 스키장마냥 경사진 활주로를 가져 인터넷상에서도 화제가 된 적이 있다. 여기에 주변으로 솟은 높은 알프스 산들 때문에 이·착륙시 위험한 공항으로 꼽힌다. 공항을 이용하지 않고, 파리에서 열차와 버스를 갈아타 쿠쉐빌까지 가는 방법도 있다.</p>
-
-            </div>
-        </div><!-- /content__item -->
-        <div class="content__item">
-            <div class="content__item-intro">
-                <img class="content__item-img" src="img/experience/4.jpg" alt="Some image" />
-                <h2 class="content__item-title">The silent thief</h2>
-            </div>
-            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
-            <div class="content__item-text">
-                <p>When I was in the islands nearly a generation ago, I was fright.</p>
-            </div>
-        </div><!-- /content__item -->
-        <div class="content__item">
-            <div class="content__item-intro">
-                <img class="content__item-img" src="img/experience/5.jpg" alt="Some image" />
-                <h2 class="content__item-title">Locked away</h2>
-            </div>
-            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
-            <div class="content__item-text">
-                <p>When I was in the islands nearly a generation ago, I was</p>
-            </div>
-        </div><!-- /content__item -->
-        <div class="content__item">
-            <div class="content__item-intro">
-                <img class="content__item-img" src="https://media-cdn.tripadvisor.com/media/photo-s/17/2f/f8/73/torre-na-cidade-velha.jpg" alt="Some image" />
-                <h2 class="content__item-title">Isolation and me</h2>
-            </div>
-            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
-            <div class="content__item-text">
-                <p>When I was in the islands nearly a generation ago, I was </p>
-            </div>
-        </div><!-- /content__item -->
-        <div class="content__item">
-            <div class="content__item-intro">
-                <img class="content__item-img" src="img/experience/7.jpg" alt="Some image" />
-                <h2 class="content__item-title">Desert races</h2>
-            </div>
-            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
-            <div class="content__item-text">
-                <p>When I was in the islands nearly a generation ago, I was </p>
-            </div>
-        </div><!-- /content__item -->
-        <div class="content__item">
-            <div class="content__item-intro">
-                <img class="content__item-img" src="img/experience/8.jpg" alt="Some image" />
-                <h2 class="content__item-title">Transcendence</h2>
-            </div>
-            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
-            <div class="content__item-text">
-                <p>When I was in the islands nearly a generation ago, I was </p>
-            </div>
-        </div><!-- /content__item -->
-        <div class="content__item">
-            <div class="content__item-intro">
-                <img class="content__item-img" src="img/experience/9.jpg" alt="Some image" />
-                <h2 class="content__item-title">Loosing my mind</h2>
-            </div>
-            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
-            <div class="content__item-text">
-                <p>When I was in the islands nearly a generation ago, I was </p>
-            </div>
-        </div><!-- /content__item -->
-        <div class="content__item">
-            <div class="content__item-intro">
-                <img class="content__item-img" src="img/experience/10.jpg" alt="Some image" />
-                <h2 class="content__item-title">Holding your breath</h2>
-            </div>
-            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
-            <div class="content__item-text">
-                <p>When I was in the islands nearly a generation ago, I was </p>
-            </div>
-        </div><!-- /content__item -->
-        <div class="content__item">
-            <div class="content__item-intro">
-                <img class="content__item-img" src="img/experience/11.jpg" alt="Some image" />
-                <h2 class="content__item-title">Making the best of it</h2>
-            </div>
-            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
-            <div class="content__item-text">
-                <p>When I was in the islands nearly a generation ago, I was </p>
-            </div>
-        </div><!-- /content__item -->
-        <div class="content__item">
-            <div class="content__item-intro">
-                <img class="content__item-img" src="img/experience/12.jpg" alt="Some image" />
-                <h2 class="content__item-title">Haunted Blessings</h2>
-            </div>
-            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
-            <div class="content__item-text">
-                <p>When I was in the islands nearly a generation ago, I was </p>
-            </div>
-        </div><!-- /content__item -->
-        <button class="content__close">Close</button>
-        <svg class="content__indicator icon icon--caret">
-            <use xlink:href="#icon-caret"></use>
-        </svg>
     </div>
 
     <!-- Start site category title -->
@@ -436,28 +468,31 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-    
+
     <!--   modalVideo   -->
     <script src="js/jquery-modal-video.min.js"></script>
     <script>
         $(".intro_images").modalVideo({
             channel: 'youtube',
-                youtube:{
-                 autoplay:1,
-                 controls:0,
-                 nocookie: true
-              }
+            youtube: {
+                autoplay: 1,
+                controls: 0,
+                nocookie: true
+            }
         });
-   </script>
 
-    <!-- CardView -->
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/charming.min.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/cardView.js"></script>
+    </script>
 
-
+    <!--  slide view  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="js/slide-view.js"></script>
 
 </body>
 
