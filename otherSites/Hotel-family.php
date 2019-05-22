@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html class="no-js">
 <!-- Head -->
 
@@ -102,88 +102,170 @@
             <div id="allinone_thumbnailsBanner_simple" style="display:none;">
                 <ul class="allinone_thumbnailsBanner_list">
                     <!-- SLIDER IMAGES -->
+                    <?php
+                        include('../simple_html_dom.php');
+                        $html = file_get_html('https://www.tripadvisor.co.kr/TravelersChoice-Hotels-cFamily');
+                    ?>
                     <!-- 카야카피 -->
-                    <li data-bottom-thumb="images/Slide/1.jpg" data-text-id="#allinone_thumbnailsBanner_photoText1"><img src="images/Slide/1.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/2.jpg" data-text-id="#allinone_thumbnailsBanner_photoText2"><img src="images/Slide/2.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/3.jpg" data-text-id="#allinone_thumbnailsBanner_photoText3"><img src="images/Slide/3.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/4.jpg" data-text-id="#allinone_thumbnailsBanner_photoText4"><img src="images/Slide/4.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/5.jpg" data-text-id="#allinone_thumbnailsBanner_photoText5"><img src="images/Slide/5.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/6.jpg" data-text-id="#allinone_thumbnailsBanner_photoText6"><img src="images/Slide/6.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/7.jpg" data-text-id="#allinone_thumbnailsBanner_photoText7"><img src="images/Slide/7.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/8.jpg" data-text-id="#allinone_thumbnailsBanner_photoText8"><img src="images/Slide/8.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/9.jpg" data-text-id="#allinone_thumbnailsBanner_photoText9"><img src="images/Slide/9.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/10.jpg" data-text-id="#allinone_thumbnailsBanner_photoText10"><img src="images/Slide/10.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/11.jpg" data-text-id="#allinone_thumbnailsBanner_photoText11"><img src="images/Slide/11.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/12.jpg" data-text-id="#allinone_thumbnailsBanner_photoText12"><img src="images/Slide/12.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/13.jpg" data-text-id="#allinone_thumbnailsBanner_photoText13"><img src="images/Slide/13.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/14.jpg" data-text-id="#allinone_thumbnailsBanner_photoText14"><img src="images/Slide/14.jpg" alt="" /></li>
-                    <li data-bottom-thumb="images/Slide/15.jpg" data-text-id="#allinone_thumbnailsBanner_photoText15"><img src="images/Slide/15.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/1.jpg" data-text-id="#allinone_thumbnailsBanner_photoText1"><img src="images/Slide-family/1.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/2.jpg" data-text-id="#allinone_thumbnailsBanner_photoText2"><img src="images/Slide-family/2.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/3.jpg" data-text-id="#allinone_thumbnailsBanner_photoText3"><img src="images/Slide-family/3.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/4.jpg" data-text-id="#allinone_thumbnailsBanner_photoText4"><img src="images/Slide-family/4.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/5.jpg" data-text-id="#allinone_thumbnailsBanner_photoText5"><img src="images/Slide-family/5.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/6.jpg" data-text-id="#allinone_thumbnailsBanner_photoText6"><img src="images/Slide-family/6.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/7.jpg" data-text-id="#allinone_thumbnailsBanner_photoText7"><img src="images/Slide-family/7.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/8.jpg" data-text-id="#allinone_thumbnailsBanner_photoText8"><img src="images/Slide-family/8.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/9.jpg" data-text-id="#allinone_thumbnailsBanner_photoText9"><img src="images/Slide-family/9.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/10.jpg" data-text-id="#allinone_thumbnailsBanner_photoText10"><img src="images/Slide-family/10.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/11.jpg" data-text-id="#allinone_thumbnailsBanner_photoText11"><img src="images/Slide-family/11.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/12.jpg" data-text-id="#allinone_thumbnailsBanner_photoText12"><img src="images/Slide-family/12.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/13.jpg" data-text-id="#allinone_thumbnailsBanner_photoText13"><img src="images/Slide-family/13.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/14.jpg" data-text-id="#allinone_thumbnailsBanner_photoText14"><img src="images/Slide-family/14.jpg" alt="" /></li>
+                    <li data-bottom-thumb="images/Slide-family/15.jpg" data-text-id="#allinone_thumbnailsBanner_photoText15"><img src="images/Slide-family/15.jpg" alt="" /></li>
                 </ul>
+                <!--
+                <?php print $html -> find('.mainName', 0) -> plaintext; ?></a><br/>&nbsp;&nbsp;&nbsp;<?php print $html -> find('.smaller', 0) -> plaintext; ?>
+                <?php print $html -> find('.mainName', 1) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 1) -> plaintext; ?>
+              -->
+                <?php
+                  $href = array(
+                    "https://kr.hotels.com/ho490315/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho459390/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho351935/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho555412/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho487521/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho561021/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho226126/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho347503/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho454451/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho532436/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho399635/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho248569/?pa=1&tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho257597/?pa=1&tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho643011/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2",
+                    "https://kr.hotels.com/ho347677/?pa=1&tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2"
+                  );
+                ?>
                 <!-- TEXTS -->
                 <div id="allinone_thumbnailsBanner_photoText1" class="allinone_thumbnailsBanner_texts">
                     <div class="allinone_thumbnailsBanner_text_line textElement11_simpleResponsive" data-initial-left="0" data-initial-top="60" data-final-left="0" data-final-top="400" data-duration="0.5" data-fade-start="0" data-delay="0">
-                        &nbsp;&nbsp;&nbsp;1. <a href="https://kr.hotels.com/ho430624/kayakapi-peulimieom-keibeu-chapadochia-eogub-teoki/" target="_blank">카야카피 프리미엄 케이브</a> - 차파도치아<br/>&nbsp;&nbsp;&nbsp;위르귀프, 터키</div>
+                        &nbsp;&nbsp;&nbsp;
+                        1. <a href="<?php echo $href[0]; ?>" target="_blank">
+                        <?php print $html -> find('.mainName', 0) -> plaintext; ?></a><br/>&nbsp;&nbsp;&nbsp;<?php print $html -> find('.smaller', 0) -> plaintext; ?>
+                    </div>
                 </div>
 
                 <div id="allinone_thumbnailsBanner_photoText2" class="allinone_thumbnailsBanner_texts">
                     <div class="allinone_thumbnailsBanner_text_line textElement21_simpleResponsive" data-initial-left="200" data-initial-top="60" data-final-left="45" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0">
-                        <span style="font-weight:bold;">2. <a href="https://kr.hotels.com/ho605814/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">리아드 케이레딘</a></span><br />마라케시, 모로코</div>
+                        <span style="font-weight:bold;">
+                          2. <a href="<?php echo $href[1]; ?>" target="_blank">
+                          <?php print $html -> find('.mainName', 1) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 1) -> plaintext; ?>
+                    </div>
                 </div>
 
                 <div id="allinone_thumbnailsBanner_photoText3" class="allinone_thumbnailsBanner_texts">
-                    <div class="allinone_thumbnailsBanner_text_line textElement31_simpleResponsive" data-initial-left="70" data-initial-top="160" data-final-left="70" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span>3. <a href="https://kr.hotels.com/ho649372576/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">빌라 라라 호텔</a></span><br />바이외, 프랑스</div>
+                    <div class="allinone_thumbnailsBanner_text_line textElement31_simpleResponsive" data-initial-left="70" data-initial-top="160" data-final-left="70"
+                      data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span>
+                      3. <a href="<?php echo $href[2]; ?>" target="_blank">
+                      <?php print $html -> find('.mainName', 2) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 2) -> plaintext; ?>
+                    </div>
                 </div>
 
                 <div id="allinone_thumbnailsBanner_photoText4" class="allinone_thumbnailsBanner_texts">
-                    <div class="allinone_thumbnailsBanner_text_line textElement41_simpleResponsive" data-initial-left="100" data-initial-top="60" data-final-left="480" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="text-transform:uppercase; font-weight:bold;">4. <a href="https://kr.hotels.com/ho265619/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">로즈우드 마야코바</a></span><br>플라야 델 카르멘, 멕시코</div>
+                    <div class="allinone_thumbnailsBanner_text_line textElement41_simpleResponsive" data-initial-left="100" data-initial-top="60" data-final-left="480"
+                    data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="text-transform:uppercase; font-weight:bold;">
+                    4. <a href="<?php echo $href[3]; ?>" target="_blank">
+                      <?php print $html -> find('.mainName', 3) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 3) -> plaintext; ?>
+                    </div>
                 </div>
 
                 <div id="allinone_thumbnailsBanner_photoText5" class="allinone_thumbnailsBanner_texts">
-                    <div class="allinone_thumbnailsBanner_text_line textElement51_simpleResponsive" data-initial-left="0" data-initial-top="200" data-final-left="0" data-final-top="0" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="font-weight:bold; text-transform:uppercase;">5. <a href="https://kr.hotels.com/ho416915936/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">호텔 41</a></span><br />런던, 영국</div>
+                    <div class="allinone_thumbnailsBanner_text_line textElement51_simpleResponsive" data-initial-left="0" data-initial-top="200" data-final-left="0"
+                    data-final-top="0" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="font-weight:bold; text-transform:uppercase;">
+                      5. <a href="<?php echo $href[4]; ?>" target="_blank">
+                        <?php print $html -> find('.mainName', 4) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 4) -> plaintext; ?>
+                    </div>
                 </div>
                 <!---------------------------------------->
                 <div id="allinone_thumbnailsBanner_photoText6" class="allinone_thumbnailsBanner_texts">
-                    <div class="allinone_thumbnailsBanner_text_line textElement11_simpleResponsive" data-initial-left="0" data-initial-top="60" data-final-left="0" data-final-top="400" data-duration="0.5" data-fade-start="0" data-delay="0">
-                        &nbsp;&nbsp;&nbsp;6. <a href="https://kr.hotels.com/ho236769/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">바로스 몰디브</a><br/>&nbsp;&nbsp;&nbsp;바로스섬, 몰디브</div>
+                    <div class="allinone_thumbnailsBanner_text_line textElement11_simpleResponsive" data-initial-left="0" data-initial-top="60" data-final-left="0"
+                    data-final-top="400" data-duration="0.5" data-fade-start="0" data-delay="0">
+                        &nbsp;&nbsp;&nbsp;
+                        6. <a href="<?php echo $href[5]; ?>" target="_blank">
+                          <?php print $html -> find('.mainName', 5) -> plaintext; ?></a><br/>&nbsp;&nbsp;&nbsp;<?php print $html -> find('.smaller', 5) -> plaintext; ?>
+                    </div>
                 </div>
 
                 <div id="allinone_thumbnailsBanner_photoText7" class="allinone_thumbnailsBanner_texts">
                     <div class="allinone_thumbnailsBanner_text_line textElement21_simpleResponsive" data-initial-left="200" data-initial-top="60" data-final-left="45" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0">
-                        <span style="font-weight:bold;">7. <a href="https://kr.hotels.com/ho136170/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">더 오베로이 라이빌라스</a></span><br />자이푸르, 인도</div>
+                        <span style="font-weight:bold;">
+                          7. <a href="<?php echo $href[6]; ?>" target="_blank">
+                          <?php print $html -> find('.mainName', 6) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 6) -> plaintext; ?>
+                    </div>
                 </div>
 
                 <div id="allinone_thumbnailsBanner_photoText8" class="allinone_thumbnailsBanner_texts">
-                    <div class="allinone_thumbnailsBanner_text_line textElement31_simpleResponsive" data-initial-left="70" data-initial-top="160" data-final-left="70" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span>8. <a href="https://kr.hotels.com/ho594058/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">포르토 빌리지</a> - 올 인클루시브</span><br />사니, 그리스</div>
+                    <div class="allinone_thumbnailsBanner_text_line textElement31_simpleResponsive" data-initial-left="70" data-initial-top="160" data-final-left="70"
+                    data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span>
+                      8. <a href="<?php echo $href[7]; ?>" target="_blank">
+                        <?php print $html -> find('.mainName', 7) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 7) -> plaintext; ?>
+                    </div>
                 </div>
 
                 <div id="allinone_thumbnailsBanner_photoText9" class="allinone_thumbnailsBanner_texts">
-                    <div class="allinone_thumbnailsBanner_text_line textElement41_simpleResponsive" data-initial-left="100" data-initial-top="60" data-final-left="480" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="text-transform:uppercase; font-weight:bold;">9. <a href="https://kr.hotels.com/ho327104/?as-srs-report=HomePage%7CAutoS%7CHOTEL%7C%EB%94%94%20%EC%96%B4%ED%8D%BC%20%ED%95%98%EC%9A%B0%EC%8A%A4%7C0%7C0%7C0%7C4%7C1%7C4%7C327104&tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">디 어퍼 하우스</a></span><br>홍콩, 중국</div>
+                    <div class="allinone_thumbnailsBanner_text_line textElement41_simpleResponsive" data-initial-left="100" data-initial-top="60" data-final-left="480"
+                    data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="text-transform:uppercase; font-weight:bold;">
+                      9. <a href="<?php echo $href[8]; ?>" target="_blank">
+                        <?php print $html -> find('.mainName', 8) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 8) -> plaintext; ?>
+                    </div>
                 </div>
 
                 <div id="allinone_thumbnailsBanner_photoText10" class="allinone_thumbnailsBanner_texts">
-                    <div class="allinone_thumbnailsBanner_text_line textElement51_simpleResponsive" data-initial-left="0" data-initial-top="200" data-final-left="0" data-final-top="0" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="font-weight:bold; text-transform:uppercase;">10. <a href="https://kr.hotels.com/ho131880/?as-srs-report=HomePage%7CAutoS%7CHOTEL%7C%EB%A7%88%EB%9D%BC%EC%BC%80%EC%8A%88%7C0%7C0%7C0%7C3%7C1%7C3%7C131880&tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">마라케슈 레 세미라미스</a></span><br />마라케시, 모로코</div>
+                    <div class="allinone_thumbnailsBanner_text_line textElement51_simpleResponsive" data-initial-left="0" data-initial-top="200" data-final-left="0"
+                    data-final-top="0" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="font-weight:bold; text-transform:uppercase;">
+                      10. <a href="<?php echo $href[9]; ?>" target="_blank">
+                      <?php print $html -> find('.mainName', 9) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 9) -> plaintext; ?>
+                    </div>
                 </div>
                 <!---------------------------------------->
                 <div id="allinone_thumbnailsBanner_photoText11" class="allinone_thumbnailsBanner_texts">
                     <div class="allinone_thumbnailsBanner_text_line textElement11_simpleResponsive" data-initial-left="0" data-initial-top="60" data-final-left="0" data-final-top="400" data-duration="0.5" data-fade-start="0" data-delay="0">
-                        &nbsp;&nbsp;&nbsp;11. <a href="https://kr.hotels.com/ho143425/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">로열 페드레갈 호텔</a><br/>&nbsp;&nbsp;&nbsp;카보 산 루카스, 멕시코</div>
+                        &nbsp;&nbsp;&nbsp;
+                        11. <a href="<?php echo $href[10]; ?>" target="_blank">
+                          <?php print $html -> find('.mainName', 10) -> plaintext; ?></a><br/>&nbsp;&nbsp;&nbsp;<?php print $html -> find('.smaller', 10) -> plaintext; ?>
+                        </div>
                 </div>
 
                 <div id="allinone_thumbnailsBanner_photoText12" class="allinone_thumbnailsBanner_texts">
-                    <div class="allinone_thumbnailsBanner_text_line textElement21_simpleResponsive" data-initial-left="200" data-initial-top="60" data-final-left="45" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0">
-                        <span style="font-weight:bold;">12. <a href="https://kr.hotels.com/ho537039/?as-srs-report=HomePage%7CAutoS%7CHOTEL%7C12%20Mandapa%20a%20Ritz-Carlton%20Reserve%7C0%7C0%7C0%7C1%7C1%7C1%7C537039&tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">만다파, 어 리츠칼튼 리저브</a></span><br />우붓, 인도네시아</div>
+                    <div class="allinone_thumbnailsBanner_text_line textElement21_simpleResponsive" data-initial-left="200" data-initial-top="60" data-final-left="45"
+                    data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="font-weight:bold;">
+                      12. <a href="<?php echo $href[11]; ?>" target="_blank">
+                        <?php print $html -> find('.mainName', 11) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 11) -> plaintext; ?>
+                    </div>
                 </div>
 
                 <div id="allinone_thumbnailsBanner_photoText13" class="allinone_thumbnailsBanner_texts">
-                    <div class="allinone_thumbnailsBanner_text_line textElement31_simpleResponsive" data-initial-left="70" data-initial-top="160" data-final-left="70" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span>13. <a href="https://kr.hotels.com/ho536988/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">품 바이탕</a></span><br>시엠립, 캄보디아</div>
+                    <div class="allinone_thumbnailsBanner_text_line textElement31_simpleResponsive" data-initial-left="70" data-initial-top="160" data-final-left="70"
+                    data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span>
+                      13. <a href="<?php echo $href[12]; ?>" target="_blank">
+                        <?php print $html -> find('.mainName', 12) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 12) -> plaintext; ?>
+                    </div>
                 </div>
 
                 <div id="allinone_thumbnailsBanner_photoText14" class="allinone_thumbnailsBanner_texts">
-                    <div class="allinone_thumbnailsBanner_text_line textElement41_simpleResponsive" data-initial-left="100" data-initial-top="60" data-final-left="480" data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="text-transform:uppercase; font-weight:bold;">14. <a href="https://kr.hotels.com/ho406055/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">벨몬드 팔라시오 나사레나스</a></span><br>쿠스코, 페루</div>
+                    <div class="allinone_thumbnailsBanner_text_line textElement41_simpleResponsive" data-initial-left="100" data-initial-top="60" data-final-left="480"
+                    data-final-top="60" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="text-transform:uppercase; font-weight:bold;">
+                      14. <a href="<?php echo $href[13]; ?>" target="_blank">
+                        <?php print $html -> find('.mainName', 13) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 13) -> plaintext; ?>
+                    </div>
                 </div>
 
                 <div id="allinone_thumbnailsBanner_photoText15" class="allinone_thumbnailsBanner_texts">
-                    <div class="allinone_thumbnailsBanner_text_line textElement51_simpleResponsive" data-initial-left="0" data-initial-top="200" data-final-left="0" data-final-top="0" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="font-weight:bold; text-transform:uppercase;">15. <a href="https://kr.hotels.com/ho413589/?tab=description&ZSX=0&SYE=3&q-room-0-children=0&q-room-0-adults=2" target="_blank">안드로니스 부티크 호텔</a></span><br />이아, 그리스</div>
+                    <div class="allinone_thumbnailsBanner_text_line textElement51_simpleResponsive" data-initial-left="0" data-initial-top="200" data-final-left="0"
+                    data-final-top="0" data-duration="0.5" data-fade-start="0" data-delay="0"><span style="font-weight:bold; text-transform:uppercase;">
+                      15. <a href="<?php echo $href[14]; ?>" target="_blank">
+                        <?php print $html -> find('.mainName', 14) -> plaintext; ?></a></span><br><?php print $html -> find('.smaller', 14) -> plaintext; ?>
+                    </div>
                 </div>
             </div>
         </div>
