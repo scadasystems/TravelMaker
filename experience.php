@@ -77,7 +77,7 @@
 
                 <!-- Intro Image -->
                 <div class="col-lg-7 intro_col">
-                    <div class="intro_images magic_up" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/5fjQg6XlO0o">
+                    <div class="intro_images" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/5fjQg6XlO0o">
                         <div class="intro_1 intro_img"><img src="img/experience/image1.jpg" alt=""></div>
                         <div class="intro_2 intro_img"><img src="img/experience/image3.jpg" alt=""></div>
                         <div class="intro_3 intro_img"><img src="img/experience/image2.jpg" alt=""></div>

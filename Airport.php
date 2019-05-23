@@ -2,6 +2,7 @@
 <html class="no-js">
 <!-- Head -->
 <link rel="stylesheet" href="css/airport.css">
+<link rel="stylesheet" href="css/modal-video.min.css">
 <?php
    include 'commonPHP/commonHead.php'
 ?>
@@ -46,7 +47,7 @@
           <div class="detail" style="display: block">
             <div class="blog-card alt">
               <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airline_photos/qantas.jpg)"></div>
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/qantas.jpg)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/Pso7VtqViqw"></div>
               </div>
               <div class="description">
                 <h1>"역사만큼 깊은 수준"</h1>
@@ -70,7 +71,7 @@
           <div class="detail">
             <div class="blog-card">
               <div class="meta">
-                <div class="photo" style="background-image: url(..//img/Airport/airline_photos/delta.jpg)"></div>
+                <div class="photo" style="background-image: url(..//img/Airport/airline_photos/delta.jpg)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/VmYxkAqjpYA"></div>
               </div>
               <div class="description">
                 <h1>"편안한 비행"</h1>
@@ -94,7 +95,7 @@
           <div class="detail">
             <div class="blog-card">
               <div class="meta">
-                <div class="photo" style="background-image: url(..//img/Airport/airline_photos/lufthansa.jpg)"></div>
+                <div class="photo" style="background-image: url(..//img/Airport/airline_photos/lufthansa.jpg)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/2S6H2y0sHgI"></div>
               </div>
               <div class="description">
                 <h1>"모든면에서 뛰어남"</h1>
@@ -118,7 +119,7 @@
           <div class="detail">
             <div class="blog-card alt">
               <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airline_photos/virgin.png)"></div>
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/virgin.png)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/OM3I6VGNO4E"></div>
               </div>
               <div class="description">
                 <h1>"생의 최고의 항공사"</h1>
@@ -142,7 +143,7 @@
           <div class="detail">
             <div class="blog-card">
               <div class="meta">
-                <div class="photo" style="background-image: url(..//img/Airport/airline_photos/swiss.png)"></div>
+                <div class="photo" style="background-image: url(..//img/Airport/airline_photos/swiss.png)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/ne6Ggxr_XDs"></div>
               </div>
               <div class="description">
                 <h1>"부족함이 없습니다."</h1>
@@ -165,7 +166,7 @@
           <div class="detail">
             <div class="blog-card">
               <div class="meta">
-                <div class="photo" style="background-image: url(..//img/Airport/airline_photos/eva.jpg)"></div>
+                <div class="photo" style="background-image: url(..//img/Airport/airline_photos/eva.jpg)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/dkLqOomaG9E"></div>
               </div>
               <div class="description">
                 <h1>"인생 항공사"</h1>
@@ -189,7 +190,7 @@
           <div class="detail">
             <div class="blog-card alt">
               <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airline_photos/newzealand.jpg)"></div>
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/newzealand.jpg)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/ezc9Hej3cqE"></div>
               </div>
               <div class="description">
                 <h1>"우수한 서비스와 항공기"</h1>
@@ -213,7 +214,7 @@
           <div class="detail">
             <div class="blog-card alt">
               <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airline_photos/alaska.png)"></div>
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/alaska.png)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/pYXyny3NUIQ"></div>
               </div>
               <div class="description">
                 <h1>""최고의 가족여행"</h1>
@@ -237,7 +238,7 @@
           <div class="detail">
             <div class="blog-card">
               <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airline_photos/sas.jpg)"></div>
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/sas.jpg)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/eWUYf_zf2O0"></div>
               </div>
               <div class="description">
                 <h1>"쾌적한 비행"</h1>
@@ -261,7 +262,7 @@
           <div class="detail">
             <div class="blog-card alt">
               <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airline_photos/japan.jpg)"></div>
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/japan.jpg)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/vvdGvQGzXeU"></div>
               </div>
               <div class="description">
                 <h1>"지금까지 이용한 항공사 중 최고입니다."</h1>
@@ -285,7 +286,7 @@
           <div class="detail">
             <div class="blog-card">
               <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airline_photos/finnair.jpg)"></div>
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/finnair.jpg)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/Xb4KHbVppt8"></div>
               </div>
               <div class="description">
                 <h1>"만족스러운 비행"</h1>
@@ -309,7 +310,7 @@
           <div class="detail">
             <div class="blog-card alt">
               <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airline_photos/klm.png)"></div>
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/klm.png)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/9rZFnN8bDTs"></div>
               </div>
               <div class="description">
                 <h1>"깔끔하며 친절한 항공사"</h1>
@@ -333,7 +334,7 @@
           <div class="detail">
             <div class="blog-card">
               <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airline_photos/france.jpg)"></div>
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/france.jpg)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/JkDsYkhCl-U"></div>
               </div>
               <div class="description">
                 <h1>"깔끔하고 믿을만한 비행"</h1>
@@ -357,7 +358,7 @@
           <div class="detail">
             <div class="blog-card">
               <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airline_photos/american.png)"></div>
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/american.png)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/LXb28mVZiJo"></div>
               </div>
               <div class="description">
                 <h1>"매우 만족스럽습니다."</h1>
@@ -381,7 +382,7 @@
           <div class="detail">
             <div class="blog-card">
               <div class="meta">
-                <div class="photo" style="background-image: url(../img/Airport/airline_photos/korean.png)"></div>
+                <div class="photo" style="background-image: url(../img/Airport/airline_photos/korean.png)" data-video-id='L61p2uyiMSo' data-video-url="https://www.youtube.com/embed/aH-lkiY9VMs"></div>
               </div>
               <div class="description">
                 <h1>"아주 편안한"</h1>
@@ -397,6 +398,8 @@
 
       </ul>
     </div>
+
+
     <!--
     <nav class="pagination-container">
       <div class="pagination">
@@ -416,6 +419,7 @@
   <!-- End list Area -->
 
   <!-- start airline slider -->
+<!--
 
   <div class="aos-item fslider-body">
     <div class="fslider-container" data-aos="fade-up-right">
@@ -474,8 +478,108 @@
       </div>
     </div>
   </div>
+-->
   <!-- end airline slider -->
 
+  <!-- Start site category title -->
+  <div class="header wrap">
+    <h2 class="background double"><span>다른 것들이 필요하신가요? <span style="color: orange">Travel Maker 카테고리 더 보기</span></span></h2>
+  </div> <!-- end site category title-->
+  <!--  -->
+  <!-- start site category Grid -->
+  <div class="container">
+    <div class="row">
+      <!-- 1. -->
+      <figure class="lulzmGrid col-sm">
+        <!-- Label -->
+        <div class="lulzmGrid-img" style="background-image: url(img/Hotel/hotels-main.jpg);">
+          <div class="lulzmGrid-label">Best Hotel</div>
+          <div class="lulzmGrid-img-cover"></div>
+        </div>
+        <!-- end Label -->
+        <figcaption>
+          <h3>Best Hotel</h3>
+          <p>2019년도 1분기 베스트 호텔을 보러 가고 싶나요?</p>
+          <button class="lulzm-readmore-button" type="button" onclick="location.href='Hotel.php' "><span>Go ! </span></button>
+        </figcaption>
+      </figure>
+      <figure class="lulzmGrid col-sm">
+        <!-- Label -->
+        <div class="lulzmGrid-img" style="background-image: url(img/experience/experience-main.jpg);">
+          <div class="lulzmGrid-label">Experience</div>
+          <div class="lulzmGrid-img-cover"></div>
+        </div>
+        <!-- end Label -->
+        <figcaption>
+          <h3>Best Experience</h3>
+          <p>재미있고 추억의 경험을 얻고 싶으세요?</p>
+          <button class="lulzm-readmore-button" type="button" onclick="location.href='experience.php' "><span>Go ! </span></button>
+        </figcaption>
+      </figure>
+      <figure class="lulzmGrid col-sm">
+        <!-- Label -->
+        <div class="lulzmGrid-img" style="background-image: url(img/Food/Food-banner.png);">
+          <div class="lulzmGrid-label">Best Food</div>
+          <div class="lulzmGrid-img-cover"></div>
+        </div>
+        <!-- end Label -->
+        <figcaption>
+          <h3>Best Food</h3>
+          <p>현지에 유명한 요리를 드시고 싶으신가요?</p>
+          <button class="lulzm-readmore-button" type="button" onclick="location.href='Food.php' "><span>Go ! </span></button>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="row">
+      <figure class="lulzmGrid col-sm">
+        <!-- Label -->
+        <div class="lulzmGrid-img" style="background-image: url(img/Airport/airport.jpg);">
+          <div class="lulzmGrid-label">Best Airport</div>
+          <div class="lulzmGrid-img-cover"></div>
+        </div>
+        <!-- end Label -->
+        <figcaption>
+          <h3>Best Airport</h3>
+          <p>수많은 항공사 중 여행객들이 추천하는 항공사는?</p>
+          <button class="lulzm-readmore-button" type="button" onclick="location.href='Airport.php' "><span>Go ! </span></button>
+        </figcaption>
+      </figure>
+      <figure class="lulzmGrid col-sm">
+        <!-- Label -->
+        <div class="lulzmGrid-img" style="background-image: url(img/main/main-banner.jpg);">
+          <div class="lulzmGrid-label">2019 BEST</div>
+          <div class="lulzmGrid-img-cover"></div>
+        </div>
+        <!-- end Label -->
+        <figcaption>
+          <h3>2019 BEST</h3>
+          <p>
+            <script>
+              document.write(new Date().getFullYear() + '년 ');
+                            document.write((new Date().getMonth() + 1) + '월 ');
+                            document.write(new Date().getDate() + '일 ');
+
+                        </script>
+            - Best를 알고 싶나요?
+          </p>
+          <button class="lulzm-readmore-button" type="button" onclick="location.href='2019-best.php' "><span>Go ! </span></button>
+        </figcaption>
+      </figure>
+      <figure class="lulzmGrid col-sm">
+        <!-- Label -->
+        <div class="lulzmGrid-img" style="background-image: url(img/our_team2.jpg);">
+          <div class="lulzmGrid-label">Help Center</div>
+          <div class="lulzmGrid-img-cover"></div>
+        </div>
+        <!-- end Label -->
+        <figcaption>
+          <h3>Help Center</h3>
+          <p>저희한테 궁금한 점이 있으신가요?</p>
+          <button class="lulzm-readmore-button" type="button" onclick="location.href='contact.php' "><span>Go ! </span></button>
+        </figcaption>
+      </figure>
+    </div>
+  </div> <!-- end site category Grid -->
   <!-- start footer Area -->
   <?php
       include 'commonPHP/footer.php';
@@ -497,6 +601,18 @@
   <script src="js/mail-script.js"></script>
   <script src="js/main.js"></script>
   <script src="js/airport.js"></script>
+  <script src="js/jquery-modal-video.min.js"></script>
+  <script>
+    $(".photo").modalVideo({
+      channel: 'youtube',
+      youtube: {
+        autoplay: 1,
+        controls: 0,
+        nocookie: true
+      }
+    });
+
+  </script>
 
 </body>
 
