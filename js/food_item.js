@@ -1,3 +1,4 @@
+/*
 $(document).ready(function() {
   
   var $fslider = $(".fslider"),
@@ -95,14 +96,14 @@ $(document).ready(function() {
       changeFslides(true);
       return;
     }
-    if (diff > -8 && diff < 8) {
+    if (diff > -16 && diff < 16) {
       changeFslides();
       return;
     }
-    if (diff <= -8) {
+    if (diff <= -16) {
       navigateLeft();
     }
-    if (diff >= 8) {
+    if (diff >= 16) {
       navigateRight();
     }
   });
@@ -121,7 +122,14 @@ $(document).ready(function() {
   });
   
 });
-
+*/
+var fdslider = $('.fdslider'),
+                saSlider = fdslider.saSlider().data('_saSlider');
+            // lazy load all photos that should be lazy loaded..
+            fdslider.find('img[data-src]').each(function(){
+                this.src = this.getAttribute('data-src');
+            });
+$('.fdslider').saSlider();
 
 
 //item
@@ -141,7 +149,7 @@ cards.forEach(function (card) {
 //end item
 
 
-//text
+//레스토랑 text
 var fwords = document.getElementsByClassName('fword');
 var fwordArray = [];
 var currentFword = 0;
