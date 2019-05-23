@@ -1,3 +1,4 @@
+/*
 $(document).ready(function() {
   
   var $fslider = $(".fslider"),
@@ -121,7 +122,14 @@ $(document).ready(function() {
   });
   
 });
-
+*/
+var fdslider = $('.fdslider'),
+                saSlider = fdslider.saSlider().data('_saSlider');
+            // lazy load all photos that should be lazy loaded..
+            fdslider.find('img[data-src]').each(function(){
+                this.src = this.getAttribute('data-src');
+            });
+$('.fdslider').saSlider();
 
 
 //item

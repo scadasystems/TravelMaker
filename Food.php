@@ -3,7 +3,6 @@
 <!-- Head -->
 <link rel="stylesheet" href="css/food.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-  
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 
     
@@ -44,7 +43,7 @@
   </div>
   <!--start food-slider -->
    
-    <div class="aos-item fslider-body">
+    <!--<div class="aos-item fslider-body">
       <div class="fslider-container" data-aos="fade-up-right">
         <div class="fslider-control left infactive"></div>
         <div class="fslider-control fright"></div>
@@ -276,6 +275,103 @@
         </div>
       </div>
     </div>
+    -->
+   <div class="fdslider"><a class="fdarrow next"></a><a class="fdarrow prev"></a>
+  <ul>
+    <li class="fdactive" data-slide-title="Bridge"><img src="https://www.au-crocodile.com/media/cache/jadro_resize/rc/FPPzlVkf1552456365/jadroRoot/medias/59dcaf4704c34/au-crocodile-4910.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">1. Au Crocodile </h1>
+        <div class="by"><span class="slidesub">젊고 유능한 세프의 요리 지도력으로 부활한 '미식의 사원'.</span><a href="https://www.au-crocodile.com/fr/?utm_source=tripadvisor&utm_medium=referral" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+       <li><img src="https://www.olesay.com/wp-content/uploads/2017/03/Entrada-Restaurante-Martin-Berasategui1.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">2. Martin Berasategui</h1>
+        <div class="by"><span class="slidesub">이제껏 맛본 적 없는 훌륭한 맛의 조합! <br>이곳의 음식 맛은 마치 멋진 시 한 편을 읊는 듯한 느낌이었어요.</span><a href="http://www.martinberasategui.com/es/inicio" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+    <li><img src="http://prod-upp-image-read.ft.com/181a7036-2bdf-11e3-bfe2-00144feab7de"/>
+      <div class="fdcontent">
+        <h1 class="slidets">3. El Celler de Can Roca</h1>
+        <div class="by"><span class="slidesub">탁월함, 놀라움 그리고 감동 완벽합니다. 더 이상 말이 필요 없어요.</span><a href="https://cellercanroca.com/index.htm?utm_source=tripadvisor&utm_medium=referral" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+    <li><img src="http://www.favouritetables.com/wp-content/uploads/2015/09/satbains.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">4. Restaurant Sat Bains</h1>
+        <div class="by"><span class="slidesub">Travelers' Choice2018 수상</span><a href="http://www.restaurantsatbains.com/?utm_source=tripadvisor&utm_medium=referral" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+    <li><img src="https://arc-anglerfish-syd-prod-nzme.s3.amazonaws.com/public/5VZH4FWBYNAOJHIX7WCYGBQCNM.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">5. Restaurante Benazuza</h1>
+        <div class="by"><span class="slidesub">Travelers' Choice2018 수상 레스토랑</span><a href="https://oasishoteles.com/en" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+    <li><img src="https://www.comunicaffe.com/wp-content/uploads/2017/07/La-Colombe-coffee-shop.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">6. La Colombe</h1>
+        <div class="by"><span class="slidesub">프랑스 요리, 유럽 요리</span><a href="https://www.lacolombe.co.za/" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+       <li><img src="https://cdn.zeebiz.com/sites/default/files/2018/12/05/62873-indian-accent-restaurant-reuters.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">7. TRB Hutong</h1>
+        <div class="by"><span class="slidesub">재료를 지나치게 익히지 않으면서 본연의 맛을 살린<br>현대적이고 이국적인 요리 이런 음식과 깨끗하고 심플한 실내 장식, 조명이 멋진 조화를 이루는 곳!</span><a href="http://www.trb-hutong.com/?utm_source=tripadvisor&utm_medium=referral" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+       <li><img src="https://i.pinimg.com/originals/b8/73/25/b87325d38723634bf2f64e4661629239.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">8. Ristorante Villa Crespi</h1>
+        <div class="by"><span class="slidesub">지중해 요리, 이탈리아 요리, 시푸드, 유럽 요리</span><a href="http://www.villacrespi.it/it/ristorante-antonino-cannavacciuolo-villa-crespi/?utm_source=tripadvisor&utm_medium=referral" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+       <li><img src="http://www.cdcdesigns.com/wp-content/uploads/2015/03/3-The-Grove-Rec-Center_BBQ-Patio-2.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">9. The Grove</h1>
+        <div class="by"><span class="slidesub">프랑스 요리, 유럽 요리, 뉴질랜드</span><a href="https://www.thegroverestaurant.co.nz/?utm_source=tripadvisor&utm_medium=referral" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+       <li><img src="https://cheapcarinsuranceinohio.us/pic/MTS2nJEmn2y0L2uyov5wol50nP93pP1wo250MJ50Y3IjoT9uMUZiMzyhMF1xnJ5cozpgMTS2nJEmYJgcqTAbMJ4gAQDgL2ucLJ5aYJ1unF5dpTp/gallery-david-39s-kitchen-fine-dining-in-chiang-mai.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">10. David's Kitchen</h1>
+        <div class="by"><span class="slidesub">음식 맛이 훌륭한 곳은 정말 많지만 분위기까지 좋은 곳은 별로 없죠.<br>David's Kitchen은 이 둘을 모두 갖추었어요.</span><a href="https://davidskitchen.co.th/?utm_source=tripadvisor&utm_medium=referral" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+       <li><img src="https://faber.design/wp/wp-content/uploads/2018/05/DSC2028.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">11. Adam's</h1>
+        <div class="by"><span class="slidesub">요리가 나올 때마다 가장 좋아하는 음식을 결정하는 일이 힘들어져요.<br>오늘 저녁 다시 모든 요리를 맛볼 수 있으면 좋겠어요.</span><a href="https://www.adamsrestaurant.co.uk/?utm_source=tripadvisor&utm_medium=referral" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+       <li><img src="https://cdn-image.travelandleisure.com/sites/default/files/styles/marquee_large_2x/public/1473910234/amaz-lima-lim0916.jpg?itok=Gz9YseKk"/>
+      <div class="fdcontent">
+        <h1 class="slidets">12. Maido</h1>
+        <div class="by"><span class="slidesub">퓨전 일본음식점 느낌입니다</span><a href="http://www.maido.pe/?utm_source=tripadvisor&utm_medium=referral" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+       <li><img src="https://indianaccent.com/newyork/images/gallery-images-ny/indian-accent-newyork-bar.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">13. 인디안 액센트</h1>
+        <div class="by"><span class="slidesub">개성이 살아있는 음식<br>상세한 설명이 포함된 메뉴가 있어 거의 모든 음식을 맛보고 싶은 충동이 생깁니다.</span><a href="https://indianaccent.com/?utm_source=tripadvisor&utm_medium=referral" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+       <li><img src="https://lesgrandestablesdumonde.com/wp-content/uploads/2018/08/plat-restaurant-christopher-coutanceau-les-grandes-tables-du-monde-2.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">14. Restaurant Christopher Coutanceau</h1>
+        <div class="by"><span class="slidesub">프랑스 요리, 유럽 요리</span><a href="https://www.coutanceaularochelle.com/?utm_source=tripadvisor&utm_medium=referral" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+       <li><img src="https://www.experienceoxfordshire.org/wp-content/uploads/2017/03/131005NBLM_0151-1340x957.jpg"/>
+      <div class="fdcontent">
+        <h1 class="slidets">15. Belmond Le Manoir aux Quat'Saisons</h1>
+        <div class="by"><span class="slidesub">프랑스 요리, 유럽 요리, 영국 요리</span><a href="https://www.belmond.com/hotels/europe/uk/oxfordshire/belmond-le-manoir-aux-quat-saisons/?utm_source=tripadvisor&utm_medium=referral" target="blank">사이트 이동</a></div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+    
     
     <!--end food-slider -->
     
@@ -307,13 +403,22 @@
     <div class="side front">
       <div class="img img1"></div>
       <div class="info">
-        <h2>음식</h2>
-        <p>음식에 대한 간단한 소개</p>
+          <div class="reviews">
+        <h2>Rendang</h2>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs><path d="M0 0h24v24H0V0z" id="a"/></defs><clipPath id="b"><use overflow="visible" xlink:href="#a"/></clipPath><path clip-path="url(#b)" d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/>
+          </svg>
+        </div>
+        <p style="margin-top:5px;">인도네시아에 필수적인 요리 렌당~</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>음식</h2>
+        <h2>렌당</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
@@ -322,17 +427,18 @@
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs><path d="M0 0h24v24H0V0z" id="a"/></defs><clipPath id="b"><use overflow="visible" xlink:href="#a"/></clipPath><path clip-path="url(#b)" d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/>
           </svg>
-          <p>45 Reviews</p>
+          <p>500 Reviews</p>
         </div>
         <ul>
-          <li>이 음식은 이곳 지역의 현지인들에게도 유명한 음식이며, 관광객들이 필수적으로 찾는 음식이다.</li>
-          <li>Your choice of deck sizes ranging from 36", 48", 52" and 60"</li>
-          <li>Updated hip bolstering offers superior operator comfort and positioning</li>
+          <li>쇠고기는 코코넛 밀크와 레몬 그라스, 갈란 갈아, 마늘, 심황, 생강, 고추 가루로 천천히 조려지며 부드럽고 맛이 좋은 소의 맛있는 요리를 만들기 위해 몇 시간 동안 끓여야합니다.<br>
+인도네시아 요리는 종종 의식 행사와 영예로운 손님들에게 제공됩니다. 맛있을뿐만 아니라 간단한 요리법도 함께 제공됩니다. </li>
         </ul>
+          <a href="https://m.blog.naver.com/PostView.nhn?blogId=ajtwlstmd&logNo=221268121253&proxyReferer=https%3A%2F%2Fwww.google.com%2F">
         <div class="btn">
-          <h4> 사이트 주소 </h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -342,30 +448,38 @@
     <div class="side front">
       <div class="img img2"></div>
       <div class="info">
-        <h2>Super Z HyperDrive</h2>
-        <p>A high-performance zero-turn with unsurpassed strength, speed &amp; reliability with a warranty to match.</p>
+        <h2>Nasi goreng</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p style="margin-top:5px;">인도네시아에 나시고랭</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>나시고랭</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>39 Reviews</p>
+          <p>300 Reviews</p>
         </div>
         <ul>
-          <li>Your choice of VX4 decks ranging from 60 to 72 inches</li>
-          <li>The 37hp Vanguard BigBlock EFI makes short work out of big jobs enabling speeds up to 16mph</li>
-          <li>Massive 24" drive tires and 13" front caster tires</li>
+          <li>고온다습한 기후에서 금새 쉬어버리는 밥을 보존식 차원에서 만들어낸 것이 시초이다. 인도네시아의 대표적 요리라고 한다면 다들 떠올리는 것 중 하나이며 가장 일반적인 식사이기도 하다. 크루푹을 같이 먹기도 한다.</li>
+          
         </ul>
+        <a href="https://brunch.co.kr/@junkoo0101/14">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -375,29 +489,37 @@
     <div class="side front">
       <div class="img img3"></div>
       <div class="info">
-        <h2>Vanguard Power</h2>
-        <p>If you need a tough, commercial grade engine that makes you more productive, look to Vanguard.</p>
+        <h2>규카츠</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p style="margin-top:5px;">일본의 맛있는 돈가스</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>규카츠</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>26 Reviews</p>
+          <p>1200 Reviews</p>
         </div>
         <ul>
-          <li>V-Twin OHV Technology provides superior balance, low vibration, lower emissions, better fuel economy and higher HP/Weight</li>
-          <li>Advanced Debris Management keeps engine clean and cool for enhanced durability and performance</li>
+          <li>돼지고기로 만든 돈가스와는 달리 소고기로 만들었기 때문에 돼지고기를 먹지 못하거나 꺼리는 이들이 먹을 수 있는 음식이지만 소고기가 가격이 비싼 편이고 돈가스의 인지도가 높은 편이기도 하여서 인지도는 별로 높지 않은 편이나 소고기를 좋아하는 처지에서는 돈가스 대용으로 먹을 수 있는 음식이기도 하다.</li>
         </ul>
+        <a href="http://www.10000recipe.com/recipe/6901643">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -405,31 +527,39 @@
      <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
-      <div class="img img3"></div>
+      <div class="img img4"></div>
       <div class="info">
-        <h2>Vanguard Power</h2>
-        <p>If you need a tough, commercial grade engine that makes you more productive, look to Vanguard.</p>
+        <h2>똠양꿍</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p style="margin-top:5px;">태국 음식인 똠양꿍</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>똠양꿍</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>26 Reviews</p>
+          <p>160 Reviews</p>
         </div>
         <ul>
-          <li>V-Twin OHV Technology provides superior balance, low vibration, lower emissions, better fuel economy and higher HP/Weight</li>
-          <li>Advanced Debris Management keeps engine clean and cool for enhanced durability and performance</li>
+          <li>태국 걸작은 새우, 버섯, 토마토, 레몬 그라스, galangal 및 kaffir 석회 잎으로 가득합니다. 보통 코코넛 밀크와 크림을 듬뿍 넣은 푸짐한 스프는 맛있는 태국 맛을 선사합니다. 신맛, 짠맛, 매운맛, 달콤합니다. 무엇보다도 저렴한 가격입니다.</li>
         </ul>
+        <a href="http://www.10000recipe.com/recipe/6859003">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -437,31 +567,39 @@
      <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
-      <div class="img img3"></div>
+      <div class="img img5"></div>
       <div class="info">
-        <h2>Vanguard Power</h2>
-        <p>If you need a tough, commercial grade engine that makes you more productive, look to Vanguard.</p>
+        <h2>패드</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p style="margin-top:5px;">태국 사람들에게 필요한 음식 패드!!</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>패드</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>26 Reviews</p>
+          <p>200 Reviews</p>
         </div>
         <ul>
-          <li>V-Twin OHV Technology provides superior balance, low vibration, lower emissions, better fuel economy and higher HP/Weight</li>
-          <li>Advanced Debris Management keeps engine clean and cool for enhanced durability and performance</li>
+          <li>태국 사람들이 없이는 살 수없는 음식이 있습니다. 불고기와 마찬가지로, 패드 타이는 영광스러운 튀김 국수 접시에 든 영양소로 가득합니다. 그 비밀은 타마 린드 페이스트에 있어요.</li>
         </ul>
+        <a href="http://www.10000recipe.com/recipe/6862381">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -469,31 +607,40 @@
      <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
-      <div class="img img3"></div>
+      <div class="img img6"></div>
       <div class="info">
-        <h2>Vanguard Power</h2>
-        <p>If you need a tough, commercial grade engine that makes you more productive, look to Vanguard.</p>
+        <h2>쏨 땀</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p style="margin-top:5px;">태국계의 샐러드 쏨 땀</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>쏨 땀</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>26 Reviews</p>
+          <p>400 Reviews</p>
         </div>
         <ul>
-          <li>V-Twin OHV Technology provides superior balance, low vibration, lower emissions, better fuel economy and higher HP/Weight</li>
-          <li>Advanced Debris Management keeps engine clean and cool for enhanced durability and performance</li>
+          <li>약간 매운맛에 아삭거리는 식감으로 자주 김치와 비슷하다는 식으로 언급된다.<br>
+원래는 태국의 북동부 지역인 이산의 사람들만 먹던 음식이었는데, 지금은 태국 전체에 보편화된 음식이다.</li>
         </ul>
+        <a href="https://m.blog.naver.com/PostView.nhn?blogId=wakurere&logNo=220478537736&proxyReferer=https%3A%2F%2Fwww.google.com%2F">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -501,31 +648,40 @@
       <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
-      <div class="img img3"></div>
+      <div class="img img7"></div>
       <div class="info">
-        <h2>Vanguard Power</h2>
-        <p>If you need a tough, commercial grade engine that makes you more productive, look to Vanguard.</p>
+        <h2>딤섬</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p style="margin-top:5px;">홍콩의 유명한 딤섬</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>딤 섬</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>26 Reviews</p>
+          <p>326 Reviews</p>
         </div>
         <ul>
-          <li>V-Twin OHV Technology provides superior balance, low vibration, lower emissions, better fuel economy and higher HP/Weight</li>
-          <li>Advanced Debris Management keeps engine clean and cool for enhanced durability and performance</li>
+          <li>깔끔한 현대적 식당에서는 보통 식당처럼 주문해서 나오면 먹지만,[3] 전통 방식은 딤섬을 가득 실은 카트를 직원이 끌고 다니면, 불러 세워서 원하는 딤섬을 골라서 테이블 위에 놓고 먹는 것이다. 수동 회전초밥 비슷한 방식이라고 보면 된다. 관광객용 식당이나 깔끔한 현대적 식당이 아니라 현지인들이 주로 찾는 낡은 식당에 가면 이런 방식이 많다.
+</li>
         </ul>
+        <a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=12500399&memberNo=36246608">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -533,31 +689,39 @@
       <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
-      <div class="img img3"></div>
+      <div class="img img8"></div>
       <div class="info">
-        <h2>Vanguard Power</h2>
-        <p>If you need a tough, commercial grade engine that makes you more productive, look to Vanguard.</p>
+        <h2>라멘</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p style="margin-top:5px;">일본의 대표음식 라멘</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>라멘</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>26 Reviews</p>
+          <p>2500 Reviews</p>
         </div>
         <ul>
-          <li>V-Twin OHV Technology provides superior balance, low vibration, lower emissions, better fuel economy and higher HP/Weight</li>
-          <li>Advanced Debris Management keeps engine clean and cool for enhanced durability and performance</li>
+          <li>라멘만 전문으로 하는 점포만 3만여 개에 이를 정도로 라멘 가게가 많으며 그만큼 종류도 다양하고 명칭은 라멘이지만 실제론 같다고 보기 힘들 정도로 가게, 요리사별로 맛도 천차만별이다.</li>
         </ul>
+        <a href="http://www.10000recipe.com/recipe/6828995">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -565,15 +729,24 @@
      <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
-      <div class="img img1"></div>
+      <div class="img img9"></div>
       <div class="info">
-        <h2>Super S</h2>
-        <p>A stand-on with an exceptional compact stance. Great for tight spaces and trailering.</p>
+        <h2>북경 오리</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs><path d="M0 0h24v24H0V0z" id="a"/></defs><clipPath id="b"><use overflow="visible" xlink:href="#a"/></clipPath><path clip-path="url(#b)" d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/>
+          </svg>
+        </div>
+        <p style="margin-top:5px;">중국의 바베큐 북경 오리</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>북경 오리</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
@@ -582,17 +755,17 @@
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs><path d="M0 0h24v24H0V0z" id="a"/></defs><clipPath id="b"><use overflow="visible" xlink:href="#a"/></clipPath><path clip-path="url(#b)" d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/>
           </svg>
-          <p>23 Reviews</p>
+          <p>3236 Reviews</p>
         </div>
         <ul>
-          <li>Manage backyard gates with ease with the 36" deck option</li>
-          <li>Your choice of deck sizes ranging from 36", 48", 52" and 60"</li>
-          <li>Updated hip bolstering offers superior operator comfort and positioning</li>
+          <li>조리 시의 복잡한 과정을 거쳐 바삭하게 구워진 껍질이 핵심이라, 고기를 분리제거하고, 껍질만 따로 내놓는 집도 있다. 고기와 같이 내놓을 경우에는 요리사가 식기 전에 먹기 좋은 크기로 썰어주곤 한다.<br>나머지 부분은 대체로 푹 고아내서 탕으로 먹는다. </li>
         </ul>
+        <a href="https://m.blog.naver.com/PostView.nhn?blogId=musoi99&logNo=220454899493&proxyReferer=https%3A%2F%2Fwww.google.com%2F">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -600,32 +773,39 @@
 <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
-      <div class="img img2"></div>
+      <div class="img img10"></div>
       <div class="info">
-        <h2>Super Z HyperDrive</h2>
-        <p>A high-performance zero-turn with unsurpassed strength, speed &amp; reliability with a warranty to match.</p>
+        <h2 style="font-size:3vh;">Lasagna / Lasagne</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p style="margin-top:5px;">이탈리아의 Lasagna / Lasagne</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2 style="font-size:3vh;">Lasagna / Lasagne</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>39 Reviews</p>
+          <p>139 Reviews</p>
         </div>
         <ul>
-          <li>Your choice of VX4 decks ranging from 60 to 72 inches</li>
-          <li>The 37hp Vanguard BigBlock EFI makes short work out of big jobs enabling speeds up to 16mph</li>
-          <li>Massive 24" drive tires and 13" front caster tires</li>
+          <li>얇게 편 파스타 반죽을 직사각형으로 넓게 자르고 삶은 뒤 위에 베샤멜 소스, 삶은 라자냐, 라구 소스, 파스타, 베샤멜(이하 반복) 식으로 4~5층 정도 쌓기를 반복하고 맨 위에 소스를 바르고 파르미지아노 레지아노 치즈나 모차렐라 치즈를 뿌린 뒤 오븐에 구워내는 요리. </li>
         </ul>
+        <a href="http://www.10000recipe.com/recipe/532797">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -633,10 +813,17 @@
 <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
-      <div class="img img3"></div>
+      <div class="img img11"></div>
       <div class="info">
-        <h2>Vanguard Power</h2>
-        <p>If you need a tough, commercial grade engine that makes you more productive, look to Vanguard.</p>
+        <h2>치킨 라이스</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p style="margin-top:5px;">싱가포르의 치킨 라이스</p>
       </div>
     </div>
     <div class="side back">
@@ -648,16 +835,17 @@
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>26 Reviews</p>
+          <p>1226 Reviews</p>
         </div>
         <ul>
-          <li>V-Twin OHV Technology provides superior balance, low vibration, lower emissions, better fuel economy and higher HP/Weight</li>
-          <li>Advanced Debris Management keeps engine clean and cool for enhanced durability and performance</li>
+          <li>종종 싱가포르의 "국가 요리"라고 불리는이 찜 또는 삶은 닭고기는 향기로운 기름진 쌀 위에 얹어지며 오이로 얇게 썬 야채를 토큰 야채로 사용합니다. 변종에는 구운 닭 또는 간장 닭이 포함됩니다.</li>
         </ul>
+        <a href="https://m.blog.naver.com/PostView.nhn?blogId=gigibeyon&logNo=220217977031&proxyReferer=https%3A%2F%2Fwww.google.com%2F">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -665,31 +853,39 @@
      <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
-      <div class="img img3"></div>
+      <div class="img img12"></div>
       <div class="info">
-        <h2>Vanguard Power</h2>
-        <p>If you need a tough, commercial grade engine that makes you more productive, look to Vanguard.</p>
+        <h2>Satay</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p style="margin-top:5px;">인도네시아의 닭꼬치</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>Satay</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>26 Reviews</p>
+          <p>256 Reviews</p>
         </div>
         <ul>
-          <li>V-Twin OHV Technology provides superior balance, low vibration, lower emissions, better fuel economy and higher HP/Weight</li>
-          <li>Advanced Debris Management keeps engine clean and cool for enhanced durability and performance</li>
+          <li>인도네시아, 말레이시아, 싱가포르 등 지역의 전통 꼬치 요리로, 양념된 고기를 꼬치에 꽂아 구운 후, 소스를 찍어 먹는다. 닭고기, 양고기, 염소고기, 소고기, 돼지고기, 생선 등의 다양한 고기는 물론, 두부 역시 사테로 만들 수 있다. 소스로는 주로 땅콩으로 만든 소스나 땅콩 가루를 뿌려 먹으며 땅콩 소스가 가장 인기 있지만, 땅콩 소스가 아니라도 다양한 소스를 사용한다.</li>
         </ul>
+        <a href="http://www.10000recipe.com/recipe/6892005">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -697,31 +893,39 @@
      <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
-      <div class="img img3"></div>
+      <div class="img img13"></div>
       <div class="info">
-        <h2>Vanguard Power</h2>
-        <p>If you need a tough, commercial grade engine that makes you more productive, look to Vanguard.</p>
+        <h2>케밥</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p style="margin-top:5px;">터키의 유명한 케밥</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>케밥</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>26 Reviews</p>
+          <p>1326 Reviews</p>
         </div>
         <ul>
-          <li>V-Twin OHV Technology provides superior balance, low vibration, lower emissions, better fuel economy and higher HP/Weight</li>
-          <li>Advanced Debris Management keeps engine clean and cool for enhanced durability and performance</li>
+          <li>종류가 1,000여 가지에 이를 정도로 다양하고 각 지방마다 특색이 다르다. 숯불 회전구이인 되네르(Döner) 케밥, 꼬치구이인 쉬쉬(Şiş) 케밥, 요쿠르트 소스와 함게 먹는 이스켄데르(İskender) 케밥 따위가 가장 잘 알려져있지만 터키를 제외한 다른 지역에는 되네르케밥이 주로 알려져 있다. 쉬쉬케밥은 이즈미르가, 이스켄데르 케밥은 부르사가 특히 유명하다.</li>
         </ul>
+        <a href="http://www.10000recipe.com/recipe/6860913">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -729,31 +933,39 @@
      <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
-      <div class="img img3"></div>
+      <div class="img img14"></div>
       <div class="info">
-        <h2>Vanguard Power</h2>
-        <p>If you need a tough, commercial grade engine that makes you more productive, look to Vanguard.</p>
+        <h2>젤라또</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p>이탈리아의 맛있는 아이스크림</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>젤라또</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>26 Reviews</p>
+          <p>296 Reviews</p>
         </div>
         <ul>
-          <li>V-Twin OHV Technology provides superior balance, low vibration, lower emissions, better fuel economy and higher HP/Weight</li>
-          <li>Advanced Debris Management keeps engine clean and cool for enhanced durability and performance</li>
+          <li>"Eat, Pray, Love"덕분에 이탈리아 최고의 디저트가 그 어느 때보다도 인기가 있습니다. 진정한 젤라토 제조사는 신선한 재료만을 사용하고 인공 향료 나 색소를 사용하지 않으며, 원하는대로 여러 가지 향신료를 혼합하고 매치 할 수 있습니다. </li>
         </ul>
+        <a href="http://www.10000recipe.com/recipe/list.html?q=%EC%A0%A4%EB%9D%BC%EB%98%90">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
+          </a>
       </div>
     </div>
   </div>
@@ -761,63 +973,40 @@
       <div class="cardContainer inactive">
   <div class="card">
     <div class="side front">
-      <div class="img img3"></div>
+      <div class="img img15"></div>
       <div class="info">
-        <h2>Vanguard Power</h2>
-        <p>If you need a tough, commercial grade engine that makes you more productive, look to Vanguard.</p>
+        <h2>Pho</h2>
+          <div class="reviews">
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p style="margin-top:5px;">베트남의 국사 pho</p>
       </div>
     </div>
     <div class="side back">
       <div class="info">
-        <h2>At a glance</h2>
+        <h2>Pho</h2>
         <div class="reviews">
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
           <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>26 Reviews</p>
+          <p>236 Reviews</p>
         </div>
         <ul>
-          <li>V-Twin OHV Technology provides superior balance, low vibration, lower emissions, better fuel economy and higher HP/Weight</li>
-          <li>Advanced Debris Management keeps engine clean and cool for enhanced durability and performance</li>
+          <li>쇠고기나 닭고기로 낸 고기 국물에 넓적한 쌀국수를 말아먹는 요리로 베트남을 대표하는 요리라고 할 수 있다. 쇠고기가 들어간 것은 '퍼 보', 닭고기가 들어간 것은 '퍼 가'로 구분한다.<br>
+처음엔 향신료 특유의 강한 향 때문에 거부감이 들 수도 있겠지만 먹다보면 중독성이 강하다.</li>
         </ul>
+        <a href="http://www.10000recipe.com/recipe/list.html?q=pho">
         <div class="btn">
-          <h4>Learn More</h4>
+          <h4> 레시피 보기 </h4>
           <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-      <div class="cardContainer inactive">
-  <div class="card">
-    <div class="side front">
-      <div class="img img3"></div>
-      <div class="info">
-        <h2>Vanguard Power</h2>
-        <p>If you need a tough, commercial grade engine that makes you more productive, look to Vanguard.</p>
-      </div>
-    </div>
-    <div class="side back">
-      <div class="info">
-        <h2>At a glance</h2>
-        <div class="reviews">
-          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-          <p>26 Reviews</p>
-        </div>
-        <ul>
-          <li>V-Twin OHV Technology provides superior balance, low vibration, lower emissions, better fuel economy and higher HP/Weight</li>
-          <li>Advanced Debris Management keeps engine clean and cool for enhanced durability and performance</li>
-        </ul>
-        <div class="btn">
-          <h4>Learn More</h4>
-          <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
-        </div>
+          </a>
       </div>
     </div>
   </div>
@@ -934,6 +1123,7 @@
   <!-- End footer Area -->
   <!-- Script -->
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/saSlider.js"></script>
     <script src="js/food_item.js"></script>
   <script src="js/vendor/jquery-2.2.4.min.js"></script>
   <script src="js/popper.min.js"></script>
