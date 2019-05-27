@@ -33,10 +33,13 @@
 }
 
 #colorlib-hero .btn.btn-primary {
+    
     padding: 14px 30px !important;
 }
 
 .btn.btn-primary.btn-book {
+    background-color: #1cc3b2;
+    border-color:#1cc3b2;
     color: white;
     font-family: 'Jua', sans-serif;
 }
@@ -421,7 +424,7 @@
 
 .owl-theme .owl-controls .owl-nav [class*=owl-] {
     padding: 0;
-    background: #4586FF;
+    background: #1cc3b2;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -430,18 +433,19 @@
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-    background: #4586FF;
+    background: #1099af;
 }
 
 .owl-carousel .owl-controls .owl-nav .owl-next i,
 .owl-carousel .owl-controls .owl-nav .owl-prev i {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.7);
-    background: #4586FF;
+    background: #1cc3b2;
 }
 
 .owl-carousel .owl-controls .owl-nav .owl-next:hover i,
 .owl-carousel .owl-controls .owl-nav .owl-prev:hover i {
+     background: #1099af;
     color: white;
 }
 
@@ -574,7 +578,7 @@
 
 #colorlib-rooms .desc .price .currency {
     font-size: 15px;
-    color: #4586FF;
+    color: #1cc3b2;
 }
 
 #colorlib-rooms .desc .price .currency.currency-menu {
