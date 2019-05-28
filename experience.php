@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
 <link rel="stylesheet" href="css/slide-view.css">
 
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="css/aos.css" rel="stylesheet">
 
 
 <?php
@@ -823,7 +823,7 @@
 
     </script>
     <!--  animate  -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
     <script>
         AOS.init();
 
