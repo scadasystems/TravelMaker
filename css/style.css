@@ -15,7 +15,7 @@
 /* =================================== */
 /*  Hotel.php
 /* =================================== */
-@import url(../css/SitesCSS/hotel.css);
+@import url(SitesCSS/hotel.css);
 
 
 
@@ -60,11 +60,3 @@
 /*  Airport.php
 /* =================================== */
 .Airport-banner {background: url(../img/Airport/airport.jpg) center; background-size: cover;}
-
-
-
-
-
-
-
-

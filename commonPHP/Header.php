@@ -30,8 +30,7 @@
             <li><a href="experience.php">경험</a></li>
             <li><a href="Food.php">음식점</a></li>
             <li><a href="Airport.php">항공사</a></li>
-            <li><a href="">2019 베스트</a></li>
-            <li><a href="#">Help Center</a></li>
+            <li><a href="contact.php">Help Center</a></li>
           </ul>
         </nav>
       </div>

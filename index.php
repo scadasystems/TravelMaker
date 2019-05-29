@@ -484,7 +484,7 @@
     <!-- start footer Area -->
     <?php
       include 'commonPHP/footer.php';
-   ?>
+    ?>
     <!-- End footer Area -->
 
 

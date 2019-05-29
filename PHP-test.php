@@ -10,7 +10,7 @@
     <?php
             include('simple_html_dom.php');
             $html = file_get_html('https://www.tripadvisor.co.kr/TravelersChoice-Hotels-cRomance');
-            print $html -> find('.sizedThumb_thumbnail'->src, 0) -> plaintext;
+            echo $html -> find('.mainName', 0) -> plaintext;
     ?>
 </body>
 </html>
