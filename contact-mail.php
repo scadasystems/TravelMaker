@@ -1,46 +1,33 @@
 <?php
-  // Import PHPMailer classes into the global namespace
-  // These must be at the top of your script, not inside a function
   use PHPMailer\PHPMailer\PHPMailer;
   use PHPMailer\PHPMailer\Exception;
-
   // Load Composer's autoloader
-  require 'vendor/autoload.php';
-
-  // Instantiation and passing `true` enables exceptions
-  $mail = new PHPMailer(true);
+  require_once 'vendor/autoload.php';
 
   $name = $_POST['name'];
-  $email = $_POST['email']
+  $email = $_POST['email'];
   $subject = $_POST['subject'];
-  $message = $_POST['message'];
+  $message = "From: ".$_POST['email'].'<b style="color: red">&nbsp;&nbsp;<- 클릭 후, 메일 보내기</b><br /><br/>메세지 내용: <br /><pre>'.$_POST['message']."</pre>";
 
-  try {
-    //Server settings
-    $mail->SMTPDebug = 2;                                       // Enable verbose debug output
-    $mail->isSMTP();                                            // Set mailer to use SMTP
-    $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'daelimproject0303@gmail.com';                     // SMTP username
-    $mail->Password   = 'eofla!@#';                               // SMTP password
-    $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
-    $mail->Port       = 587;                                    // TCP port to connect to
+  $mail = new PHPMailer(); // create a new object
+  $mail->IsSMTP(); // enable SMTP
+  $mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
+  $mail->SMTPAuth = true; // authentication enabled
+  $mail->SMTPSecure = 'tls'; // secure transfer enabled REQUIRED for Gmail
+  $mail->Host = "smtp.gmail.com";
+  $mail->Port = 587; // or 587
+  $mail->IsHTML(true);
+  $mail->Username = "daelimproject0303@gmail.com";
+  $mail->Password = "eofla!@#";
+  $mail->SetFrom($_POST['email'], '=?UTF-8?B?'.base64_encode($name).'?=');
+  $mail->Subject = '=?UTF-8?B?'.base64_encode($subject).'?=';
+  $mail->Body = $message;
+  $mail->AddAddress("daelimproject0303@gmail.com");
 
-    //Recipients
-    $mail->setFrom($email, $name);
-    $mail->addAddress('daelimproject0303@gmail.com', 'TravelMaker');     // Add a recipient
-43
-    // Content
-    $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = $subject;
-    $mail->Body    = $message;
-    $mail->AltBody = $message;
-
-
-    $mail->send();
-    echo '<script>alert("이메일을 성공적으로 보냈습니다.");</script>';
-    echo '<script>window.location.href="contact.php";</script>';
-  } catch (Exception $e) {
-    echo '<script>alert("실패했습니다. 에러 이유: ");</script>'. $email->ErrorInfo;
-  }
+   if(!$mail->Send()) {
+      echo '<script>alert("실패했습니다. 에러 이유: ");</script>'. $email->ErrorInfo;
+   } else {
+     echo '<script>alert("이메일을 성공적으로 보냈습니다.");</script>';
+     echo '<script>window.location.href="contact.php";</script>';
+   }
 ?>
