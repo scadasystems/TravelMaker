@@ -125,7 +125,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 1) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 2) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[0]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[0]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -146,7 +146,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 4) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 5) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[1]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[1]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -167,7 +167,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 7) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 8) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[2]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[2]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -188,7 +188,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 10) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 11) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[3]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[3]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -209,7 +209,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 13) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 14) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[4]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[4]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -230,7 +230,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 16) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 17) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[5]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[5]; ?>" target="_blank" lass="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -251,7 +251,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 19) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 20) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[6]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[6]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -272,7 +272,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 22) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 23) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[7]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[7]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -293,7 +293,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 25) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 26) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[8]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[8]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -314,7 +314,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 28) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 29) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[9]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[9]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -335,7 +335,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 31) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 32) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[10]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[10]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -356,7 +356,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 34) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 35) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[11]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[11]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -377,7 +377,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 37) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 38) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[12]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[12]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -398,7 +398,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 40) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 41) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[13]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[13]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -419,7 +419,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 43) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 44) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[14]; ?>" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[14]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
@@ -448,7 +448,7 @@
                                     <li><i class="icon-check"></i> 비싸지만 런던에서 꼭 봐야하는 경치</li>
                                     <li><i class="icon-check"></i> 오전 11:00 - 오후 6:00</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g186338-d553603-Reviews-Coca_Cola_London_Eye-London_England.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g186338-d553603-Reviews-Coca_Cola_London_Eye-London_England.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -464,7 +464,7 @@
                                     <li><i class="icon-check"></i> 오사카에서 짜릿한 액티비티 여행</li>
                                     <li><i class="icon-check"></i> 오전 10:00 - 오후 10:00</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g298566-d11726958-Reviews-MariCAR_Osaka-Osaka_Osaka_Prefecture_Kinki.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g298566-d11726958-Reviews-MariCAR_Osaka-Osaka_Osaka_Prefecture_Kinki.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -480,7 +480,7 @@
                                     <li><i class="icon-check"></i> 좋은 모험과 워터 파크, 환상적인 장소</li>
                                     <li><i class="icon-check"></i> 오전 10:00 - 오후 6:00</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g293916-d1949569-Reviews-Siam_Park_City-Bangkok.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g293916-d1949569-Reviews-Siam_Park_City-Bangkok.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -496,7 +496,7 @@
                                     <li><i class="icon-check"></i> 경극과 기예공연을 동시에 볼수 있어요.</li>
                                     <li><i class="icon-check"></i> 오후 7:00 - 오후 9:00</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g13808671-d1596376-Reviews-TaipeiEYE-Zhongshan_District_Taipei.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g13808671-d1596376-Reviews-TaipeiEYE-Zhongshan_District_Taipei.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -512,7 +512,7 @@
                                     <li><i class="icon-check"></i> 와이콜로아 돌핀퀘스트 키즈프로그램!</li>
                                     <li><i class="icon-check"></i> 오전 8:30 - 오후 5:00</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g60608-d126657-Reviews-Dolphin_Quest-Waikoloa_Kohala_Coast_Island_of_Hawaii_Hawaii.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g60608-d126657-Reviews-Dolphin_Quest-Waikoloa_Kohala_Coast_Island_of_Hawaii_Hawaii.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -528,7 +528,7 @@
                                     <li><i class="icon-check"></i> 파리의 대표적 박물관</li>
                                     <li><i class="icon-check"></i> 오전 9:00 - 오후 9:45</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g187147-d188757-Reviews-Louvre_Museum-Paris_Ile_de_France.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g187147-d188757-Reviews-Louvre_Museum-Paris_Ile_de_France.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -544,7 +544,7 @@
                                     <li><i class="icon-check"></i> 비싸지만 런던에서 꼭 봐야하는 경치</li>
                                     <li><i class="icon-check"></i> 오전 12:00 - 오후 12:00</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g298085-d6612108-Reviews-Dragon_Bridge-Da_Nang.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g298085-d6612108-Reviews-Dragon_Bridge-Da_Nang.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -560,7 +560,7 @@
                                     <li><i class="icon-check"></i> 세부는 축복받은 자연의땅</li>
                                     <li><i class="icon-check"></i> 오전 12:00 - 오후 12:00</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g7351247-d1806269-Reviews-Aguinid_Falls-Samboan_Cebu_Island_Visayas.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g7351247-d1806269-Reviews-Aguinid_Falls-Samboan_Cebu_Island_Visayas.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -576,7 +576,7 @@
                                     <li><i class="icon-check"></i> 미로찾는 재미가 좋아요</li>
                                     <li><i class="icon-check"></i> 오전 9:00 - 오후 6:00</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g297885-d2204930-Reviews-Jeju_Kimnyoung_Maze_Park-Jeju_Jeju_Island.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g297885-d2204930-Reviews-Jeju_Kimnyoung_Maze_Park-Jeju_Jeju_Island.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -592,7 +592,7 @@
                                     <li><i class="icon-check"></i> 현지인처럼 먹는다!</li>
                                     <li><i class="icon-check"></i> 오전 12:00 - 오후 12:00</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g187791-d4010080-Reviews-The_Roman_Food_Tour-Rome_Lazio.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g187791-d4010080-Reviews-The_Roman_Food_Tour-Rome_Lazio.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -608,7 +608,7 @@
                                     <li><i class="icon-check"></i>너무나도 낭만적인</li>
                                     <li><i class="icon-check"></i>오전 12:00 - 오후 12:00</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g1535800-d1536672-Reviews-Elafonissi_Beach-Elafonissi_Chania_Prefecture_Crete.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g1535800-d1536672-Reviews-Elafonissi_Beach-Elafonissi_Chania_Prefecture_Crete.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -624,7 +624,7 @@
                                     <li><i class="icon-check"></i> 깨끗한 물과 복잡하지 않은 워터파크</li>
                                     <li><i class="icon-check"></i> 오전 9:00 - 오후 6:00</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g297697-d386919-Reviews-Waterbom_Bali-Kuta_Kuta_District_Bali.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g297697-d386919-Reviews-Waterbom_Bali-Kuta_Kuta_District_Bali.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -640,7 +640,7 @@
                                     <li><i class="icon-check"></i> 여러쇼와 새를 보는 즐거움</li>
                                     <li><i class="icon-check"></i> 오전 9:00 - 오후 5:00</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g293920-d4985745-Reviews-Phuket_Bird_Park-Phuket.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g293920-d4985745-Reviews-Phuket_Bird_Park-Phuket.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -657,7 +657,7 @@
                                     <li><i class="icon-check"></i> 오전 9:00 - 오후 8:00
                                     </li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g187497-d190166-Reviews-Basilica_of_the_Sagrada_Familia-Barcelona_Catalonia.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g187497-d190166-Reviews-Basilica_of_the_Sagrada_Familia-Barcelona_Catalonia.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                         <div class="item">
@@ -673,7 +673,7 @@
                                     <li><i class="icon-check"></i> 마라케시에서 가장 현대적인곳</li>
                                     <li><i class="icon-check"></i>오전 8:00 - 오후 5:30</li>
                                 </ul>
-                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g293734-d477277-Reviews-Jardin_Majorelle-Marrakech_Marrakech_Tensift_El_Haouz_Region.html" class="btn btn-primary btn-book">Book now!</a></p>
+                                <p><a href="https://www.tripadvisor.co.kr/Attraction_Review-g293734-d477277-Reviews-Jardin_Majorelle-Marrakech_Marrakech_Tensift_El_Haouz_Region.html" target="_blank" class="btn btn-primary btn-book">Book now!</a></p>
                             </div>
                         </div>
                     </div>
@@ -681,14 +681,6 @@
             </div>
         </div>
     </div>
-
-
-    <!-- start silder -->
-    <div id="app" class="aos-item" data-aos="fade-up"></div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js'></script>
-    <!--End silder -->
 
     <!-- Start site category title -->
     <div class="header wrap aos-item" data-aos="fade-up">
