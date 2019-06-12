@@ -230,7 +230,7 @@
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 16) -> plaintext; ?></span></li>
                         <li><span><i class="fa fa-check"></i> <?php echo $html -> find('.bdy li', 17) -> plaintext; ?></span></li>
                     </ul>
-                    <a href="<?php echo $href[5]; ?>" target="_blank" lass="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
+                    <a href="<?php echo $href[5]; ?>" target="_blank" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
             </div>
 
